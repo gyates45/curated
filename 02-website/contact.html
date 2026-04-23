@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Actionable AI</title>
+<meta name="description" content="Get in touch with Greg Yates. Free 20-minute intro calls for small law firms exploring AI.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav">
+    <a href="index.html" class="logo">actionable<span class="ai">&nbsp;ai</span><span class="dot">.</span></a>
+    <button class="nav-toggle" aria-label="Menu"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg></button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="pricing.html">Pricing</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="contact.html" class="btn-nav active">Book a call</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section style="padding: 80px 0 60px;">
+  <div class="container">
+    <span class="eyebrow">Contact</span>
+    <h1 style="max-width:20ch">Let's see if there's a fit.</h1>
+    <p class="lead mt-sm" style="max-width:58ch">The best first step is a twenty-minute call. No pitch. I'll ask a few questions, tell you honestly whether I think an engagement makes sense, and either way you'll leave with a clearer picture of what to do next.</p>
+  </div>
+</section>
+
+<section style="padding: 40px 0 100px;">
+  <div class="container">
+    <div class="grid grid-2" style="gap:64px;align-items:start">
+
+      <!-- Form -->
+      <div>
+        <h3 style="margin-bottom:24px">Send a note</h3>
+        <form action="mailto:hello@actionableai.casa" method="POST" enctype="text/plain">
+          <div class="form-row">
+            <label for="name">Your name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-row">
+            <label for="firm">Firm name</label>
+            <input type="text" id="firm" name="firm" required>
+          </div>
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-row">
+            <label for="size">Firm size</label>
+            <select id="size" name="size">
+              <option>Solo practice</option>
+              <option>2–5 lawyers</option>
+              <option>6–15 lawyers</option>
+              <option>16–30 lawyers</option>
+              <option>31–50 lawyers</option>
+              <option>Over 50 (I mostly work with smaller firms)</option>
+            </select>
+          </div>
+          <div class="form-row">
+            <label for="interest">What you're interested in</label>
+            <select id="interest" name="interest">
+              <option>Free intro call</option>
+              <option>The Assessment ($995)</option>
+              <option>Implementation Sprint ($1,995)</option>
+              <option>Retainer ($2,995/mo)</option>
+              <option>Speaking / CLE / workshop</option>
+              <option>Not sure yet</option>
+            </select>
+          </div>
+          <div class="form-row">
+            <label for="message">The short version of what's going on</label>
+            <textarea id="message" name="message" placeholder="A few sentences about your firm, what prompted the outreach, and what you're hoping to figure out." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-arrow">Send</button>
+          <p class="small muted mt-sm" style="font-size:13px;margin-top:14px">I read every email personally. Reply usually within one business day.</p>
+        </form>
+      </div>
+
+      <!-- Direct / alt -->
+      <div>
+        <div class="card" style="background:var(--fog);border-color:var(--rule);padding:32px">
+          <h4 style="margin-bottom:18px;color:var(--blue-700)">Rather skip the form?</h4>
+          <p><strong>Email</strong><br><a href="mailto:hello@actionableai.casa">hello@actionableai.casa</a></p>
+          <p style="margin-bottom:8px"><strong>Phone / text</strong><br>(212) 765-0685</p>
+          <p style="margin-bottom:0"><strong>LinkedIn</strong><br><a href="#">/in/gregyates</a></p>
+        </div>
+
+        <div class="card" style="margin-top:24px;padding:32px">
+          <h4 style="margin-bottom:14px">What happens next</h4>
+          <ol style="padding-left:20px">
+            <li style="margin-bottom:10px;color:var(--graphite)">I read your note and reply within one business day.</li>
+            <li style="margin-bottom:10px;color:var(--graphite)">If a call makes sense, we'll schedule 20 minutes.</li>
+            <li style="margin-bottom:10px;color:var(--graphite)">If there's a good fit, I'll send a written scope and pricing.</li>
+            <li style="margin-bottom:0;color:var(--graphite)">If there isn't, I'll tell you that too — and usually suggest where to start on your own.</li>
+          </ol>
+        </div>
+
+        <div class="card" style="margin-top:24px;padding:32px;background:var(--ink);color:rgba(255,255,255,0.78);border:none">
+          <h4 style="color:var(--blue-300);margin-bottom:14px">Press, podcasts, panels</h4>
+          <p style="color:rgba(255,255,255,0.78);margin-bottom:0">Writers, podcast hosts, and event organizers: email <a href="mailto:hello@actionableai.casa" style="color:var(--blue-300)">hello@actionableai.casa</a> with the date and format. I keep a short standing bio and headshot ready to send.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="container">
+    <div>
+      <a href="index.html" class="logo">actionable<span class="ai">&nbsp;ai</span><span class="dot">.</span></a>
+      <p class="footer-lead">Practical AI for small law firms. No hype. Just the playbook.</p>
+    </div>
+    <div><h5>Site</h5><ul>
+      <li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="pricing.html">Pricing</a></li><li><a href="blog.html">Blog</a></li>
+    </ul></div>
+    <div><h5>Connect</h5><ul>
+      <li><a href="contact.html">Contact</a></li><li><a href="#">LinkedIn</a></li><li><a href="#">X / Twitter</a></li><li><a href="#">Newsletter</a></li>
+    </ul></div>
+    <div><h5>Contact</h5><ul>
+      <li><a href="mailto:hello@actionableai.casa">hello@actionableai.casa</a></li>
+    </ul></div>
+  </div>
+  <div class="container footer-bottom">
+    <span>© 2026 Actionable AI · Greg Yates</span>
+    <span>Built in the USA</span>
+  </div>
+</footer>
+<script>
+  const toggle = document.querySelector('.nav-toggle');
+  const links = document.querySelector('.nav-links');
+  toggle && toggle.addEventListener('click', () => links.classList.toggle('open'));
+</script>
+</body>
+</html>
