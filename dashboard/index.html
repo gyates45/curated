@@ -1,0 +1,371 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI &amp; Small Law — Daily Brief</title>
+<meta name="description" content="A daily-updated brief: top AI news, practical AI for SMEs, small law firm news, AI for small law firms, and small-firm consulting.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%E2%9A%96%EF%B8%8F%3C/text%3E%3C/svg%3E">
+<style>
+  :root {
+    color-scheme: light;
+    --page: #f9f9f7;
+    --card: #fcfcfb;
+    --ink-1: #0b0b0b;
+    --ink-2: #52514e;
+    --ink-3: #898781;
+    --hairline: #e1e0d9;
+    --ring: rgba(11, 11, 11, 0.10);
+    --acc-top-ai: #2a78d6;
+    --acc-ai-sme: #008300;
+    --acc-small-law: #e87ba4;
+    --acc-ai-small-law: #eda100;
+    --acc-law-consulting: #1baf7a;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:where(:not([data-theme="light"])) {
+      color-scheme: dark;
+      --page: #0d0d0d;
+      --card: #1a1a19;
+      --ink-1: #ffffff;
+      --ink-2: #c3c2b7;
+      --ink-3: #898781;
+      --hairline: #2c2c2a;
+      --ring: rgba(255, 255, 255, 0.10);
+      --acc-top-ai: #3987e5;
+      --acc-ai-sme: #008300;
+      --acc-small-law: #d55181;
+      --acc-ai-small-law: #c98500;
+      --acc-law-consulting: #199e70;
+    }
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --page: #0d0d0d;
+    --card: #1a1a19;
+    --ink-1: #ffffff;
+    --ink-2: #c3c2b7;
+    --ink-3: #898781;
+    --hairline: #2c2c2a;
+    --ring: rgba(255, 255, 255, 0.10);
+    --acc-top-ai: #3987e5;
+    --acc-ai-sme: #008300;
+    --acc-small-law: #d55181;
+    --acc-ai-small-law: #c98500;
+    --acc-law-consulting: #199e70;
+  }
+
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    background: var(--page);
+    color: var(--ink-1);
+    font: 15px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif;
+  }
+  a { color: inherit; }
+  .wrap { max-width: 1160px; margin: 0 auto; padding: 0 20px; }
+
+  /* Masthead */
+  .masthead { padding: 30px 0 16px; }
+  .kicker {
+    font-size: 12px; font-weight: 600; letter-spacing: 0.14em;
+    text-transform: uppercase; color: var(--ink-3);
+  }
+  .masthead h1 { margin: 6px 0 6px; font-size: 27px; line-height: 1.2; letter-spacing: -0.01em; }
+  .masthead .sub { margin: 0; color: var(--ink-2); max-width: 62ch; }
+  .meta-row {
+    display: flex; flex-wrap: wrap; align-items: center; gap: 10px;
+    margin-top: 14px; color: var(--ink-3); font-size: 12.5px;
+  }
+  .meta-row .dot-sep::before { content: "·"; margin-right: 10px; }
+  #theme-btn {
+    margin-left: auto;
+    border: 1px solid var(--ring); border-radius: 999px;
+    background: var(--card); color: var(--ink-2);
+    font: 12.5px/1 system-ui, -apple-system, "Segoe UI", sans-serif;
+    padding: 7px 12px; cursor: pointer;
+  }
+  #theme-btn:hover { color: var(--ink-1); }
+
+  /* Section nav */
+  .nav {
+    position: sticky; top: 0; z-index: 10;
+    background: var(--page);
+    border-bottom: 1px solid var(--hairline);
+  }
+  .nav .wrap { display: flex; gap: 6px; overflow-x: auto; padding-top: 8px; padding-bottom: 8px; }
+  .chip {
+    display: inline-flex; align-items: center; gap: 7px;
+    padding: 6px 11px; border-radius: 999px; white-space: nowrap;
+    font-size: 12.5px; font-weight: 600; color: var(--ink-2);
+    text-decoration: none; border: 1px solid transparent;
+  }
+  .chip:hover { border-color: var(--ring); background: var(--card); color: var(--ink-1); }
+  .swatch { width: 9px; height: 9px; border-radius: 3px; flex: none; }
+
+  /* Section grid */
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; padding: 22px 0 8px; }
+  .panel { grid-column: span 1; }
+  .panel--wide { grid-column: 1 / -1; }
+  @media (max-width: 840px) {
+    .grid { grid-template-columns: 1fr; }
+    .panel--wide { grid-column: span 1; }
+  }
+
+  .panel {
+    background: var(--card);
+    border: 1px solid var(--ring);
+    border-radius: 12px;
+    padding: 18px 20px 8px;
+    overflow: hidden;
+    position: relative;
+  }
+  .panel::before {
+    content: ""; position: absolute; inset: 0 0 auto 0; height: 3px;
+    background: var(--acc);
+  }
+  .panel-head { padding-bottom: 12px; border-bottom: 1px solid var(--hairline); }
+  .panel-head .row { display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; }
+  .panel-head h2 { margin: 0; font-size: 16.5px; letter-spacing: -0.005em; display: flex; align-items: center; gap: 8px; }
+  .panel-head h2 .swatch { width: 10px; height: 10px; }
+  .panel-head .more {
+    margin-left: auto; font-size: 12.5px; color: var(--ink-3); text-decoration: none;
+  }
+  .panel-head .more:hover { color: var(--ink-1); text-decoration: underline; }
+  .tagline { margin: 4px 0 0; font-size: 12.5px; color: var(--ink-3); }
+
+  /* Items */
+  ul.items { list-style: none; margin: 0; padding: 0; }
+  .items--split { display: grid; grid-template-columns: 1fr 1fr; column-gap: 30px; }
+  @media (max-width: 840px) { .items--split { grid-template-columns: 1fr; } }
+  li.item { padding: 11px 0; border-bottom: 1px solid var(--hairline); }
+  li.item:last-child { border-bottom: none; }
+  .items--split li.item:nth-last-child(2) { border-bottom: 1px solid var(--hairline); }
+  @media (min-width: 841px) {
+    .items--split li.item:nth-last-child(2) { border-bottom: none; }
+  }
+  .headline {
+    display: inline; font-weight: 550; font-size: 14.5px; line-height: 1.4;
+    color: var(--ink-1); text-decoration: none;
+  }
+  .headline:hover { text-decoration: underline; text-underline-offset: 2px; }
+  .item-meta { margin-top: 3px; font-size: 12.5px; color: var(--ink-3); }
+  .item-meta .src { color: var(--ink-2); }
+  .summary {
+    margin: 5px 0 0; font-size: 13px; color: var(--ink-2);
+    display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
+  }
+  li.item--lead { padding-top: 13px; }
+  .item--lead .headline { font-size: 17px; font-weight: 640; line-height: 1.35; }
+  .empty { padding: 16px 0; color: var(--ink-3); font-size: 13.5px; }
+  .empty a { color: var(--ink-2); }
+
+  /* Footer */
+  footer {
+    margin-top: 22px; padding: 18px 0 34px;
+    border-top: 1px solid var(--hairline);
+    color: var(--ink-3); font-size: 12.5px;
+  }
+  footer a { color: var(--ink-2); text-decoration: none; }
+  footer a:hover { text-decoration: underline; }
+  .err {
+    margin: 30px 0; padding: 16px 20px; border: 1px solid var(--ring);
+    border-radius: 12px; background: var(--card); color: var(--ink-2);
+  }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+</style>
+</head>
+<body>
+<header class="masthead">
+  <div class="wrap">
+    <div class="kicker">Daily Brief</div>
+    <h1>AI &amp; Small Law</h1>
+    <p class="sub">Top stories in artificial intelligence, practical AI for small and medium-sized
+    businesses, and news for small law firms — their market, their AI tools, and the consultants
+    who serve them.</p>
+    <div class="meta-row">
+      <span id="updated">Loading…</span>
+      <span class="dot-sep">Refreshes daily ~11:15 UTC</span>
+      <button id="theme-btn" type="button" aria-label="Toggle color theme">Theme</button>
+    </div>
+  </div>
+</header>
+
+<nav class="nav" aria-label="Sections"><div class="wrap" id="nav-chips"></div></nav>
+
+<main class="wrap">
+  <div class="grid" id="app"></div>
+  <noscript><div class="err">This dashboard needs JavaScript to render its news data.</div></noscript>
+</main>
+
+<footer>
+  <div class="wrap">
+    Aggregated from Google News plus TechCrunch, VentureBeat, The Verge, Above the Law,
+    LawSites, Artificial Lawyer, Attorney at Work, Lawyerist, and others. Headlines link to the
+    original publishers. Data refreshes once a day via GitHub Actions —
+    <a href="https://github.com/gyates45/curated" rel="noopener">source on GitHub</a>.
+  </div>
+</footer>
+
+<script src="data/news.js"></script>
+<script>
+(function () {
+  "use strict";
+
+  var ACCENTS = {
+    top_ai: "var(--acc-top-ai)",
+    ai_sme: "var(--acc-ai-sme)",
+    small_law: "var(--acc-small-law)",
+    ai_small_law: "var(--acc-ai-small-law)",
+    law_consulting: "var(--acc-law-consulting)"
+  };
+
+  /* ---- theme toggle (explicit choice beats OS setting) ---- */
+  var THEME_KEY = "daily-brief-theme";
+  var root = document.documentElement;
+  try {
+    var saved = localStorage.getItem(THEME_KEY);
+    if (saved === "light" || saved === "dark") root.dataset.theme = saved;
+  } catch (e) { /* storage unavailable — follow OS */ }
+
+  function currentTheme() {
+    if (root.dataset.theme) return root.dataset.theme;
+    return matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+  }
+  var btn = document.getElementById("theme-btn");
+  function paintBtn() { btn.textContent = currentTheme() === "dark" ? "Light mode" : "Dark mode"; }
+  btn.addEventListener("click", function () {
+    var next = currentTheme() === "dark" ? "light" : "dark";
+    root.dataset.theme = next;
+    try { localStorage.setItem(THEME_KEY, next); } catch (e) { /* ignore */ }
+    paintBtn();
+  });
+  paintBtn();
+
+  /* ---- helpers ---- */
+  function el(tag, cls, text) {
+    var node = document.createElement(tag);
+    if (cls) node.className = cls;
+    if (text != null) node.textContent = text;
+    return node;
+  }
+  function safeUrl(url) {
+    return /^https?:\/\//i.test(url || "") ? url : "#";
+  }
+  function timeAgo(iso) {
+    if (!iso) return "";
+    var then = new Date(iso);
+    if (isNaN(then)) return "";
+    var mins = Math.round((Date.now() - then.getTime()) / 60000);
+    if (mins < 60) return Math.max(mins, 1) + "m ago";
+    if (mins < 36 * 60) return Math.round(mins / 60) + "h ago";
+    if (mins < 7 * 24 * 60) return Math.round(mins / 1440) + "d ago";
+    var opts = { month: "short", day: "numeric" };
+    if (then.getFullYear() !== new Date().getFullYear()) opts.year = "numeric";
+    return then.toLocaleDateString(undefined, opts);
+  }
+
+  function renderItem(item, isLead) {
+    var li = el("li", "item" + (isLead ? " item--lead" : ""));
+    var a = el("a", "headline", item.title || "Untitled");
+    a.href = safeUrl(item.url);
+    a.target = "_blank";
+    a.rel = "noopener";
+    li.appendChild(a);
+    if (isLead && item.summary) li.appendChild(el("p", "summary", item.summary));
+    var meta = el("div", "item-meta");
+    meta.appendChild(el("span", "src", item.source || "Unknown source"));
+    var ago = timeAgo(item.published);
+    if (ago) {
+      meta.appendChild(document.createTextNode(" · "));
+      var t = el("time", null, ago);
+      t.dateTime = item.published;
+      t.title = new Date(item.published).toLocaleString();
+      meta.appendChild(t);
+    }
+    li.appendChild(meta);
+    return li;
+  }
+
+  function renderSection(cat, wide) {
+    var panel = el("section", "panel" + (wide ? " panel--wide" : ""));
+    panel.id = cat.id;
+    panel.style.setProperty("--acc", ACCENTS[cat.id] || "var(--ink-3)");
+
+    var head = el("div", "panel-head");
+    var row = el("div", "row");
+    var h2 = el("h2");
+    var sw = el("span", "swatch");
+    sw.style.background = ACCENTS[cat.id] || "var(--ink-3)";
+    h2.appendChild(sw);
+    h2.appendChild(document.createTextNode(cat.title));
+    row.appendChild(h2);
+    if (cat.more_url) {
+      var more = el("a", "more", "More coverage →");
+      more.href = safeUrl(cat.more_url);
+      more.target = "_blank";
+      more.rel = "noopener";
+      row.appendChild(more);
+    }
+    head.appendChild(row);
+    if (cat.tagline) head.appendChild(el("p", "tagline", cat.tagline));
+    panel.appendChild(head);
+
+    var items = cat.items || [];
+    if (!items.length) {
+      var empty = el("div", "empty");
+      empty.appendChild(document.createTextNode("No fresh stories right now — check back after the next refresh. "));
+      panel.appendChild(empty);
+      return panel;
+    }
+
+    var lead = renderItem(items[0], true);
+    var leadList = el("ul", "items");
+    leadList.appendChild(lead);
+    panel.appendChild(leadList);
+
+    if (items.length > 1) {
+      var rest = el("ul", "items" + (wide ? " items--split" : ""));
+      for (var i = 1; i < items.length; i++) rest.appendChild(renderItem(items[i], false));
+      panel.appendChild(rest);
+    }
+    return panel;
+  }
+
+  /* ---- render ---- */
+  var app = document.getElementById("app");
+  var data = window.NEWS_DATA;
+  if (!data || !data.categories) {
+    var err = el("div", "err",
+      "News data hasn't been generated yet. Run: python dashboard/fetch_news.py");
+    err.className = "err";
+    app.parentNode.insertBefore(err, app);
+    document.getElementById("updated").textContent = "No data";
+    return;
+  }
+
+  var updated = document.getElementById("updated");
+  var gen = new Date(data.generated_at);
+  updated.textContent = isNaN(gen) ? "" :
+    "Updated " + gen.toLocaleString(undefined,
+      { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" });
+
+  var chips = document.getElementById("nav-chips");
+  data.categories.forEach(function (cat) {
+    var chip = el("a", "chip");
+    chip.href = "#" + cat.id;
+    var sw = el("span", "swatch");
+    sw.style.background = ACCENTS[cat.id] || "var(--ink-3)";
+    chip.appendChild(sw);
+    chip.appendChild(document.createTextNode(cat.title));
+    chips.appendChild(chip);
+  });
+
+  data.categories.forEach(function (cat, idx) {
+    app.appendChild(renderSection(cat, idx === 0));
+  });
+})();
+</script>
+</body>
+</html>
