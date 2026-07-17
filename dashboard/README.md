@@ -33,19 +33,20 @@ runs daily at 11:15 UTC and commits refreshed data
 
 ## The daily schedule
 
-The workflow in `.github/workflows/update-news.yml` runs at **11:15 UTC daily**
-(plus a manual **Run workflow** button under the Actions tab). GitHub only runs
-scheduled workflows from the **default branch**, so the daily refresh starts once
-this lands on `main`.
+The workflow in `.github/workflows/update-news.yml` runs at **11:15 UTC daily**,
+on pushes to `main` that touch `dashboard/`, and via a manual **Run workflow**
+button under the Actions tab. GitHub only runs scheduled workflows from the
+**default branch**, so the daily refresh starts once this lands on `main`.
 
 ## Viewing it
 
 - **Locally**: just open `dashboard/index.html` in a browser (or
   `python -m http.server` from the repo root and visit `/dashboard/`).
-- **GitHub Pages**: repo **Settings → Pages → Deploy from a branch →
-  `main` / `(root)`**. The dashboard is then served at
-  `https://gyates45.github.io/curated/dashboard/` and each daily data commit
-  redeploys it automatically.
+- **GitHub Pages**: the workflow's `deploy-pages` job publishes `dashboard/` as
+  the site root and **enables Pages automatically on its first run after
+  merge** — no Settings visit needed. The dashboard is served at
+  `https://gyates45.github.io/curated/` and every refresh (daily cron, manual
+  run, or dashboard change pushed to `main`) redeploys it.
 
 ## Tuning
 
