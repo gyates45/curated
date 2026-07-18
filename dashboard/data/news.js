@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
-  "generated_at": "2026-07-16T15:05:00Z",
+  "generated_at": "2026-07-18T16:23:36.964856Z",
   "categories": [
     {
       "id": "top_ai",
@@ -8,60 +8,74 @@ window.NEWS_DATA = {
       "more_url": "https://news.google.com/search?q=artificial%20intelligence%20when%3A1d",
       "items": [
         {
-          "title": "AI News Today July 14 2026: 15 Biggest Stories",
-          "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-14-2026",
-          "source": "Build Fast with AI",
-          "published": "2026-07-14T12:00:00Z",
-          "summary": "Daily roundup of the fifteen biggest AI stories, spanning model releases, funding, and enterprise adoption."
+          "title": "France flags lock-in risk as OpenAI, Google, Anthropic hold 84% of AI agents",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOT3N1SU1KWUtuc2hicnIzTUI1bWwwdUlRMjRCMll5aEFqeG5ieFlueVpJakd2Vk85d3pvQkJJUzJUNXpaazluMTZOYjhKV2JVbVhCanZvUjBNTWc3ZndsS1h0Q0NfeEhuZWtiWFJtNjlGemZmWVAyVTQ4N0M2dkREYlF5cl9PV1NRbHRzQ08xQ2lVVE11UUE?oc=5",
+          "source": "PPC Land",
+          "published": "2026-07-18T11:38:06Z",
+          "summary": ""
         },
         {
-          "title": "AI News: Week of July 6 to July 12, 2026",
-          "url": "https://medium.com/@davidakpovi/ai-news-week-of-july-6-to-july-12-2026-f81a26c49c55",
-          "source": "Medium — David Akpovi",
-          "published": "2026-07-12T12:00:00Z",
-          "summary": "Weekly recap of major AI developments across the big labs, chips, and policy."
+          "title": "Meta Reportedly In Talks With Anthropic Over a $10 Billion AI Deal",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5KT0gzTVRUMEZnQjk4TWJjSnJhc21uaVNTc2Y5RHh0cllObHhrdzRnWkFBSWhBR3ZZbGh0QWp0MDF6emZTd25BUmpPMXpnRTZUVUM5Snpia2Z1WTdzMFJNc1gtYWo3QmM1SHpzVg?oc=5",
+          "source": "BeInCrypto",
+          "published": "2026-07-18T15:05:00Z",
+          "summary": ""
         },
         {
-          "title": "ChatGPT-Maker OpenAI Is Headed for a $1 Trillion IPO. The Biggest Winner Could Be Microsoft.",
-          "url": "https://www.fool.com/investing/2026/07/04/chatgpt-maker-openai-is-headed-for-a-1-trillion-ip/",
-          "source": "The Motley Fool",
-          "published": "2026-07-04T12:00:00Z",
-          "summary": "OpenAI is reportedly holding out for a valuation above $1 trillion as its IPO run-up continues; Microsoft's stake positions it as a major beneficiary."
+          "title": "Microsoft Wants Sales Team to Push Its Own AI Models Instead of Rivals OpenAI, Google and Anthropic: Report (UPDATED)",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPdHhhN0tlTXV6c0R2Z21vdXpRMHl3SFFaM2oyRjVYS1JKd1NTQWFLQXFSd3h3c3Rtd3ZmT2dtbmdUMzA4MU1UX0tzU3d6ZmNmTktjM2VNYnpzNG5oQ0RaQl93VHczVzZVMFRqS3dBMnc4NjlNN3JLWHJtUGtqVXZ0NnBhdmJQeWlwWEZZelpUSUVSWFBKbTZZNEw4MA?oc=5",
+          "source": "Yahoo Finance",
+          "published": "2026-07-18T02:31:00Z",
+          "summary": ""
         },
         {
-          "title": "AI Update, July 3, 2026: AI News and Views From the Past Week",
-          "url": "https://www.marketingprofs.com/opinions/2026/55197/ai-update-july-3-2026-ai-news-and-views-from-the-past-week",
-          "source": "MarketingProfs",
-          "published": "2026-07-03T12:00:00Z",
-          "summary": "Recent weeks brought a wave of releases: Anthropic's Claude Sonnet 5, Google's Gemini updates, and OpenAI's GPT-5.6 family with a 1M-token context window."
+          "title": "Meta Eyes $10B Anthropic Deal To Launch New Cloud Business",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE85Rl9XS3ljZTBNUDlsYUxUNmMwd2RGeGU2cHRVQi1oNkg5b0taMXpWcmdJdVZQMXlGdHh0d1lpeEtZSFNDaFZfbWk4NWVFVGRoLUVabE1fY3otTTFuSEVZakV0Zw?oc=5",
+          "source": "Yellow.com",
+          "published": "2026-07-18T07:56:31Z",
+          "summary": ""
         },
         {
-          "title": "OpenAI files confidentially for IPO, following Anthropic",
-          "url": "https://techcrunch.com/2026/06/08/following-anthropic-openai-files-confidentially-for-ipo/",
-          "source": "TechCrunch",
-          "published": "2026-06-08T12:00:00Z",
-          "summary": "OpenAI submitted a confidential draft S-1 to the SEC about a week after Anthropic filed to go public; timing of a debut is still open."
+          "title": "Meta, Anthropic drop bombshell news on AI market",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9tRVUtMmJNdFpGM0dqellhem9aaHdTa1hvTjJtQ0xsWUJQdTFyVXVvVF81YXpiZkt1ZkZ2RGZfMG5nN29XUXNaVHVzNW9YemNSQmptZVllOHVIenhmR1FhTXNPbUIzeWU2LTlpU0xPQnFEWTQ4NUE?oc=5",
+          "source": "thestreet.com",
+          "published": "2026-07-18T14:47:00Z",
+          "summary": ""
         },
         {
-          "title": "OpenAI IPO: 4 Things To Know As Anticipation Builds (July 2026 Edition)",
-          "url": "https://www.forbes.com/sites/investor-hub/article/openai-ipo-things-to-know/",
-          "source": "Forbes",
-          "published": null,
-          "summary": "Where the OpenAI IPO stands: confidential S-1 filed, last private valuation around $852B, and a public prospectus expected 60–90 days after submission."
+          "title": "Meta Reportedly Negotiating $10 Billion AI Compute Deal With Anthropic",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPSGlqX2l6RHJ4LWFWWE9qSFJ0R3RBSm93NU4yNlFJRTktclVtWmtKR2RkYzRCTkdDY0NXdjRHRmdPZWl6WkF2c2hIUDN2Tk1ZM2hiWGFDTFJGNW0zdW0zT1NMb1JuZy1RVnhiQll6Qk8tSjBjMWVYLVdpVWlINHJoZDVxazFkaEk4VFhiSFFsR0pENzFySFY1TTJBaGdOT1NUSFh5NkppbXY4cS13c2N0ZFhkSEIxOE1LLWJlcGlXWQ?oc=5",
+          "source": "Benzinga",
+          "published": "2026-07-18T04:04:00Z",
+          "summary": ""
         },
         {
-          "title": "LLM News Today (July 2026) — AI Model Releases",
-          "url": "https://llm-stats.com/ai-news",
-          "source": "LLM Stats",
-          "published": null,
-          "summary": "Live tracker of model releases, benchmark results, and pricing changes across OpenAI, Anthropic, Google, and open-source labs."
+          "title": "The bottleneck for AI agents isn’t the model anymore. It’s the context layer.",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBPN0cyai1HYlBMLUw1bXdDRWFSdzZnRHpuSUxhaGVPWVhpY21BOXZodkE3V0ZDOVNBeC1ONk50VkwzdXlWLTJGUU8yMlVZMGpRZFlDbVRuUUxuZHhRTHJsN1BEaFRLakc0VWc?oc=5",
+          "source": "The New Stack",
+          "published": "2026-07-18T15:00:58Z",
+          "summary": ""
         },
         {
-          "title": "The Latest AI News and Breakthroughs That Matter Most",
-          "url": "https://www.crescendo.ai/news/latest-ai-news-and-updates",
-          "source": "Crescendo",
-          "published": null,
-          "summary": "Continuously updated digest of notable AI news, research breakthroughs, and industry moves."
+          "title": "Anthropic to add Claude's Fable 5 model to Max, Team Premium plans at 50pc of usage limits",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNQXA3WnVhdkV4dXFwNFhFTUxidzZVZTVZOWRual9XV0xwajRyNUhwQTNMT2ltTHU3NGROa1dhQk8tQkJ1TEdSaTVmTDNaLWUwX2RuVE8zY0h1dC1zLXl3NXlUM2dmZFd5bnJVX3FmRUZYNTE0TVpaN3NLR2hrQV9LdlhqUzZsVFJlYktCZGNJSU1hMnN2MjRDNTNoVktmXzR3Z1dtM2sxS3J2dzkwN3pZUXVaamJUbUZtS1F6blA0MA?oc=5",
+          "source": "Dawn",
+          "published": "2026-07-18T12:50:08Z",
+          "summary": ""
+        },
+        {
+          "title": "Meta in talks to rent some of its billions in AI infrastructure to Anthropic",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNU1VjT3ItcXRWb0xmdUxnRk1Fb01ad3Z1a0FodUhPSHVrbjQyVlpTSC01S0FtS2g2NGZ6VndLNWN6T2pHeVVEOTI2NjZacEM4ajY0TkRSZVJ0d0lZbEJ5ZC1RR3F6aVUxQ2hFRUtrSWl4aXctVFI3a1RPLS0wMU0zLS1sU0JkNlRaZGlpLV9kUDgyNFU5MG01N21lX3U1RTVwS3oxWWxYTGtKMzdEMnRZd0JoU2J6RnU1?oc=5",
+          "source": "Egypt Independent",
+          "published": "2026-07-18T12:31:26Z",
+          "summary": ""
+        },
+        {
+          "title": "Meta is in discussions with Anthropic for the rental of computing capacity, thus entering into competition with cloud giants.",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPcHQwa29IOXZQb0dPN2ExN0NlcnhrZTQ4SXJyVjdoRXRlbE1EOU13WFJYeXRpdFdKVkVsMkgzZzJkQm0zQW1INnFiSlZBLXQ1N1RTZjNOZ0loWXEtRHNsZTlPWlVjYl9nWktWTXpmYmJXYnppVFBfdndqdkxmU2xDdW9TYnVsZ0hCN08yNUxLbWlBSzlOdkkyUkgzQmJyYXJna2M0U2kzS3VRa2pO?oc=5",
+          "source": "Informat.ro",
+          "published": "2026-07-18T10:56:08Z",
+          "summary": ""
         }
       ]
     },
@@ -72,53 +86,74 @@ window.NEWS_DATA = {
       "more_url": "https://news.google.com/search?q=AI%20%22small%20business%22%20when%3A7d",
       "items": [
         {
-          "title": "AI Adoption Continues to Rise, but 70% Say They Need More Training to Use It Effectively",
-          "url": "https://finance.yahoo.com/small-business/articles/ai-adoption-continues-rise-70-130500449.html",
-          "source": "Yahoo Finance",
-          "published": "2026-07-14T12:00:00Z",
-          "summary": "Thryv's July survey: AI adoption among U.S. small businesses hit 66% (up from 55% a year ago), 70% of AI users report higher revenue — but 70% of owners say they need more training."
+          "title": "AI Companion Platforms in 2026: A Practical Guide",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOTlpSSmR0RE1tOUx4WXFqclpPd2RSd2JWMm1sY2FkUmg5WnJESEdpZmlIUmVBVk9ZdkZCV2pJVUR5V3BpVnlmTTFMdWx1X1JJYlZrQ19jMHd4M3c2cVJvajZYSE94SmtwaExSQThDdHl0aTE2QTVVQXZLdzNCRFg2S0ZpZFpwWHhqeERsaA?oc=5",
+          "source": "openPR.com",
+          "published": "2026-07-18T03:52:12Z",
+          "summary": ""
         },
         {
-          "title": "AI Adoption Continues, But 70% Want More Training: SMB Survey",
-          "url": "https://www.carriermanagement.com/news/2026/07/15/290015.htm",
-          "source": "Carrier Management",
-          "published": "2026-07-15T12:00:00Z",
-          "summary": "Coverage of the same SMB survey with an insurance-industry lens: most owners use AI for marketing and sales (56%) and content (51%), and many report 11–40 hours saved per month."
+          "title": "7 free AI productivity tools useful for small businesses",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNUXRITjZCVHIzRTdhVEt5cE5PSU5QaTMyMVU2bVdrY3Y3Sk0zSnVPazdHMkpvUF9OM2JJZU1UOGx5c1VubTFkaTVLS3E5Y1d4ZWh2VE5JV1FGMkdpanBrNEQwNGpaOS1NYW5wZXhIYVFTUDM5WGd3c0VPMHJUc0t3Q1ZFSXdoT2Nn?oc=5",
+          "source": "theradar.ng",
+          "published": "2026-07-17T02:48:27Z",
+          "summary": ""
         },
         {
-          "title": "AI Report 2026: How Small Businesses Are Using AI to Grow",
-          "url": "https://www.thryv.com/blog/ai-for-small-business-2026-report/",
-          "source": "Thryv",
-          "published": null,
-          "summary": "The underlying report: where small businesses apply AI day-to-day, what's working, and where the skills gap bites."
+          "title": "Can Xero (ASX:XRO) Strengthen Its AI Edge Through New Automation Tools?",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNdFdzMi1DNHhOVy1qdlNDOTdzM2ZqdUdndEFfeXpoaVdiMVJmTDlaTkNtSHdVZ0FVT044dldGY1BQNEVWeTcwTHNnNXNtWVd5VWdPd2ZUWHFSRU1FNlRMWVlteHlsUUh2TUdQTlcxNGt0TEdaNHA0RjdwbU55MkRQRFBGanRUaDJjNk12Z2NTZEk4dWl2RzlDckZmOTBnd3M1Rnc2XzlvWEszOEFaeU9iQWo5UU9ELW42cnVrT0h3eTFFNVRs?oc=5",
+          "source": "Kalkine Media",
+          "published": "2026-07-17T00:06:00Z",
+          "summary": ""
         },
         {
-          "title": "How to Adopt AI Without Putting Your Business at Risk",
-          "url": "https://www.diamondbusinesscommunications.com/2026/07/01/july2026newsletterblog/",
-          "source": "Diamond Business Communications",
-          "published": "2026-07-01T12:00:00Z",
-          "summary": "A practical checklist for small firms adopting AI: pick low-risk workflows first, set usage policies, and keep humans reviewing customer-facing output."
+          "title": "California doesn’t need to put an ‘Out of Business’ sign on AI innovation",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQMDRKTGdjTzlGd29Fd0s4VENtclpmVThSbzI3bFJ3dVU5a0pTSDdsd2JhYnNkZ1g3TlI4a0NIUjI3Mkg0SkZ5SEU3VnQ1dVlYLURDUjRiZW05NDRJX0xFbkZaaXBla3d0SjdmNGdGbFJCZXdJUWRsdFNlV09XMmwyV2JCbjB3aWcxdHc4U0VFcFp1UjVtem51YVhkUWJUcXlSZ3FuSG9fbmtFZ29TMWc?oc=5",
+          "source": "Orange County Register",
+          "published": "2026-07-18T13:00:19Z",
+          "summary": ""
         },
         {
-          "title": "Small Business AI Adoption Hits 75% in 2026: The DIY Shift",
-          "url": "https://lonelyentrepreneur.com/small-business-ai-adoption/",
-          "source": "The Lonely Entrepreneur",
-          "published": null,
-          "summary": "Three-quarters of small businesses now run generative AI themselves — drafting marketing, research, and even legal documents they used to pay for."
+          "title": "My Top 8 Free Work Management Tools for SMBs to Try in 2026",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5mWGFZcE5WRUpIMjV5UUJCdXNyOUJkWWJIV2VCVUNkM1NUcDI5Z0VKQktpVk9CbkJNaFZ1UVlTRDV4MTVjUEJEY19OMEhhUEJ6NDR2aXQzOEtVbDdYdFlB0gFvQVVfeXFMTnQ2Mmx4VDFwcUVHc2FQMzM5VnFEZVJzSUZYbmxkNWN6QjEzWHZkN3VSZG1MLTl4eEZJcmJpa0dWOXpzRTRUYWY0cVg4SXFRMDNDWm5zMGYtc092OUkwbk1hc2p2LTY4Qm1PRDlwcXZZ?oc=5",
+          "source": "G2 Learn Hub",
+          "published": "2026-07-17T17:13:48Z",
+          "summary": ""
         },
         {
-          "title": "Small Business AI Adoption: 68% Use It, Most Wing It",
-          "url": "https://www.digitalapplied.com/blog/small-business-ai-adoption-guide-2026",
-          "source": "Digital Applied",
-          "published": null,
-          "summary": "Adoption is no longer the differentiator — implementation is. Businesses seeing results apply AI to specific, real workflows instead of chasing tools."
+          "title": "Your finances on autopilot: How AI tools are changing financial management for small businesses",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxObThwWUZabV9xLTRMLTFJSzdGOHNVem1GSTBMZEs5bmM4Qk8zallkTmtad2hpWndDS25rdDNmRVJ2ZTNzV3JCVXVDeE8wOUI1dlZaWGZDYU4wS1hQX3hNbTVuYzk1Y2NJZkNrWTBMMGtaWjRpYkNOUHBUa0U3OXJEVFRDdHJwSDg?oc=5",
+          "source": "AOL.com",
+          "published": "2026-07-16T20:45:52Z",
+          "summary": ""
         },
         {
-          "title": "Understanding the Use of AI Among Small Businesses",
-          "url": "https://www.jpmorganchase.com/institute/all-topics/business-growth-and-entrepreneurship/understanding-ai-use-by-small-businesses",
-          "source": "JPMorganChase Institute",
-          "published": null,
-          "summary": "Research brief on how small businesses actually use AI, and how adoption varies by firm size and sector."
+          "title": "25+ AI Tools For Entrepreneurs: Best Business Management Software",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE53QVdLUTRJa2w2cmE3UXZjX0tlVnc3QXhoZ2paQm9NOHc2X2VpVm5DTDBTWXE3SkR4WDJQSEJObXdIWUltRDhqbFRZNWIwcHgxemI3Y3Voa25uVUhWVWJnNndYOUh5RVR0WV9rZ1YzUWdSUXVid19URUJGMVlQOWs?oc=5",
+          "source": "Salesforce",
+          "published": "2026-07-17T15:48:04Z",
+          "summary": ""
+        },
+        {
+          "title": "Nigerian AI researcher champions ethical artificial intelligence at COPA AI 2026 summit in Wales",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPWnZIMXRRdERzdmlpd2loZkNtMlNxbjhTWk9wemVNTkZxVGJ1ZVNCY1REeExnZFFDTTRLeWtpb0xGUFRwSmFEQ2JHOExmWENOLV9kUE5TT3FKaGlkcTBTRzI0MFl0RlExR1FRaEMxNlFnOVRrZ240V3dBckhLS3UxdEFPdGw4N3o2OFBIRUJzRFVkcWxxMnNsa0stRWFieUNfT2NrMlFyRnEwUWVHdk5feVZESGtmRjl4YnJ3anVJZ0tmR2dnREhQSdIByAFBVV95cUxPWnZIMXRRdERzdmlpd2loZkNtMlNxbjhTWk9wemVNTkZxVGJ1ZVNCY1REeExnZFFDTTRLeWtpb0xGUFRwSmFEQ2JHOExmWENOLV9kUE5TT3FKaGlkcTBTRzI0MFl0RlExR1FRaEMxNlFnOVRrZ240V3dBckhLS3UxdEFPdGw4N3o2OFBIRUJzRFVkcWxxMnNsa0stRWFieUNfT2NrMlFyRnEwUWVHdk5feVZESGtmRjl4YnJ3anVJZ0tmR2dnREhQSQ?oc=5",
+          "source": "National Daily Newspaper",
+          "published": "2026-07-18T10:46:18Z",
+          "summary": ""
+        },
+        {
+          "title": "At 12, Mana Jampala is building Voxa, an AI receptionist for small businesses",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOZkxVWV9VbEdTdV9FUG1uVlNyRU11Y2p5NEhEdHlrUmRwVjctUnpTc2xJaDJnTjFLOTNNWUktclBDaWZRRUFUckE5RjBoa0FfZE16Umhsc2hjMDFzbXJaZkxtVVBCT2FVTU54WG5JakQ5X3JnVVgxQTBsUWRFZktiSFM5TGV0cUVhYnJ5TmtTYWpKWGhsUXc?oc=5",
+          "source": "ascendants.in",
+          "published": "2026-07-18T10:07:05Z",
+          "summary": ""
+        },
+        {
+          "title": "Top 7 Help Desk Tools for Small Businesses and Startups",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWm1tM01hdXZjZzM3MGw3Z1pzWmxfLTBhcXh6SHNwT0FFOTI5bkpiWDBjSTRVVk5zVHUxZDBiMVlKYWN2UXpkbVp2ellGb3l6R25NYmY3X2Fkc2dQU093NTBPc1dCS2VvMlpjYjJ6TmFNM0NQdGdfLVlON0d2LUFiMjFGUy1QVVRCYnJVUDlXbWlWa1J5ZEpYUEhXY0JZNm1mWjJtSGJHdVBYenFlc2Zv0gGvAUFVX3lxTFBabW0zTWF1dmNnMzcwbDdnWnNabF8tMGFxeHpIc3BPQUU5MjluSmJYMGNJNFVWTnNUdTFkMGIxWUphY3ZRemRtWnZ6WUZveXpHbk1iZjdfYWRzZ1BTT3c1ME9zV0JLZW8yWmNiMnpOYU0zQ1B0Z18tWU43R3YtQWIyMUZTLVBVVEJiclVQOVdtaVZrUnlkSlhQSFdjQlk2bWZaMm1IYkd1UFh6cWVzZm8?oc=5",
+          "source": "Analytics Insight",
+          "published": "2026-07-17T12:34:06Z",
+          "summary": ""
         }
       ]
     },
@@ -129,39 +164,74 @@ window.NEWS_DATA = {
       "more_url": "https://news.google.com/search?q=%22small%20law%20firm%22%20OR%20%22solo%20practitioner%22%20when%3A7d",
       "items": [
         {
-          "title": "Solos and Small Law Firms: A Market Ripe for Disruption?",
-          "url": "https://abovethelaw.com/2026/07/solos-and-small-law-firms-a-market-ripe-for-disruption/",
+          "title": "Leaving Your Firm? Aim for a Joint Notice to Clients",
+          "url": "https://www.attorneyatwork.com/leaving-firm-joint-letter-clients/",
+          "source": "attorneyatwork.com",
+          "published": "2026-07-17T18:17:02Z",
+          "summary": "Mark C. Palmer answers a lawyer's question about leaving their law firm on a positive (and ethical) note. Ask the Experts at 2CivilityOrg. The post Leaving Your Firm? Aim for a Joint Notice to Clients appeared first on Articles, Tips and…"
+        },
+        {
+          "title": "ABA Offers Credit Card For Small Firms. Should You Get One?",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5ObFE4dnZMOHZnSDNhamlhcXBnT3A5RFBZX0t3ZEQxYzJFeF9JRE1wcUNJa1FZbHZESWdMbm9wQjBBZy1yOW1qTzIxSEVjYmVWM1pmWF9Jcy1LdzNIaXfSAV5BVV95cUxOTmxROHZ2TDh2Z0gzYWppYXFwZ09wOURQWV9Ld2REMWMyRXhfSURNcHFDSWtRWWx2RElnTG5vcEIwQWctcjltak8yMUhFY2JlVjNaZlhfSXMtS3czSGl3?oc=5",
+          "source": "Law360",
+          "published": "2026-07-17T20:41:00Z",
+          "summary": ""
+        },
+        {
+          "title": "Bakersfield family law attorney is closing office, facing angry reaction from clients",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQTzlCR3Brb1hzU3NRN2hNRkpLcmZmbWJSYTNRZzZPeEtWeDllbE9obzZ1dTVYZTV4OGVHZzYyLUxpb281UjB4SE5FTGtaN0NZSlpOeTJsOW82Sm9jZ19QMmZHdk1jUUN4c0ZtQXVXQVJ6N0REOUdYUEI3TVBUaXQ5ZzBaNW9JdEx1by10RGZnSjByMU9zZGlkaXlKamM3Rm9hM0JpMFB2QXAzS0lRdnZ5cU12MGdZcVg0S0dKY0xjSdIBxAFBVV95cUxPM0x4bnpVeHZxNHBzc1NSMjJCUnVLb1RTeXZUVW9Ibk1wR1lNd00xRm02RDhTNkkwLVpDRW5kQk9qTm5Jelg2d0lvczJ4NnFMdDI1aVFqRXRFSDFzVVI5R1dqcndKWTZmVVJNdVNMQ1plVlAyQUdCNGJMTTBGUXJNMzdZYjlBRVlpY0dVcDJ6Q0xNNEhpVTl2V1FjY0ZKTjdEcURCME5uRGNoTWFHOW5NN3FNaFZCLUd2TkdVTG84SENnbUF0?oc=5",
+          "source": "KGET.com",
+          "published": "2026-07-17T20:09:06Z",
+          "summary": ""
+        },
+        {
+          "title": "Law Firms Weigh Whether To Pass Rising AI Costs On To Clients",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNQ1ZrRExMbkl0OTRHd043SkdONzI2bmZJb2JDY016YXJDQmVENzdMU256cmpjSk13WFZibExVbHdVYi14RFprUlJ1cnl4MDZNNjNGaHJ1T0gxeXlCSGpQaW9MaTNVckVrZkJfb1dkNDZydk5POFNwaE1YNG51bWxncThSYVRGLVRwS2VLZThxV1VsQlYz?oc=5",
+          "source": "londoninsider.co.uk",
+          "published": "2026-07-17T07:25:23Z",
+          "summary": ""
+        },
+        {
+          "title": "Norm Ai’s $1.2B Legal AI Gambit AsThe First True AI‑Native Law Firm Comes For Big Law’s Billable Hour",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZGJkZjY4T0RsU2dTcnprLS1vMHRfeER2bkhpaFJidzEwaURfX2QzYThKWDI2V0hJZVY1MWRQdHExTHN1d3FHLTNPVHdBSmdMSmhKTERtS2M1R2lrUFFxdEF6eTZJNU4xZXRhY0wtdjRWQXNVSkcza3JlME5oN0tfcFRqMEJ1a3dmSHpBX2xXVlVHY3djX0cyY0RSWGFnQUZxeU95ZHU1RWRpSUs3V2N3aWRWLUEwNXJ1U19aMGtGZWk?oc=5",
+          "source": "LawFuel.com",
+          "published": "2026-07-18T10:53:32Z",
+          "summary": ""
+        },
+        {
+          "title": "Lawyers Should Spend More Time Studying Legal History",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQcVRRaDdYNjNwbVVfZDBsLU05V2lBQS0zVkllUm42R2JoNzlkZ2tLR1VwYkpEOHlsUVJuVVFZbUNfRGlLMDNQNjZkbzNPZjEwZGJQYWJJUVdzOXNZeHV2cjVHNjVsX2I2OGlkMGhuQmY0c2tMalFKSnVPMVJ1cnBubXRJdXgtZ3A0TUwxRXpWMA?oc=5",
           "source": "Above the Law",
-          "published": "2026-07-02T12:00:00Z",
-          "summary": "Clio's latest survey paints a challenging picture: solos and small firms wonder whether legal tech advances and non-attorney ownership help them — or leave them behind."
+          "published": "2026-07-17T15:40:00Z",
+          "summary": ""
         },
         {
-          "title": "What's Keeping Small Firm and Solo Attorneys Up at Night in 2026",
-          "url": "https://www.law360.com/pulse/articles/2423207/what-s-keeping-small-firm-and-solo-attys-up-at-night-in-2026",
-          "source": "Law360 Pulse",
-          "published": null,
-          "summary": "Survey-driven look at small-firm anxieties for 2026: fee pressure, client acquisition, technology costs, and competition from bigger players."
+          "title": "Top 5 Ways to Experience More Awe This Summer",
+          "url": "https://www.attorneyatwork.com/top-5-ways-to-experience-more-awe-this-summer/",
+          "source": "attorneyatwork.com",
+          "published": "2026-07-17T10:00:00Z",
+          "summary": "Jamie Spannhake | This summer, make room for experiences that remind you how extraordinary the world really is. One of the most effective wellness practices is simply allowing yourself to be amazed. The post Top 5 Ways to Experience More…"
         },
         {
-          "title": "2026 Legal Trends Report for Solo and Small Law Firms",
-          "url": "https://www.clio.com/resources/legal-trends/2026-solo-small-firm-report/",
-          "source": "Clio",
-          "published": null,
-          "summary": "Clio's flagship data report: 71% of solos and 75% of small firms now use AI, yet more than half have no AI policy — and faster work isn't yet translating into higher earnings."
+          "title": "'I Am Solo 16' Young-sook Fined 2 Million Won; Sang-chul Says, \"Truth Eventually Comes to Light\"",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1peU1CMndhRFJvQ1c2MlBXWjVKdHQ2dFVHRTRoS1BQTFpMR2UxWkFacEFSNC00MnVFNFJSUzdOdkFyWndWMlVORjlHcmU2V0RycnFaYlBMMlYxNEZLdUIxb3RtMm1WOXkwWnc?oc=5",
+          "source": "news.sbs.co.kr",
+          "published": "2026-07-16T08:22:00Z",
+          "summary": ""
         },
         {
-          "title": "2026 Solo and Small Firm Summit",
-          "url": "https://calawyers.org/2026-solo-and-small-firm-summit/",
-          "source": "California Lawyers Association",
-          "published": null,
-          "summary": "Two-day summit designed for solo practitioners and small-firm owners: practice management, technology, and growth programming."
+          "title": "Client AI-Use Ready Reckoner - A resource for cross-border counsel",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQQWNGUmdJbGFXTGo3dUMxMVJUREJpT3ZMaGNkQjlacEFPcTJaUUNtalYxakRmZHpkeEVHc3p4TnA5SWJGUkF0RFFmQ2pCSnZpcDJ6elRTckhpVVdwQ05CRWpjY3Rlc21qTzFuSEhmcEhvZGtabDd2aVFYUFFtSTBDbS1DNy1lZVpBQmYw?oc=5",
+          "source": "Lexology",
+          "published": "2026-07-17T19:08:12Z",
+          "summary": ""
         },
         {
-          "title": "Finally, Something for Small Law Firms",
-          "url": "https://abovethelaw.com/2026/05/finally-something-for-small-law-firms/",
-          "source": "Above the Law",
-          "published": null,
-          "summary": "A look at new offerings aimed squarely at the small-firm market rather than BigLaw."
+          "title": "FCA and HM Treasury Publish Detailed Proposals to Streamline UK Asset Management Regulation",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdUttb0FlTVg5dXBCLVpvb1NMZFBqMFNVbjVMVEthblRBVmVpV003bEthbFNvVE5iZ3lDdVA2NS1wTVI1MFV4b0JJNkxpNkFWbWpZRUcwRC0yV3F5V0xxeGR5bG9YTVZFRHdPcGFBT25IcnplcDFzem1QczdFOTVpWGJQTDJIY21uMjkxa2ZJaFdoS2ZacXBNa1JtM2NMY2YtRGhmQV9tb0RnNDd5RXR30gG0AUFVX3lxTE9yTVFXVGNCb29QZHRMNjFiSE1iaHliQXFHUWhCYnRzMzliZ2hVbC1NeUhJeExVeVJxeDdYaXVWcTJUQ2NzMGdhbWk5Ql9vaExFMlF5U2xhREsxWEZLMHBaUFJaZWlwS21kRktJT0NWSTl4R0RUNW5QZG5IRGY3VVprNDFBSEpvbU9HaEtaS2tpc3hLZ0M3clBhc1h0bXhoMzVxNnp6YkpRMEhoVUx1bmFIZmVOLQ?oc=5",
+          "source": "The National Law Review",
+          "published": "2026-07-17T16:14:49Z",
+          "summary": ""
         }
       ]
     },
@@ -172,53 +242,74 @@ window.NEWS_DATA = {
       "more_url": "https://news.google.com/search?q=AI%20%22small%20law%20firm%22%20OR%20%22legal%20AI%22%20when%3A7d",
       "items": [
         {
-          "title": "Law Firms, Clients and AI in 2026",
-          "url": "https://www.law.com/corpcounsel/2026/07/13/law-firms-clients-and-ai-in-2026/",
-          "source": "Law.com",
-          "published": "2026-07-13T12:00:00Z",
-          "summary": "How client expectations around AI-driven efficiency are reshaping law firm economics and service delivery in 2026."
+          "title": "Referent Launches AI-Native Legal Practice Management Platform as Solo Lawyers Lose Up to 15 Hours a Week Before Billing a Single Minute",
+          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQU1h1MUZ4Mk5adXdJX29FVWp1amNPdHFsdDVoTnRhamlxa0NxcU9ad2VnVTdnVzZvejEyX3VXT0RQWlNBeWhqU25GYTFsb3k1Z1pTc0Y3ejRTbkpNOEpWQXhmd1B0b3ZVREpsTlY2ZjlqTUVObkZFQTJ5OFFsNEFMbGtJYk9GYmFkbUV0Yjctd2lqSGRmeEhNSmQydThLWll0ZmtQbmx1a1IyNmhPemJKck5oTThFc1NOdUpLb3kzemQyMVNldDR1bnZISkNqOTBKSjh3d3N6b19GdmZ2LWpudjRyeUc?oc=5",
+          "source": "ACCESS Newswire",
+          "published": "2026-07-15T14:39:53Z",
+          "summary": ""
         },
         {
-          "title": "Report: Small Law Firms Lag Larger Peers on Using AI to Grow Revenue",
-          "url": "https://www.clio.com/about/press/2026-solo-small-firm-report/",
-          "source": "Clio",
-          "published": null,
-          "summary": "Fewer than a third of solo and small firms have increased revenue with AI versus nearly 60% of enterprise firms — and almost half rely on generic tools like ChatGPT rather than legal-specific AI."
+          "title": "Legal Tech Roundup: Apryse, Clio",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE12RWxuTXZVSEdwRm1paXo0WmVjOHVsQU8yWC1FbENlRU44bHpSZ1QxaGhQUWpvcHVFbE1UQmxzNWZ5NVBMZmhHd25mdW5pZm5CUlJOeUpsZHBkaGZIMkVnNEtUd3ZiRmlOVWRWSXU3TUNOcW5YYURmS2RR0gFeQVVfeXFMTmozVkQtWFZCX2V4aEc0MFFLbjNFWDdhdDY0MDNTWXM4a1NUU2NDM19nSkRYRE1ycEZtVmo0SEsxWk5EdnJBT1BWX0l5OERMNThOMHh2UVZyeU1pNUJ4dw?oc=5",
+          "source": "Law360",
+          "published": "2026-07-17T18:18:00Z",
+          "summary": ""
         },
         {
-          "title": "How Small Firms Can Decide Between General-Purpose AI and Legal AI",
-          "url": "https://natlawreview.com/article/general-purpose-ai-or-legal-ai-how-small-firms-decide",
-          "source": "National Law Review",
-          "published": null,
-          "summary": "A decision framework for small firms weighing general-purpose assistants against purpose-built legal AI: confidentiality, citations, cost, and workflow fit."
+          "title": "Intapp Makes Celeste Generally Available, Calling It An ‘AI Coworker’ To Run the Business Side of Law Firms",
+          "url": "https://www.lawnext.com/2026/07/intapp-makes-celeste-generally-available-calling-it-an-ai-coworker-to-run-the-business-side-of-law-firms.html",
+          "source": "lawnext.com",
+          "published": "2026-07-16T15:15:57Z",
+          "summary": "Intapp, the publicly traded company whose software manages intake, conflicts, and deal workflows for law firms and other professional services firms, yesterday announced the general availability of Celeste, an agentic AI product it…"
         },
         {
-          "title": "Best AI Legal Assistants for Solo Lawyers in 2026 (Compared)",
-          "url": "https://www.thelawgpt.com/blog/best-ai-legal-assistants-solo-lawyers-2026",
-          "source": "TheLawGPT",
-          "published": null,
-          "summary": "Side-by-side comparison of AI legal assistants priced and scoped for solo practitioners."
+          "title": "When AI Becomes a Colleague: The Future of India's Legal Profession",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNb2ZCMWN3TkdpWEYySzRUVjNzRko1d0lkcHNpcEF4UHg2V1ppVXNyNVg4dzk0Q0g4RTdUMG10OFdRU09LY1JlNjBySmhwMFN6Xzc1a2lBSFVzSFNvSjcwTFM0WEsyUEgtVnM0bzcwbmV1NkF0UE4tMHV1U2F0SGVLQm9TQ2I3RzMydnNWRThHRkNNTERaLWcybmVreEZzRHpBbXltWld4SXk?oc=5",
+          "source": "orfonline.org",
+          "published": "2026-07-18T10:03:22Z",
+          "summary": ""
         },
         {
-          "title": "AI Adoption Among Legal Professionals Has More Than Doubled in a Year, New Report Finds",
-          "url": "https://www.lawnext.com/2026/03/ai-adoption-among-legal-professionals-has-more-than-doubled-in-a-year-new-8am-report-finds-but-firms-lag-far-behind-individual-practitioners.html",
-          "source": "LawSites",
-          "published": null,
-          "summary": "The 8am report finds individual legal professionals adopting AI far faster than their firms — a gap that hits small firms hardest."
+          "title": "The Working Guide to AI for Attorneys",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5XUHhLT3JEN2pJN2ZYYld5R3hxS0M2ejBiYlJTTUxybjJBQVg1OVJXNkxNU2V1RWZTN3JicjdfMWh2TTFqRi1BSWtSTmV0bXgyWGxPN3hn?oc=5",
+          "source": "Harvey",
+          "published": "2026-07-18T00:30:01Z",
+          "summary": ""
         },
         {
-          "title": "Five New AI-Powered Business Models for Solos and Smalls in 2026",
-          "url": "https://abovethelaw.com/2025/12/five-new-ai-powered-business-models-for-solos-and-smalls-in-2026/",
-          "source": "Above the Law",
-          "published": null,
-          "summary": "Flat-fee packages, productized services, and other AI-enabled models that let small firms capture efficiency gains instead of billing them away."
+          "title": "New Jersey Public Defender Debuts Novel AI Research Tool",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUVRtbW84d0RudTZudzhiWGlFNm5fTTMtWkFRNjNVa1Y4VmdoWl9oc1EtTGpiN01pc2lGWFBqVm8wSVphdDZ2NXpILTJmdU83OXlzSl9Ma1owekF2LXhhbmVuVEw5T1pITFFpWmtpbWpXa3Y2blFUdWNyZHlVV1FiMHJyZnFLTFF3LTJGU3lLejdTX3FRMFNENVRzOVPSAV5BVV95cUxNd3k4QUpHbGF3MHJrc0NhRHNWOEFNVWRtQW9qNFItd0p5SFRJM3RVMVNWbEpUM3d6VnFid2REVnpXdE5Wb0FsX0ZnUU1McjVYQmh0enFaamFTQWUzaWxB?oc=5",
+          "source": "Law360",
+          "published": "2026-07-16T19:03:00Z",
+          "summary": ""
         },
         {
-          "title": "Which Law Firms Use AI? Case Studies from BigLaw to Solo Practices",
-          "url": "https://spellbook.com/learn/law-firms-using-ai",
-          "source": "Spellbook",
-          "published": null,
-          "summary": "Case studies of firms using AI in practice, from AmLaw 100 shops down to solo practices."
+          "title": "What’s In A Wrapper? Comparing A Hershey Bar To LegalTech AI",
+          "url": "https://www.lawnext.com/2026/07/whats-in-a-wrapper-comparing-a-hershey-bar-to-legaltech-ai.html",
+          "source": "lawnext.com",
+          "published": "2026-07-17T12:56:30Z",
+          "summary": "Anyone can make sweets, but not everyone can make a Hershey bar. The debate over legaltech startups offering nothing more than a “thin wrapper” around an LLM begs a deeper analysis of the value of a wrapper, particularly as open-source…"
+        },
+        {
+          "title": "ProPlaintiff.ai Announces Strategic Investment from Christopher Stark, Co-Founder of Freestar",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNekNrbEdvaHFYYS1INURqc1VVVEJwLTV4STVQOHJJUnpMdTZCX21uYjYxUUhyZjJpTnRJaUFYbFlxdTNLeWV6X1N5dUtaMDRwaGpFVHNFRWNfN2NraVFILWZqOXMtZkdESUIwdi1DZThjNHNLRGVQODF0OFFhN1JJNlJQcDNGRmVwczRaX1dfZXliaFZ1cmJnRWpGRmI1STBGako2NWFfRlNuN1BaSTRQYVp3UGdfbS1PX005SEtyWS1vSmRpQ2RjRVp4b1otRnRldE1PZzJzNmRNNjdjWENMS0kzeFpmclpGZFE?oc=5",
+          "source": "StreetInsider",
+          "published": "2026-07-17T14:31:13Z",
+          "summary": ""
+        },
+        {
+          "title": "7th Circ. Admonishes Atty Over 'Astonishing' Bogus Citations",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQQkhkdkpZcFFYU0dlSFp6djEteE50X0FCdG9pRW1MT0w5d3lrUUFESGFwTTAyY2psSDAyZ0xpalFmNXhUYk1kbGNoXzV6SGczZlNvY1piRndSdTRFdWVlQVRPN2ZnZUNDck9yU2hSc3Y2ZE5QNEM3a0NnNWN2emhlZVc5a3JVU0NmV0F5cnNEUnRUMGlYbmZzQVR2VlRoNVhLU1pxS2pSNEZITGx4b0ZRdmxNZG7SAV5BVV95cUxObEVIUm02S2kyUkZzNDZrS0Q3YlpVT3hVdFV5UThZWWlJQXQ1a044b1F3YWc1bUZqTy1QQnZ0bkEtdWhDLWxQYkhMVloxdXhjQ3NkWHBNUjhEY1l5ZE1B?oc=5",
+          "source": "Law360",
+          "published": "2026-07-17T20:41:00Z",
+          "summary": ""
+        },
+        {
+          "title": "Chamberlain Hrdlicka's 1st Innovation Chief Talks AI Strategy",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNTm9jNmE0LU9XYkkwYjdsdlJTUGsxamZ0eXI0UXNOa1M5WjFQTjFCTHFULW55SzJkM2tnMzJzM0NPUkJ1VHZMY1pxakpzdm9ScERhUlVYc1BJMjh5TVM1UUNoY0l6b1pDMUVkYUV0S2ZlVml0YVpoWTVFZDVneHBpMFlFa3NLRTNLWHBkV1RXNm1SdWtRdmd4aTR6am56R0paOUJLeUd6aGhuNEl5ZEQzYnpFQlpvUU1IRFHSAV5BVV95cUxPOXRjMm9BakJocm1aeVhrR3MwZ2V0Z2NSdTh3NU40b1hSTFdUT0YtUnpLUmF6c3Bqa0l5SmxrVGt2b3ZiUWtfUW5mM3hhVXZwR1FsRHZFS1hVWkFJSFd3?oc=5",
+          "source": "Law360",
+          "published": "2026-07-17T20:40:00Z",
+          "summary": ""
         }
       ]
     },
@@ -229,39 +320,32 @@ window.NEWS_DATA = {
       "more_url": "https://news.google.com/search?q=%22law%20firm%22%20consulting%20%22small%20firm%22%20when%3A14d",
       "items": [
         {
-          "title": "Thinking About Hiring a Coach? Read This Before You Waste Your Money",
-          "url": "https://abovethelaw.com/2026/04/thinking-about-hiring-a-coach-read-this-before-you-waste-your-money/",
-          "source": "Above the Law",
-          "published": null,
-          "summary": "Steve Fretzin on how lawyers should vet business-development coaches: what a good engagement looks like and the red flags to avoid."
+          "title": "Mortgage advisory firm grows from spare room into Sunderland office",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQaHU2aldqRVlIUkd3QnZFLUh3a2VuLXpfbk5vd2N1ZHl2dm5VbkU3V0daOEYtNGNKZ0QtNzFic1pEYmxpQVZ1a3VhWm5zMnlUS2JQRkRFY3MxSEptZkNKT19tek1CV3EzaWpzRXdQclRoMzJGUHZtS1pmUWpLTlFSSkp1NnFFalBMQWJySERGeGdKb0hCMWMyLU9LUWxjZVdWQ3RDUWdRZDJpWC1LMTI2LU53?oc=5",
+          "source": "Insider Media Ltd",
+          "published": "2026-07-08T05:00:00Z",
+          "summary": ""
         },
         {
-          "title": "Law Firm Management Consulting: A Guide for Firm Leaders",
-          "url": "https://businessaccelerator.institute/blog/law-firm-management-consulting-guide/",
-          "source": "Business Accelerator Institute",
-          "published": null,
-          "summary": "What management consultants actually do for law firms — client acquisition, financial clarity, reducing partner reliance — and how to choose one."
+          "title": "US LLC Light Launches Compliance-First Platform for Non-U.S. Solo Founders",
+          "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxPRnl2eFFxMjV2MTBaaHZhdEZuOWJGakJqdDJYRmtDTDdsdVpxeFpicFFCR25RWVN5S20zYldmdVdvVUNMMEhmUTZsMm56Uk95NjlEYjdDdWo5dnZrdVhqT25VY0c5dURlenlzQXBIR0R2MUlWM2tWU1AwMDVnNFNxQ1NOYVppX3F5Tm5DRFNFd3pyQ3VxaVV5Vjh6TlJlRzNyYTBNQU1GNnlRbnByYW9HNngyX3NDU2NQS3BsWlRjWVpCLVZTTlVYLUxJU19CYWgzUHAyN0tMV3cwN1N3TjBodzVfeHNBQjJVN0I4aUdyUlZRc2JmSFNaMGtjSHNubk10dW5EcTJ0RjZ0dm9rZUtaMms5NA?oc=5",
+          "source": "gilbertsunnews.com",
+          "published": "2026-07-10T21:15:02Z",
+          "summary": ""
         },
         {
-          "title": "Law Firm Manager Leadership and Management Skills (2026)",
-          "url": "https://lawyerist.com/managing-law-firm/management-skills/",
-          "source": "Lawyerist",
-          "published": null,
-          "summary": "Lawyerist's updated guide to the management skills small-firm leaders need, with pointers to its coaching and lab programs."
+          "title": "5 Best eDiscovery Software of 2026: My Picks for Legal Teams",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9USWpfZGt6UGxyUHlhbGpDRkNBclRzOGVIblptblN2Y19Yd3FlUDJXNV9IS1hHaEFUZGQ2eUl0Wld5RlcyUXJwUmF6a0RiTTJ0OGVseW03NGzSAWhBVV95cUxOV0pMUGJfZk1NS3N0cW1VV21tbzBhZF9pQTYxb1lySzRRZVJ5NHNvcDAwVXZlUm0ycVl0VWpXUmdxVFhQeFM3WVg3UktPWEY3VVljc096T0ZwbHprR2RLLXc0LVhJdVZ6Mw?oc=5",
+          "source": "G2 Learn Hub",
+          "published": "2026-07-06T07:00:00Z",
+          "summary": ""
         },
         {
-          "title": "Executive Coaching for Lawyers: Strategic Growth for High-Performing Attorneys",
-          "url": "https://mylawcle.com/products/executive-coaching-for-lawyers-strategic-growth-for-high-performing-attorneys-2/",
-          "source": "myLawCLE",
-          "published": null,
-          "summary": "CLE program on executive coaching for attorneys: growth strategy, leadership, and practice development."
-        },
-        {
-          "title": "Red Cave Law Firm Consulting: Subscription-Based Management Consulting for Law Firms",
-          "url": "https://redcavelegal.com/",
-          "source": "Red Cave Consulting",
-          "published": null,
-          "summary": "Jared Correia's subscription consulting practice for solo and small firms — an example of the productized consulting models spreading in the small-law market."
+          "title": "9 Best Legal Case Management Software for 2026: My Review",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1yWnlVUkVLeDRVSDdBQTJFc3dNbTNKX1RFbUZiUy1IOE8wVVh3VW9MMWlEQTBKVUV4UzByUFg0WWhneTRIN0hnVEtUdU9CU21UdEJyTTN6anJYaWJ5X1NJN0UzRDJuUE3SAXdBVV95cUxOcndHQTZIZWhESjYwdGtEWFVUcFF3Vm1BR2EwWWg0MGRTX21pRkpoVHlaUW94aWo1MUc1RWlDNVdNWDR6aVVsVmx6eUdsN2xCRl9RWC1RMy1LRFhEc3dydkJLOE00NGRfT1hnUERxRmZ2NWJ0a18xMA?oc=5",
+          "source": "G2 Learn Hub",
+          "published": "2026-07-06T07:00:00Z",
+          "summary": ""
         }
       ]
     }
