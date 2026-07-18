@@ -17,16 +17,14 @@
 </template>
 
 <script>
+import { firstLetter } from '~/utils/filters'
+
 export default {
   components: {
     LunrSearch: () => import('lunr-module/search')
   },
   filters: {
-    firstLetter(value) {
-      if (!value) return ''
-      value = value.toString()
-      return value.charAt(0)
-    }
+    firstLetter
   },
   methods: {
     openLink(link) {
