@@ -98,6 +98,23 @@ npm run dev
 npm run generate
 ```
 
+### Test
+
+```sh
+# Run the unit tests and the content validation once
+npm test
+
+# Re-run the tests on every change
+npm run test:watch
+
+# Run the tests with a coverage report (written to coverage/)
+npm run test:coverage
+```
+
+The test suite also validates `content/*.json`, so run it after editing your
+links or categories to catch broken references, duplicate urls and missing
+logo files before deploying.
+
 ### Analyze links & categories
 
 ```sh

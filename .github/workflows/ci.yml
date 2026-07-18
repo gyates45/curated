@@ -1,0 +1,22 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  lint-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 18
+          cache: npm
+      # --ignore-scripts skips the node-sass native build, which is only
+      # needed to build the site itself, not to lint or run the unit tests.
+      - run: npm ci --ignore-scripts --legacy-peer-deps
+      - run: npx eslint --ext .js,.vue --ignore-path .gitignore .
+      - run: npx stylelint "**/*.{vue,css}" --ignore-path .gitignore
+      - run: npm test
