@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
-  "generated_at": "2026-07-18T16:23:36.964856Z",
+  "generated_at": "2026-07-18T16:34:23.001386Z",
   "categories": [
     {
       "id": "top_ai",
@@ -58,7 +58,7 @@ window.NEWS_DATA = {
         },
         {
           "title": "Anthropic to add Claude's Fable 5 model to Max, Team Premium plans at 50pc of usage limits",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNQXA3WnVhdkV4dXFwNFhFTUxidzZVZTVZOWRual9XV0xwajRyNUhwQTNMT2ltTHU3NGROa1dhQk8tQkJ1TEdSaTVmTDNaLWUwX2RuVE8zY0h1dC1zLXl3NXlUM2dmZFd5bnJVX3FmRUZYNTE0TVpaN3NLR2hrQV9LdlhqUzZsVFJlYktCZGNJSU1hMnN2MjRDNTNoVktmXzR3Z1dtM2sxS3J2dzkwN3pZUXVaamJUbUZtS1F6blA0MA?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE53WFNCTm9NMTRGdzNMMHpQTEJVRTZ6NkJsM2N0Rzc4R0pYYy00Y2VrWGFtNGEwV3BET2ZNQ0pXTnBGMHpxcmFMNw?oc=5",
           "source": "Dawn",
           "published": "2026-07-18T12:50:08Z",
           "summary": ""
@@ -298,18 +298,18 @@ window.NEWS_DATA = {
           "summary": ""
         },
         {
-          "title": "7th Circ. Admonishes Atty Over 'Astonishing' Bogus Citations",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQQkhkdkpZcFFYU0dlSFp6djEteE50X0FCdG9pRW1MT0w5d3lrUUFESGFwTTAyY2psSDAyZ0xpalFmNXhUYk1kbGNoXzV6SGczZlNvY1piRndSdTRFdWVlQVRPN2ZnZUNDck9yU2hSc3Y2ZE5QNEM3a0NnNWN2emhlZVc5a3JVU0NmV0F5cnNEUnRUMGlYbmZzQVR2VlRoNVhLU1pxS2pSNEZITGx4b0ZRdmxNZG7SAV5BVV95cUxObEVIUm02S2kyUkZzNDZrS0Q3YlpVT3hVdFV5UThZWWlJQXQ1a044b1F3YWc1bUZqTy1QQnZ0bkEtdWhDLWxQYkhMVloxdXhjQ3NkWHBNUjhEY1l5ZE1B?oc=5",
-          "source": "Law360",
-          "published": "2026-07-17T20:41:00Z",
-          "summary": ""
+          "title": "AI Benefits, Cooley’s Meatballs, Opus 2 +",
+          "url": "https://www.artificiallawyer.com/2026/07/17/ai-benefits-cooleys-meatballs-opus-2/",
+          "source": "artificiallawyer.com",
+          "published": "2026-07-17T08:00:46Z",
+          "summary": "We start this week’s Wrap with a survey: ‘Has law firm AI use delivered cost savings for clients?’ There is a link here to share ..."
         },
         {
-          "title": "Chamberlain Hrdlicka's 1st Innovation Chief Talks AI Strategy",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNTm9jNmE0LU9XYkkwYjdsdlJTUGsxamZ0eXI0UXNOa1M5WjFQTjFCTHFULW55SzJkM2tnMzJzM0NPUkJ1VHZMY1pxakpzdm9ScERhUlVYc1BJMjh5TVM1UUNoY0l6b1pDMUVkYUV0S2ZlVml0YVpoWTVFZDVneHBpMFlFa3NLRTNLWHBkV1RXNm1SdWtRdmd4aTR6am56R0paOUJLeUd6aGhuNEl5ZEQzYnpFQlpvUU1IRFHSAV5BVV95cUxPOXRjMm9BakJocm1aeVhrR3MwZ2V0Z2NSdTh3NU40b1hSTFdUT0YtUnpLUmF6c3Bqa0l5SmxrVGt2b3ZiUWtfUW5mM3hhVXZwR1FsRHZFS1hVWkFJSFd3?oc=5",
-          "source": "Law360",
-          "published": "2026-07-17T20:40:00Z",
-          "summary": ""
+          "title": "Law Firms Don’t Have an AI Problem, They Have a Data Problem",
+          "url": "https://www.artificiallawyer.com/2026/07/17/law-firms-dont-have-an-ai-problem-they-have-a-data-problem/",
+          "source": "artificiallawyer.com",
+          "published": "2026-07-17T06:42:14Z",
+          "summary": "By Kevin Walker, CEO, Centari. In recent months, several of the world’s leading law firms have announced investments in legal technology at a scale only ..."
         }
       ]
     },
