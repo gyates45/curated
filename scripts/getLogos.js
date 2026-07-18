@@ -1,52 +1,38 @@
-/* eslint-disable */
-import { getLinks } from '../services/getLinks.js'
-import { LogoScrape } from 'logo-scrape';
-import download from 'download'
+/* eslint-disable no-console */
 import fs from 'fs'
-
-var URL = require('url').URL;
-var scrape = require('html-metadata');
+import download from 'download'
+import scrape from 'html-metadata'
+import { getLinks } from '../services/getLinks.js'
+import { resolveLogoUrl } from './lib/resolveLogoUrl.js'
 
 const getLogos = async (links) => {
   console.log('[Get Logos] - Starting')
-  for (let link of links) {
+  for (const link of links) {
     const path = './static' + link.icon
     const url = link.url
     if (!isLogoAlreadyDownloaded(path)) {
       console.log('[Get Logo] - Downloading logo from ' + url)
       try {
-        // const logos = await LogoScrape.getLogos(url)
         const urlLogo = await getLogoUrl(url)
-        download(urlLogo).then(data => {
-          fs.writeFileSync(path, data);
-          console.log('[Get Logo] - Logo saved in ' + path)
-        }).catch(e => {
-          console.log('[Get Logo] - Download error of ' + urlLogo)
-        })
+        const data = await download(urlLogo)
+        fs.writeFileSync(path, data)
+        console.log('[Get Logo] - Logo saved in ' + path)
       } catch (error) {
-        console.log('[Get Logo] - Failed')
+        console.log('[Get Logo] - Failed to download the logo of ' + url)
       }
     }
   }
 }
 
 const isLogoAlreadyDownloaded = (path) => {
-  if (fs.existsSync(path)) {
-    return true
-  } else {
-    return false
-  }
+  return fs.existsSync(path)
 }
 
 const getLogoUrl = async (url) => {
   const metadata = await scrape(url)
   const imageUrl = metadata.general.icons[0].href
-  const host = new URL(url).origin
-  return imageUrl.includes('http') ? imageUrl : host + '/' + imageUrl
+  return resolveLogoUrl(imageUrl, url)
 }
 
-const links = getLinks();
+const links = getLinks()
 getLogos(links)
-
-
- 

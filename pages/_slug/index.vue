@@ -37,6 +37,9 @@ export default {
     TheHeader,
     ResourceItem
   },
+  validate({ params }) {
+    return getCategories(params.slug).length > 0
+  },
   asyncData({ params }) {
     const slug = params.slug
     return {
