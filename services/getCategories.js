@@ -3,8 +3,11 @@ import categoriesObject from '../content/categories.json'
 const categories = categoriesObject.categories
 
 export const getCategoriesMenu = (slug) => {
-  const categoriesClone = Object.assign([], categories)
+  const categoriesClone = [...categories]
   const indexOfSlug = categoriesClone.indexOf(getCategories(slug)[0])
+  if (indexOfSlug < 1) {
+    return categoriesClone
+  }
   const firstPart = categoriesClone.splice(indexOfSlug)
   return firstPart.concat(categoriesClone)
 }
