@@ -16,14 +16,12 @@
 </template>
 
 <script>
+import { firstLetter } from '~/utils/filters'
+
 export default {
   name: 'ResourceItem',
   filters: {
-    firstLetter(value) {
-      if (!value) return ''
-      value = value.toString()
-      return value.charAt(0)
-    }
+    firstLetter
   },
   props: {
     url: {

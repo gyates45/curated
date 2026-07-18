@@ -1,46 +1,26 @@
-/* eslint-disable */
+/* eslint-disable no-console */
 import { getLinks } from '../services/getLinks.js'
+import {
+  countCategories,
+  findDuplicateUrls,
+  INTENTIONAL_DUPLICATE_URLS
+} from './lib/analyzeLinks.js'
 
-const analyze = function (links) {
-  console.log('[analyze] - Starting')
-  getCategoriesFromLinks(links)
-  getDuplicatesLinks(links)
-}
-
-const getCategoriesFromLinks = (links) => {
-  const categories = links.reduce((results, link) => {
-    return results.concat(link.categories_slugs)
-  }, [])
-
-  const counts = {}
-  let total = 0
-  for (let i = 0; i < categories.length; i++) {
-    counts[categories[i]] = 1 + (counts[categories[i]] || 0)
-  }
-
-  console.log('[analyze] - The links contains the following categories')
-  console.log(counts)
-}
-
-const getDuplicatesLinks = (links) => {
-  const urls = links.map((link) => {
-    return link.url
-  })
-
-  console.log('[analyze] - Check duplicates URL')
-  const counts = {}
-  let duplicates = false
-  for (let i = 0; i < urls.length; i++) {
-    counts[urls[i]] = 1 + (counts[urls[i]] || 0)
-    if (counts[urls[i]] > 1) {
-      console.log('[analyze] - Duplicate URL: ' + urls[i])
-      duplicates = true
-    }
-  }
-  if (duplicates === false) {
-    console.log('[analyze] - No duplicates found')
-  }
-}
+console.log('[analyze] - Starting')
 
 const links = getLinks()
-analyze(links)
+
+console.log('[analyze] - The links contains the following categories')
+console.log(countCategories(links))
+
+console.log('[analyze] - Check duplicates URL')
+const duplicates = findDuplicateUrls(links, INTENTIONAL_DUPLICATE_URLS)
+
+if (duplicates.length === 0) {
+  console.log('[analyze] - No duplicates found')
+} else {
+  for (const url of duplicates) {
+    console.log('[analyze] - Duplicate URL: ' + url)
+  }
+  process.exitCode = 1
+}
