@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
-  "generated_at": "2026-07-18T16:39:21.932467Z",
+  "generated_at": "2026-07-18T18:00:00.858124Z",
   "categories": [
     {
       "id": "top_ai",
@@ -36,6 +36,20 @@ window.NEWS_DATA = {
           "summary": ""
         },
         {
+          "title": "A potential $10 billion deal: Anthropic seeks to bolster its capabilities through Meta",
+          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQWTZadmp4UFc4clNkU2xWeHdEb1ZyQ1VtekkwbXNLY0M0U0NLR1N5UTVpVzQyQWdsTG5ydzNzVUpSeHU5Vkw0UlRDQTJVR0xlV1E5aDY2Rkl6aHh2ZkxmUGptSzVSMnRCUDlrOHdCSmdvSTdrMmJhWk1QdkVyY1huOEx4R1RIcENwUmZMUzBDREFGel9qTlJ6TV9kZ2JiV25nRWZ1RDVERTVhc3hpelcyUjJCYVBLeEtHLVA2aWh3M3dHZTJtdXAxUElUSnhaOF9IUkF5RC1MRmlKSmh5aTNDWnZ3?oc=5",
+          "source": "صوت الإمارات",
+          "published": "2026-07-18T07:08:16Z",
+          "summary": ""
+        },
+        {
+          "title": "Google Delays Gemini 3.5 Pro Launch as Coding Performance Doesn't Cut It",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQcUt0czZhOVE3aTdSZGlrbFBBVUk3Nk5qblQwNnBUWkZ0WEhFTGhLNUhIVjUxM29rMFZrSGJlakx3MHl5ZlFJZTJSUk1hUzh5UmRuZXBBYmMybS1RSF9vOVFVZlhSdzFaVm96SUtNXzRIREhFRHpOY3BoX09wYmc3Yzk2Tm5GUGJGSDZyM1FmQk1CcjdFaVl2YUVJRQ?oc=5",
+          "source": "Android Headlines",
+          "published": "2026-07-18T16:56:38Z",
+          "summary": ""
+        },
+        {
           "title": "Meta, Anthropic drop bombshell news on AI market",
           "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9tRVUtMmJNdFpGM0dqellhem9aaHdTa1hvTjJtQ0xsWUJQdTFyVXVvVF81YXpiZkt1ZkZ2RGZfMG5nN29XUXNaVHVzNW9YemNSQmptZVllOHVIenhmR1FhTXNPbUIzeWU2LTlpU0xPQnFEWTQ4NUE?oc=5",
           "source": "thestreet.com",
@@ -62,20 +76,6 @@ window.NEWS_DATA = {
           "source": "Dawn",
           "published": "2026-07-18T12:50:08Z",
           "summary": ""
-        },
-        {
-          "title": "Meta in talks to rent some of its billions in AI infrastructure to Anthropic",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNU1VjT3ItcXRWb0xmdUxnRk1Fb01ad3Z1a0FodUhPSHVrbjQyVlpTSC01S0FtS2g2NGZ6VndLNWN6T2pHeVVEOTI2NjZacEM4ajY0TkRSZVJ0d0lZbEJ5ZC1RR3F6aVUxQ2hFRUtrSWl4aXctVFI3a1RPLS0wMU0zLS1sU0JkNlRaZGlpLV9kUDgyNFU5MG01N21lX3U1RTVwS3oxWWxYTGtKMzdEMnRZd0JoU2J6RnU1?oc=5",
-          "source": "Egypt Independent",
-          "published": "2026-07-18T12:31:26Z",
-          "summary": ""
-        },
-        {
-          "title": "Meta is in discussions with Anthropic for the rental of computing capacity, thus entering into competition with cloud giants.",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPcHQwa29IOXZQb0dPN2ExN0NlcnhrZTQ4SXJyVjdoRXRlbE1EOU13WFJYeXRpdFdKVkVsMkgzZzJkQm0zQW1INnFiSlZBLXQ1N1RTZjNOZ0loWXEtRHNsZTlPWlVjYl9nWktWTXpmYmJXYnppVFBfdndqdkxmU2xDdW9TYnVsZ0hCN08yNUxLbWlBSzlOdkkyUkgzQmJyYXJna2M0U2kzS3VRa2pO?oc=5",
-          "source": "Informat.ro",
-          "published": "2026-07-18T10:56:08Z",
-          "summary": ""
         }
       ]
     },
@@ -93,6 +93,20 @@ window.NEWS_DATA = {
           "summary": ""
         },
         {
+          "title": "Inside Nigeria's AI content boom: How Muse Image AI is changing Instagram content",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOOFMwYXIxMTFtVXh4YURtaWpvd2U5ZFpNQkMyWE9kcVdiaXJqNmtHYkNXWF9sZGJrN29GWkRoVGh5cFROVExQOEswRWdMN05qblgtYjg1YmtlajZQM1lkaXB5UEVLMnJQVVBGbmZkb2RSZHJqRUNESG9yZWt4Qmx3LXVLcGVkUTlHdTMweTRyM2NhXzRFVW1POVZSN29Xb09XQ1FUMU52UQ?oc=5",
+          "source": "theradar.ng",
+          "published": "2026-07-18T16:44:14Z",
+          "summary": ""
+        },
+        {
+          "title": "How SMEs can use data tools to understand their customers",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOOFJWVm9IZXpzaG91bmEwTER1Qm5wQ3hTdUt1dmh2QUF4QXhadHR5SlU1M19ZT2RacTNhcFdxQ3hXeXdYWVBhX3lfajBqMi1RVGpiWGNKaVZpX3NMWkR0RUliaEdOZ2FGZFVfRGlCZXVhSFV0YUJzM3MtMzNiWXFCNkVMaXluZE1Pc0lKQ2dLT2d2b1g2ZXJLOEtCODRyMkh0NFNrZA?oc=5",
+          "source": "Bizcommunity",
+          "published": "2026-07-16T13:46:41Z",
+          "summary": ""
+        },
+        {
           "title": "7 free AI productivity tools useful for small businesses",
           "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNUXRITjZCVHIzRTdhVEt5cE5PSU5QaTMyMVU2bVdrY3Y3Sk0zSnVPazdHMkpvUF9OM2JJZU1UOGx5c1VubTFkaTVLS3E5Y1d4ZWh2VE5JV1FGMkdpanBrNEQwNGpaOS1NYW5wZXhIYVFTUDM5WGd3c0VPMHJUc0t3Q1ZFSXdoT2Nn?oc=5",
           "source": "theradar.ng",
@@ -100,10 +114,24 @@ window.NEWS_DATA = {
           "summary": ""
         },
         {
+          "title": "At 12, Mana Jampala is building Voxa, an AI receptionist for small businesses",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOZkxVWV9VbEdTdV9FUG1uVlNyRU11Y2p5NEhEdHlrUmRwVjctUnpTc2xJaDJnTjFLOTNNWUktclBDaWZRRUFUckE5RjBoa0FfZE16Umhsc2hjMDFzbXJaZkxtVVBCT2FVTU54WG5JakQ5X3JnVVgxQTBsUWRFZktiSFM5TGV0cUVhYnJ5TmtTYWpKWGhsUXc?oc=5",
+          "source": "ascendants.in",
+          "published": "2026-07-18T15:15:41Z",
+          "summary": ""
+        },
+        {
           "title": "Can Xero (ASX:XRO) Strengthen Its AI Edge Through New Automation Tools?",
           "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNdFdzMi1DNHhOVy1qdlNDOTdzM2ZqdUdndEFfeXpoaVdiMVJmTDlaTkNtSHdVZ0FVT044dldGY1BQNEVWeTcwTHNnNXNtWVd5VWdPd2ZUWHFSRU1FNlRMWVlteHlsUUh2TUdQTlcxNGt0TEdaNHA0RjdwbU55MkRQRFBGanRUaDJjNk12Z2NTZEk4dWl2RzlDckZmOTBnd3M1Rnc2XzlvWEszOEFaeU9iQWo5UU9ELW42cnVrT0h3eTFFNVRs?oc=5",
           "source": "Kalkine Media",
           "published": "2026-07-17T00:06:00Z",
+          "summary": ""
+        },
+        {
+          "title": "New ChatGPT Work Can Run Your Entire Business Alone",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQOTROYUtsbXZnQldGYUowRndONDZPYXhtT2xZTWJKQW4tVUpPNThTR29IU1ZzLWtwS0daU2N3Unp6UFBMemZ5U1FMbUZzdG1pSWpOcVBjYW9mOGJaRDV5eWlmMWs4SmgxQVFZMWVNNlZhN1o3YUlpd1VQaVg5dDhELUFZb2V5d2pBWlBHb0Z1X3LSAZADQVVfeXFMTjVqSWx3Z09VaHY1NzJvUmJSbktfUGNTak8zbmNjQkN6N2s4M1Zlckw2RHhWOW9vMTJWem1lb1drYlJhNjVoT1dxYVpoVmlLcVg0SlA0UjdhQW1LWTRUVUdIRWZpV1oweFlEMGJYcUxVeGR0LWtZcnd5UHRjY0lMejFqcHBBM0dSQXN2Vm4yTWk0ZEN1a1RUZnlqb3UzQzdKMTQxcF9oS0VvUU9ORkpTLVl5WnZ6YjFGX2M0WGpsWEZXRnRDWjdTN2d3YVo0MTVkNVVhRHpIWVp6aDZZZW4zQUlNa2t0cVQ4aWFYTGN3TW1XRGY1UFdFUGdwRWlaYUxFUXJjUlhYSlZmNVFrTkVmU1llQkhwaS1tMU4wdk95U3dnbTdwN2oxZEZmdkRmak03WU9yOGx1aVBvT1VLaUhFcDVxVnBUemJyazQ5Q0k5NTJCVl9ScDlua1pFS2FnaDd4c080N1NyUm93OFJESl9heWl1OHBQOS1IQ29lMjFMamxaa1ktR2Vzalh2ZGRQd0NtQg?oc=5",
+          "source": "ProPakistani",
+          "published": "2026-07-18T14:17:36Z",
           "summary": ""
         },
         {
@@ -126,34 +154,6 @@ window.NEWS_DATA = {
           "source": "AOL.com",
           "published": "2026-07-16T20:45:52Z",
           "summary": ""
-        },
-        {
-          "title": "25+ AI Tools For Entrepreneurs: Best Business Management Software",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE53QVdLUTRJa2w2cmE3UXZjX0tlVnc3QXhoZ2paQm9NOHc2X2VpVm5DTDBTWXE3SkR4WDJQSEJObXdIWUltRDhqbFRZNWIwcHgxemI3Y3Voa25uVUhWVWJnNndYOUh5RVR0WV9rZ1YzUWdSUXVid19URUJGMVlQOWs?oc=5",
-          "source": "Salesforce",
-          "published": "2026-07-17T15:48:04Z",
-          "summary": ""
-        },
-        {
-          "title": "Nigerian AI researcher champions ethical artificial intelligence at COPA AI 2026 summit in Wales",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPWnZIMXRRdERzdmlpd2loZkNtMlNxbjhTWk9wemVNTkZxVGJ1ZVNCY1REeExnZFFDTTRLeWtpb0xGUFRwSmFEQ2JHOExmWENOLV9kUE5TT3FKaGlkcTBTRzI0MFl0RlExR1FRaEMxNlFnOVRrZ240V3dBckhLS3UxdEFPdGw4N3o2OFBIRUJzRFVkcWxxMnNsa0stRWFieUNfT2NrMlFyRnEwUWVHdk5feVZESGtmRjl4YnJ3anVJZ0tmR2dnREhQSdIByAFBVV95cUxPWnZIMXRRdERzdmlpd2loZkNtMlNxbjhTWk9wemVNTkZxVGJ1ZVNCY1REeExnZFFDTTRLeWtpb0xGUFRwSmFEQ2JHOExmWENOLV9kUE5TT3FKaGlkcTBTRzI0MFl0RlExR1FRaEMxNlFnOVRrZ240V3dBckhLS3UxdEFPdGw4N3o2OFBIRUJzRFVkcWxxMnNsa0stRWFieUNfT2NrMlFyRnEwUWVHdk5feVZESGtmRjl4YnJ3anVJZ0tmR2dnREhQSQ?oc=5",
-          "source": "National Daily Newspaper",
-          "published": "2026-07-18T10:46:18Z",
-          "summary": ""
-        },
-        {
-          "title": "At 12, Mana Jampala is building Voxa, an AI receptionist for small businesses",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOZkxVWV9VbEdTdV9FUG1uVlNyRU11Y2p5NEhEdHlrUmRwVjctUnpTc2xJaDJnTjFLOTNNWUktclBDaWZRRUFUckE5RjBoa0FfZE16Umhsc2hjMDFzbXJaZkxtVVBCT2FVTU54WG5JakQ5X3JnVVgxQTBsUWRFZktiSFM5TGV0cUVhYnJ5TmtTYWpKWGhsUXc?oc=5",
-          "source": "ascendants.in",
-          "published": "2026-07-18T10:07:05Z",
-          "summary": ""
-        },
-        {
-          "title": "Top 7 Help Desk Tools for Small Businesses and Startups",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWm1tM01hdXZjZzM3MGw3Z1pzWmxfLTBhcXh6SHNwT0FFOTI5bkpiWDBjSTRVVk5zVHUxZDBiMVlKYWN2UXpkbVp2ellGb3l6R25NYmY3X2Fkc2dQU093NTBPc1dCS2VvMlpjYjJ6TmFNM0NQdGdfLVlON0d2LUFiMjFGUy1QVVRCYnJVUDlXbWlWa1J5ZEpYUEhXY0JZNm1mWjJtSGJHdVBYenFlc2Zv0gGvAUFVX3lxTFBabW0zTWF1dmNnMzcwbDdnWnNabF8tMGFxeHpIc3BPQUU5MjluSmJYMGNJNFVWTnNUdTFkMGIxWUphY3ZRemRtWnZ6WUZveXpHbk1iZjdfYWRzZ1BTT3c1ME9zV0JLZW8yWmNiMnpOYU0zQ1B0Z18tWU43R3YtQWIyMUZTLVBVVEJiclVQOVdtaVZrUnlkSlhQSFdjQlk2bWZaMm1IYkd1UFh6cWVzZm8?oc=5",
-          "source": "Analytics Insight",
-          "published": "2026-07-17T12:34:06Z",
-          "summary": ""
         }
       ]
     },
@@ -169,13 +169,6 @@ window.NEWS_DATA = {
           "source": "attorneyatwork.com",
           "published": "2026-07-17T18:17:02Z",
           "summary": "Mark C. Palmer answers a lawyer's question about leaving their law firm on a positive (and ethical) note. Ask the Experts at 2CivilityOrg. The post Leaving Your Firm? Aim for a Joint Notice to Clients appeared first on Articles, Tips and…"
-        },
-        {
-          "title": "ABA Offers Credit Card For Small Firms. Should You Get One?",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5ObFE4dnZMOHZnSDNhamlhcXBnT3A5RFBZX0t3ZEQxYzJFeF9JRE1wcUNJa1FZbHZESWdMbm9wQjBBZy1yOW1qTzIxSEVjYmVWM1pmWF9Jcy1LdzNIaXfSAV5BVV95cUxOTmxROHZ2TDh2Z0gzYWppYXFwZ09wOURQWV9Ld2REMWMyRXhfSURNcHFDSWtRWWx2RElnTG5vcEIwQWctcjltak8yMUhFY2JlVjNaZlhfSXMtS3czSGl3?oc=5",
-          "source": "Law360",
-          "published": "2026-07-17T20:41:00Z",
-          "summary": ""
         },
         {
           "title": "Bakersfield family law attorney is closing office, facing angry reaction from clients",
@@ -232,6 +225,13 @@ window.NEWS_DATA = {
           "source": "The National Law Review",
           "published": "2026-07-17T16:14:49Z",
           "summary": ""
+        },
+        {
+          "title": "Why Legal Content Pillars Are More Important Than Blogs",
+          "url": "https://www.attorneyatwork.com/why-legal-content-pillars-are-more-important-than-blogs/",
+          "source": "attorneyatwork.com",
+          "published": "2026-07-16T10:00:00Z",
+          "summary": "Annette Choti explains the differences between a blog and legal content pillars — and how they work together, hand in hand, to form the foundation of a successful law firm marketing strategy. The post Why Legal Content Pillars Are More…"
         }
       ]
     },
@@ -246,6 +246,13 @@ window.NEWS_DATA = {
           "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQU1h1MUZ4Mk5adXdJX29FVWp1amNPdHFsdDVoTnRhamlxa0NxcU9ad2VnVTdnVzZvejEyX3VXT0RQWlNBeWhqU25GYTFsb3k1Z1pTc0Y3ejRTbkpNOEpWQXhmd1B0b3ZVREpsTlY2ZjlqTUVObkZFQTJ5OFFsNEFMbGtJYk9GYmFkbUV0Yjctd2lqSGRmeEhNSmQydThLWll0ZmtQbmx1a1IyNmhPemJKck5oTThFc1NOdUpLb3kzemQyMVNldDR1bnZISkNqOTBKSjh3d3N6b19GdmZ2LWpudjRyeUc?oc=5",
           "source": "ACCESS Newswire",
           "published": "2026-07-15T14:39:53Z",
+          "summary": ""
+        },
+        {
+          "title": "ABA Offers Credit Card For Small Firms. Should You Get One?",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZC1sMVBEVkZYM245OF9sczhBZko5Z01KbzI5b3h0YVJubmxSbngtUlVWY2NNNFE0UUZmeTVoR1M3QnZ0SlFXZHJWcWg4S29HZzBfbmg2bGpDOGtiVjZuMFZmeHBEc2N4aGlCV0tvMlBRVDcyaDgxN25XbmlmM3VWd3U2NkpNNVV0ODM0S3JzSW9EaWx5MHRDODR4dzdZa2_SAV5BVV95cUxOTmxROHZ2TDh2Z0gzYWppYXFwZ09wOURQWV9Ld2REMWMyRXhfSURNcHFDSWtRWWx2RElnTG5vcEIwQWctcjltak8yMUhFY2JlVjNaZlhfSXMtS3czSGl3?oc=5",
+          "source": "Law360",
+          "published": "2026-07-17T20:41:00Z",
           "summary": ""
         },
         {
@@ -303,13 +310,6 @@ window.NEWS_DATA = {
           "source": "artificiallawyer.com",
           "published": "2026-07-17T08:00:46Z",
           "summary": "We start this week’s Wrap with a survey: ‘Has law firm AI use delivered cost savings for clients?’ There is a link here to share ..."
-        },
-        {
-          "title": "Law Firms Don’t Have an AI Problem, They Have a Data Problem",
-          "url": "https://www.artificiallawyer.com/2026/07/17/law-firms-dont-have-an-ai-problem-they-have-a-data-problem/",
-          "source": "artificiallawyer.com",
-          "published": "2026-07-17T06:42:14Z",
-          "summary": "By Kevin Walker, CEO, Centari. In recent months, several of the world’s leading law firms have announced investments in legal technology at a scale only ..."
         }
       ]
     },
