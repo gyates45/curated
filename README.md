@@ -151,3 +151,11 @@ If you like this project, feel free to donate:
 - Ethereum: 0xded81fa4624e05339924355fe3504ba9587d5419
 - Monero: 43jqzMquW2q989UKSrB2YbeffhmJhbYb2Yxu289bv7pLRh4xVgMKj5yTd52iL6x1dvCYs9ERg5biHYxMjGkpSTs6S2jMyJn
 - Motive: MOTIV-25T5-SD65-V7LJ-BBWRD (Get Motive Now: https://motive.network)
+
+## 📰 AI & Small Law — Daily Brief
+
+This repo also hosts a self-updating news dashboard (separate from the CuratedStack
+template above): top AI news, practical AI for SMEs, small law firm news, AI for
+small law firms, and small-firm consulting. Data refreshes daily via GitHub Actions.
+
+See [`dashboard/`](dashboard/README.md) — or open [`dashboard/index.html`](dashboard/index.html) directly.
