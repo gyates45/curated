@@ -1,289 +1,193 @@
-# Actionable AI Website Review — July 2026
+# Actionable AI Website Review — v2 (live WordPress site) — July 2026
 
-**Scope reviewed:** the five-page site in `02-website/` (the deployable source for actionableai.net): `index.html`, `about.html`, `pricing.html`, `blog.html`, `contact.html`, `post-example.html`.
+**This version supersedes v1**, which reviewed the retired static-HTML prototype in this folder. The live actionableai.net is a different build: a WordPress/Kadence site constructed from `actionable-ai-website-copy.md` + `actionable-ai-wordpress-build-guide.md` (Google Drive → Website folder, April 25–27, 2026).
 
-**Reviewed against your three goals, in your priority order:**
-1. Establish trust (in you, and thought leadership)
-2. Generate bookings of introductory calls
-3. Trade an email address for the newsletter, in exchange for a lead magnet
+**How this review was produced.** This session's network policy blocks direct fetches of actionableai.net (and web.archive.org), so the live rendered site could not be loaded from here. The review is based on the next-best authoritative sources: (a) the April copy + build guide the site was built from, (b) the *live current state* of your Calendly account (13 event types) and Kit account (17 forms, 2 published posts, verified domains), and (c) web-search checks. Anything edited inside WordPress since April is invisible to me — Part 7 is a short spot-check list to reconcile against the live pages.
 
-**Audience:** managing partners and chief administrative officers at Florida law firms of 25 lawyers or fewer.
-
-**Also inspected while preparing this review:** your Calendly account (13 live event types, including one literally named "Website Intro Call") and your Kit account (17 signup forms, including nine practice-area playbooks and a general newsletter form). The single biggest finding of this review is that the website uses none of them.
+**Reviewed against your three goals, in priority order:** (1) trust + thought leadership, (2) intro-call bookings, (3) email-for-lead-magnet newsletter signups. **Audience:** managing partners and CAOs at Florida firms of **25 lawyers or fewer**.
 
 ---
 
-## The verdict in five sentences
+## First: what the current site gets right
 
-The voice and design instincts are genuinely good — plain, confident, anti-hype, and the "tools you already pay for" premise is exactly right for this audience. But the site currently fails all three of its jobs for one structural reason and three positioning reasons. **Structural:** every conversion path is a dummy — the contact form is a `mailto:` that silently fails, the newsletter form submits to nothing, and the scheduler you built your funnel around isn't linked anywhere. **Positioning:** the site never says Florida, never says you were a Big Law partner, and targets "under 50 people" when your business is firms under 25 lawyers. And several proof claims (engagement-average statistics, implied client history) outrun what you can currently back up — which, for an audience of professional skeptics, is worse than having no numbers at all.
+Credit where due — the April build is dramatically stronger than the old prototype, and several things v1 flagged are already solved:
+
+- **The Big Law credential leads.** "A former Big Law partner. Not a tech evangelist." / "decades as a corporate partner." This is the right anchor for a managing-partner audience.
+- **Location is real.** Daytona Beach Shores appears on About and Contact.
+- **No fabricated statistics.** The FAQ's ROI answer — *"I won't promise a number I can't back up"* — is exactly the right proof posture for a young practice, and it converts honesty into differentiation.
+- **The FAQ page is genuinely good.** The confidentiality answer (Copilot-in-tenant vs. public chatbot) and "I'm a former lawyer. I am not your lawyer." are trust-builders most competitors won't write.
+- **Testimonial framing is honest** ("These speak to how I work. AI-specific case studies coming as engagements complete").
+- **Tier naming** ("One Workflow, Done Right") and the "What I won't do" section are strong.
+- **Voice** is consistent and right: dry, specific, anti-hype.
+
+The remaining problems are (1) the copy predates three months of business evolution — your positioning, firm-size target, email platform, lead-magnet library, and scheduling infrastructure all changed after April — and (2) a handful of conversion-path defects.
 
 ### Scorecard
 
-| Goal | Current grade | Why |
+| Goal | Grade | Summary |
 |---|---|---|
-| 1. Trust / thought leadership | C− | Right voice, but placeholder headshot, dead links, fabricated-looking stats, wrong email domain, fake blog posts, no credentials, no Florida presence |
-| 2. Book intro calls | F | "Book a call" leads to a `mailto:` form. Your Calendly is never linked. Conversion is effectively zero by design |
-| 3. Newsletter via lead magnet | F | No lead magnet on the site at all (you have 14+ built in Kit). Newsletter form is unwired and credits the wrong platform (Beehiiv; you're on Kit) |
+| 1. Trust / thought leadership | B− | Strong voice and credential; but Florida is a footnote instead of a strategy, placeholders (testimonials, retainer price, orphaned FAQ answer) may still be live, and the site isn't indexed by search engines yet |
+| 2. Book intro calls | C | CTAs exist and Calendly exists, but the promised "20-minute call" doesn't match any real event (all 13 are 30 min), and the "pay at booking via Stripe" flow described on Pricing isn't wired — no Calendly event has payment attached |
+| 3. Newsletter via lead magnet | D | The site was built for Beehiiv; you're on Kit. You now have 14 finished lead magnets with live Kit forms and (per the April plan) none on the site. The engine exists; the site doesn't use it |
 
 ---
 
-## Part 1 — Fix-now trust breakers
+## Part 1 — Business-alignment gaps (the copy is three months behind the business)
 
-These are the things a skeptical managing partner (or their CAO, who *will* click every link before recommending you) notices in the first two minutes. Each one independently kills credibility; together they read as "this consultant's own operations don't work."
+### 1.1 "Under 50 people" → "25 lawyers or fewer"
 
-1. **Wrong domain on every email link.** All five pages use `hello@actionableai.casa` (footer + contact page + form action). Your site is actionableai.net and your real address (per Calendly) is `gyates@actionableai.net`. An "AI operations consultant" whose email bounces is disqualifying. *(all pages, footer; `contact.html:44,92`)*
-2. **The contact form is a `mailto:` form.** `action="mailto:..." method="POST" enctype="text/plain"` opens the visitor's desktop mail client — and on machines without one configured (most corporate Windows setups, many mobile browsers) it does nothing at all, discarding everything they typed. This is your #2 goal failing at the final step. *(`contact.html:44`)*
-3. **Visible placeholder headshot.** The About page renders the literal text "[ Replace with headshot.jpg / 4:5 portrait crop / ≥ 1200px wide ]". *(`about.html:35-38`)*
-4. **Dead links everywhere.** LinkedIn, X, and Newsletter footer links are `href="#"` on every page. Seven of eight blog posts link to `#`. "Older posts →" links to `#`. "Follow on X" links to twitter.com's homepage. The LinkedIn card on the contact page (`/in/gregyates`) is also `href="#"`.
-5. **Unverifiable statistics presented as engagement averages.** "8.5 hrs average time returned…", "3 days → 4 hrs typical…", "Averages from small-firm engagements." *(`index.html:86-100`)* If these come from real engagements you can name (even anonymized: "across six 2025–26 engagements"), keep them and add that attribution. If they are projections or aspirations, they are a liability: the first prospect who asks "which engagements?" ends the relationship. Lawyers are professionally trained to attack unsupported precision. Part 2.4 gives the replacement proof strategy.
-6. **A Manhattan phone number on a Florida practice.** (212) 765-0685 reads as New York. If you're positioning as Florida-focused, use a Florida number, a toll-free number, or drop the phone entirely (Calendly makes it unnecessary). *(`contact.html:93`)*
-7. **"Hosted on Beehiiv" — you're on Kit.** Stated on the blog page newsletter form and in the About bio. Nothing says "I don't actually run this stack" like crediting the wrong vendor for your own newsletter. *(`blog.html:144`, `about.html:50`)*
-8. **20-minute call promised, 30-minute call delivered.** Site copy repeatedly says "20 minutes"; every Calendly event you have is 30. When the booking page shows 30, the promise reads as bait. Standardize on 30 (recommended — the calls *are* 30) or create a real 20-minute event.
-9. **Favicon never loads.** `favicon.svg` exists in the folder but no page includes `<link rel="icon" href="favicon.svg" type="image/svg+xml">`, so browsers show a blank tab icon.
-10. **Firm-size options contradict your positioning.** The contact form offers "16–30", "31–50", and "Over 50" — and the hero says "Under 50 people." Your business is under 25 lawyers. *(`contact.html:59-66`, `index.html:32`)*
-11. **Implied-history claims to soften.** "That's typically eight to twelve active engagements at a time" (`about.html:57`), "a four-lawyer shop in Tulsa… a forty-lawyer regional firm" (`about.html:48`), "Firms I've run this workflow with typically see…" (`post-example.html:67`), and the "Austin firm" case-study teaser (`blog.html:79`). Keep whatever is true; reframe the rest as capacity ("I cap active engagements at eight") and illustration ("Run well, this workflow takes intake-to-engagement from days to hours") rather than history.
+Your stated market is firms under 25 lawyers. The April copy says "under 50" at least five times:
 
----
+- Home hero subhead ("under 50 people, attorneys included")
+- Home Section 4 ("Built for firms under 50")
+- About fit list ("Run under 50 people, attorneys included")
+- FAQ "What size firm is this built for?" ("Under 50 people… Below 10 is the sweet spot")
 
-## Part 2 — Strategic repositioning
+Replace all of them with one consistent formulation — recommended: **"firms of 25 lawyers or fewer"** (and keep the FAQ's honest "below 10 is the sweet spot" line if that's still true — specificity like that builds trust). Also update the Fluent Forms firm-size options if a size dropdown exists: Solo / 2–5 / 6–10 / 11–25 / Over 25.
 
-### 2.1 Claim Florida. Loudly.
+### 1.2 Florida is a mailing address, not a positioning
 
-The word "Florida" does not appear once on the site. For your stated audience this is the single largest missed opportunity, because Florida is not just your territory — it's a *content angle* nobody generic can match:
+The current copy names Daytona Beach Shores but then actively nationalizes: "I work with firms across the country," "I cover all 50 states for retainer clients," "Working with small law firms across the U.S." Your brief says the primary market is **Florida managing partners and CAOs**. Two additional reasons Florida-first is right beyond focus:
 
-- **The Florida Bar has already blessed AI use — with conditions.** [Ethics Opinion 24-1](https://www.floridabar.org/etopinions/opinion-24-1/) (Jan. 19, 2024) says lawyers may use generative AI but must protect confidentiality (informed consent recommended before putting confidential information into third-party tools), maintain competence and oversight, keep billing honest (no billing clients for time AI saved), and follow advertising rules; AI intake tools must not give legal advice (Rule 1.18 duties). ([JD Supra summary](https://www.jdsupra.com/legalnews/florida-bar-advisory-opinion-24-1-gives-9432036/), [Hinshaw analysis](https://www.hinshawlaw.com/en/insights/lawyers-for-the-profession-alert/florida-bar-advisory-opinion-24-1-gives-green-light-to-generative-ai-use-by-lawyers-with-four-ethical-caveats/)) Every workflow you install "designed to Opinion 24-1" is a claim no out-of-state generalist is making.
-- **Florida was the first state to mandate technology CLE** — [3 hours per 3-year cycle](https://www.floridabar.org/member/cle/general-cle-info-and-requirements/), effective 2017 ([ABA Journal](https://www.abajournal.com/news/article/florida_supreme_court_approves_mandatory_tech_cles_for_lawyers)). Your workshops can be pitched as satisfying an obligation partners already have. That converts "nice to have" into "we needed these hours anyway."
-- **Practical positioning effects:** "AI consultant for small law firms" is a commodity search; "AI consulting for small law firms in Florida" is winnable. And managing partners refer within state bar circles — a Florida identity compounds.
+- **The content angle is unbeatable in-state.** [Florida Bar Ethics Opinion 24-1](https://www.floridabar.org/etopinions/opinion-24-1/) (Jan. 2024) green-lights generative AI with duties — confidentiality (informed consent before confidential data enters third-party tools), competence/oversight, honest billing, Rule 1.18 limits on AI intake ([JD Supra summary](https://www.jdsupra.com/legalnews/florida-bar-advisory-opinion-24-1-gives-9432036/), [Hinshaw analysis](https://www.hinshawlaw.com/en/insights/lawyers-for-the-profession-alert/florida-bar-advisory-opinion-24-1-gives-green-light-to-generative-ai-use-by-lawyers-with-four-ethical-caveats/)). And Florida was the first state to mandate [3 hours of technology CLE per cycle](https://www.floridabar.org/member/cle/general-cle-info-and-requirements/) ([ABA Journal](https://www.abajournal.com/news/article/florida_supreme_court_approves_mandatory_tech_cles_for_lawyers)). "Workflows designed to Opinion 24-1" + "training that satisfies hours partners already owe" are claims a national generalist can't make.
+- **The retainer's economics demand it.** One on-site day per month per retainer client "anywhere in the country" is a brutal promise for a solo. Florida-first makes the on-site day a drivable I-4/I-95 corridor trip (Jacksonville–Orlando–Tampa–South Florida) instead of an airfare-and-hotel margin leak.
 
-**How to apply it (without excluding non-Florida business):** Florida-first, not Florida-only. Hero eyebrow, title tags, one dedicated homepage section, About location line, footer line ("Serving law firms across Florida — remote-friendly everywhere"). The pricing FAQ already handles out-of-state gracefully.
+**Recommended posture: Florida-first, not Florida-only.** Lead with Florida in the hero eyebrow/subhead, add a "Built for Florida practice" section (copy in Part 3), set title tags and schema to Florida, change the footer line to "Daytona Beach Shores, FL · Working with small law firms across Florida" — and keep the FAQ answer that welcomes remote out-of-state work.
 
-### 2.2 Lead with the ex-Big Law credential
+### 1.3 The buyer is never named
 
-Your Kit bio says it plainly: *"Ex-Big Law partner turned peer-credible translator."* The website never mentions it. For managing partners, this is the difference between "a tech consultant who found a niche" and "one of us who went deep on this." It answers the unasked first question — *why should a lawyer listen to you about legal work?* — in four words. It belongs in the homepage lead paragraph, the About H1/opening, and the booking page. (Part 5 lists the specifics to confirm before publishing: firm/years/practice area, and how you want it phrased.)
+Add the two personas explicitly — managing partner and CAO/firm administrator. The administrator is usually the person who evaluates you first, clicks every link, and forwards the site to the partner; the practice-area playbooks and FAQ are largely for them. One sentence in the Home "Who I work with" section plus a Role field on the contact form covers it.
 
-### 2.3 Name the buyer
+### 1.4 Beehiiv → Kit (this one can be silently losing signups)
 
-The copy speaks to a generic "you." Your buyers are two specific people: the **managing partner** (owns the P&L, fears falling behind, fears embarrassment more) and the **CAO / firm administrator** (owns the tools, evaluates you first, forwards the link). Add one "who this is for" moment on the homepage and a role field on the intake form. The CAO is also your lead-magnet reader — the playbooks page (Part 3.6) is largely for them.
+The copy and build guide wire the newsletter to **Beehiiv embeds** (Blog page, footer, post-footer). Your actual stack is **Kit**: publication "Actionable AI for Law," verified domains `actionable-ai-for-law.kit.com` and **`newsletter.actionableai.net`**, a General Sign Up form, and two published issues of *The Small Firm Brief* (June 3 and June 9). If the live site still carries Beehiiv embeds, every signup is going to a dead or wrong list — check this first, before anything else in this document. Replacement embeds are in Part 5.
 
-### 2.4 Proof strategy for a young practice
+Also standardize the newsletter's public name — the published issues say "The Small Firm Brief"; other materials say "The Small Law Firm AI Workflow Brief." Pick one (recommended: **The Small Firm Brief** — shorter, already in print) and use it on the site, the Kit forms, and the masthead.
 
-You can't cite a body of engagements yet. That's fine — but then the site must generate trust from things that are *verifiably true today*:
+### 1.5 The April plan deferred lead magnets — but you built them anyway
 
-1. **Workflow math, labeled as illustration.** "An intake summary is ~45 minutes of cleanup per new matter. With a saved prompt in the AI tool you already pay for, it's about five. Multiply by your new matters this month." Concrete, checkable, honest.
-2. **Process promises you control.** Flat pricing, month-to-month, no vendor kickbacks, "if it's not working, we stop." (You already have these — the "Three promises" card is the best trust asset on the site. Keep it.)
-3. **Demonstrated expertise: the playbooks.** Fourteen finished, practice-area-specific deliverables *are* your track record right now. Showing them beats claiming averages.
-4. **The audit-first structure.** "Every roadmap shows the before/after math for your matters before you commit to anything" turns absent proof into a selling point: you don't ask to be believed, you offer to demonstrate.
-5. **Later:** the moment you have one nameable client outcome or quotable testimonial, add a testimonial section and reinstate real numbers with attribution. The README's instinct ("no testimonial carousel until you have real ones") is correct.
-
-### 2.5 Conversion architecture — one primary action, one secondary, every page
-
-Right now the site's CTAs point at a form that doesn't work, and pricing tiers link at themselves (`index.html` tier buttons → `pricing.html`, where buttons → the broken contact form). Restructure so every page ends in exactly two possible actions:
-
-- **Primary (goal 2): Book the intro call** → `https://calendly.com/gyates-actionableai/website-intro-call` — embedded inline on the booking page, linked everywhere else. You built this event for exactly this; it's currently orphaned.
-- **Secondary (goal 3): Get a playbook** → Kit form (which enrolls them in the newsletter — your stated exchange).
-
-Page-level map:
-
-| Page | Primary CTA | Secondary CTA |
-|---|---|---|
-| Home | Book intro call | Small Firm AI Workflow Playbook |
-| About | Book intro call | Newsletter |
-| Playbooks (new) | The 14 magnets | Book intro call |
-| Pricing | Tier-specific Calendly events (see 3.3) | Book intro call |
-| Blog | Newsletter signup | Book intro call |
-| Book a call (was Contact) | Calendly inline embed | Real email form fallback |
-
-### 2.6 Fix the "assessment" name collision
-
-Three different things are currently named "assessment": the paid $995 tier, a free Calendly event ("AI Readiness Assessment"), and a Kit lead magnet ("AI Readiness Assessment"). A prospect who saw the free PDF will not pay $995 for what sounds like the same thing. Recommended renames:
-
-- Paid tier → **The AI Workflow Audit** ($995) — "audit" signals rigor and deliverable
-- Free 30-min call → **Intro call** (the `website-intro-call` event)
-- Kit magnet → **AI Readiness Self-Assessment** (a checklist you score yourself)
-
-Rename the Calendly event types to match ("AI Readiness Assessment " → "Workflow Audit — working session"), and update the contact-form dropdown and all tier CTAs accordingly.
+The build guide's post-launch advice was "lead magnets… come after you have 12 weeks of content." Reasonable in April. It's now July and you have **14 finished magnets with live Kit forms**: nine practice-area playbooks (PI, real estate, T&E, family, business/corporate, commercial litigation, employment, criminal, bankruptcy) plus the Small Firm AI Workflow Playbook, Intake Workflow Playbook, AI Ethics Quick Reference, Vendor Evaluation Worksheet, and AI Readiness Self-Assessment. Goal 3 is unachievable while none of them appear on the site. Part 4 specs the Playbooks page; it's the single highest-leverage addition available to you this month.
 
 ---
 
-## Part 3 — Page-by-page, with rewrites
+## Part 2 — Conversion-path defects (goal 2)
 
-Copy below is written in your existing voice and ready to paste. Bracketed `[CONFIRM: …]` items are facts only you can supply — they're all collected in Part 5.
+1. **"20-minute call" doesn't exist.** Every CTA promises 20 minutes; all 13 Calendly events are 30. When the booking page shows 30, the promise reads as bait-and-switch — precisely the vendor behavior the site rails against. Either change site copy to "a 30-minute call" (recommended; the calls are 30) or create a real 20-minute event.
+2. **"Paid in advance via Stripe at booking" isn't wired.** The Pricing page says Assessment ($995) and One Workflow ($1,995) are paid at booking; the build guide says to attach Stripe to those Calendly events and require payment to confirm. **None of your 13 Calendly events currently has payment attached** (`is_paid: false` on all). Either attach Stripe to "AI Readiness Assessment" and "AI Implementation Discussion" in Calendly, or change the Pricing copy to "invoiced at kickoff." A prospect who books expecting to pay and isn't charged is confused; one who reads "pay at booking" and can't is worse.
+3. **Use the event you built for this.** You created a "Website Intro Call" event (`calendly.com/gyates-actionableai/website-intro-call`) — presumably for source attribution, which is smart. Every general "Book a Call" CTA on the site should use it (one URL, everywhere, exactly as the April build notes said). Pricing-tier CTAs map to their specific events: `/ai-assessment`, `/ai-implementation-discussion`, `/monthly-retainer-discussion`.
+4. **Name collision in the funnel.** "Assessment" currently means: the $995 paid tier, the free "AI Readiness Assessment" Calendly event, *and* the "AI Readiness Assessment" Kit lead magnet. A prospect who downloaded the free PDF will not pay $995 for what sounds identical. Recommended: paid tier stays **Assessment** (it's established on the site); rename the Calendly event to "Assessment — working session" (it's the paid engagement's session) and the Kit magnet to "AI Readiness **Self-Assessment**."
+5. **Calendly event hygiene.** 13 active events with overlapping names ("Intro Call," "Website Intro Call," "Playbook Intro Call," "LinkedIn," "LinkedIn Scheduling," "Email Outreach"…) is fine as private source-tracking, but make sure only the intended ones are linked publicly, and note "AI Readiness Assessment " has a trailing space in its name.
 
-### 3.1 Home — complete rewrite
+---
 
-**`<title>`:** `AI Consulting for Small Law Firms in Florida | Actionable AI`
-**Meta description:** `Former Big Law partner helping Florida firms of 25 lawyers or fewer get real results from the AI in tools they already pay for. Flat pricing. No vendor kickbacks.`
+## Part 3 — Copy revisions (targeted; the April voice and structure should stay)
 
-> **Eyebrow:** For Florida law firms · 25 lawyers or fewer
+Unlike v1, this is not a teardown — the April copy is good. These are surgical replacements. Bracketed `[CONFIRM]` items are collected in Part 6.
+
+### 3.1 Home
+
+**Hero (replace):**
+
+> **H1:** AI for small law firms. Without the noise.
 >
-> **H1:** Practical AI for Florida's small law firms. No new software. No hype. Just the playbook.
+> **Subhead:** I'm Greg Yates — a former Big Law partner based in Daytona Beach Shores. I help Florida firms of 25 lawyers or fewer turn AI into time saved, fewer admin headaches, and better client experience. No new platforms. No vendor theater. Just better use of the tools you already pay for.
 >
-> **Lead:** I'm Greg Yates — a former Big Law partner [CONFIRM phrasing] who now helps managing partners and firm administrators get measurable results from AI: hours back every week, faster intake, better client communication. Built almost entirely on the tools your firm already pays for.
+> [BUTTON (primary): Book a 30-Minute Call → calendly.com/gyates-actionableai/website-intro-call]
+> [BUTTON (secondary): Get a Free Playbook → /playbooks]
+
+*(H1 stays — it's your best line. The subhead now carries: name, credential, geography, firm size. "See Pricing" moves down-page; the secondary hero action becomes the magnet, per your goal order.)*
+
+**Section 4 — retitle and refocus (replace):**
+
+> **H2:** Built for Florida firms of 25 lawyers or fewer
 >
-> **Buttons:** [Book a 30-minute intro call] → calendly.com/gyates-actionableai/website-intro-call  ·  [Get the free playbook] → playbooks.html
-
-**Section — The problem** (tightened, keeps your best lines):
-
-> **Eyebrow:** The problem
+> My focus is small firms — 25 lawyers or fewer, and most of my clients are under ten. Managing partners who own the problem. Firm administrators who own the tools. Solos. Boutique litigation shops. Plaintiff firms. Estate planning. Family. Real estate. Whatever the practice area, the math is the same: small headcount, big workload, no time for theater.
 >
-> **H2:** Most AI sold to law firms is an overpriced chatbot with a legal skin.
+> I'm based in Daytona Beach Shores and work with firms across Florida — Jacksonville to Miami, Tampa to the Space Coast. Remote works everywhere; retainer clients get me on-site.
 >
-> You already pay for Microsoft 365. You probably pay for Clio. A $20-a-month AI subscription covers most of the rest. That stack already handles the majority of what "legal AI" vendors will sell you for $400 a seat — *if* someone sets it up around how your firm actually works.
+> A fit if you want practical help, not a pitch deck. A fit if you'd rather get one workflow right than buy six tools you'll never use. A fit if you're skeptical of the hype but curious about what's real.
+
+**NEW section (insert after Section 4) — the Florida trust anchor:**
+
+> **H2:** The Florida Bar already answered "can we use AI?" The real question is "how, safely?"
 >
-> The question isn't which tool to buy next. It's which tool you already own that isn't earning its keep.
-
-**Section — What I do:** keep your three cards (Productivity / Revenue / Client delight) essentially as-is; they're good. One edit: in card 01, "work that shouldn't be billable" → "work you can't bill for anyway" (as written it can be misread as advocating billing judgment calls).
-
-**Section — replace the stats block** (`index.html:82-102`) with illustration math:
-
-> **Eyebrow:** Where the hours hide
+> Ethics Opinion 24-1 says Florida lawyers may use generative AI — with duties attached: confidentiality, competence, supervision, honest billing. Every workflow I build is designed to those duties. Client-confidential information stays out of tools that train on it. A lawyer stays in the loop on anything resembling judgment. Nothing in the setup lets you bill for time you didn't spend.
 >
-> **H2:** The math is boring. That's the point.
->
-> - **Intake summary** — ~45 minutes of note cleanup per new matter → about 5, with one saved prompt in the AI tool you already have.
-> - **Engagement letter first draft** — starts from the intake form instead of a blank page. Partner review drops from forty-five minutes to ten.
-> - **Client status updates** — meeting notes become a client-ready update in minutes, not a Friday-afternoon chore that slips to Tuesday.
->
-> Illustrations, not promises — every firm's numbers differ. That's why engagements start with an audit: you see the before-and-after math for *your* matters, in writing, before you commit to anything.
+> And since Florida requires three hours of technology CLE every cycle — first state in the country to do it — the training that comes with an engagement isn't just adoption insurance. It's hours your lawyers already owe. [CONFIRM: if any workshop carries approved CLE credit, say so here explicitly; if not, cut this sentence at "adoption insurance."]
 
-**Section — NEW, Built for Florida practice** (this is the thought-leadership anchor):
+**Section 5 (Three ways to start):** keep, with the price for the retainer filled in [CONFIRM — build guide recommended $4,950/mo] and buttons pointed at the tier-specific Calendly events (Part 2 #3).
 
-> **Eyebrow:** Built for Florida practice
->
-> **H2:** The Florida Bar has already answered "can we use AI?" The real question is "how, safely?"
->
-> - **Ethics Opinion 24-1.** Florida lawyers may use generative AI — with duties: confidentiality, competence and oversight, honest billing. Every workflow I install is designed to those duties, including keeping client-confidential information out of tools that train on it.
-> - **Technology CLE.** Florida was the first state to require tech CLE — three hours every cycle. Training your team on workflows you'll actually use is a better way to spend them than another webinar. [CONFIRM: whether your workshops carry CLE accreditation — if yes, say so explicitly; it's a differentiator]
-> - **Florida matters.** Playbooks tuned to the work Florida small firms actually do: personal injury, real estate, trusts & estates, family, business.
+**Section 7 (Process), Step 1:** "A 20-minute call" → "A 30-minute call."
 
-**Section — Why me:** keep the "Three promises" card verbatim (it's the best thing on the page). Rewrite the left column to carry the credential:
-
-> **H2:** I'm not a vendor. I don't resell software. I don't take referral fees.
->
-> I spent [CONFIRM: N years] in practice, including [CONFIRM: partner at an AmLaw/large firm — how you want it phrased]. I know what a matter looks like from inside, what privilege actually requires, and how little patience a busy partner has for tools that don't work on the first try.
->
-> Most people pitching AI to law firms have something to sell you — a platform, a subscription, a prompt pack. I don't. My job is to tell you what's worth doing and what isn't, using the stack you already have. I work with a small number of firms at a time. I answer my own email. And I'll tell you plainly if AI isn't the answer to the problem you're describing.
-
-**Section — pricing teaser:** replace the full three-tier grid (`index.html:106-161`) with one line + link — the homepage's job is trust and the call, not the menu:
-
-> Engagements are flat-priced and start at $995, with no lock-ins and no "contact sales" tiers. **See pricing →**
-
-**Section — NEW, lead-magnet band** (above the final CTA):
+**NEW slim band above the final CTA — the magnet exchange (goal 3 on the homepage):**
 
 > **H2:** Steal the playbook first. Hire me later — or never.
 >
-> **The Small Firm AI Workflow Playbook** — the workflows I install most often, written out step-by-step for firms of 25 lawyers or fewer. Free, in exchange for your email. You'll also get *The Small Law Firm AI Workflow Brief* — one workflow, one honest take, weekly. Unsubscribe anytime.
+> **The Small Firm AI Workflow Playbook** — the workflows I install most often, written step-by-step for firms of 25 lawyers or fewer. Free, in exchange for your email. It comes with *The Small Firm Brief*: one email a week on what's actually working. Unsubscribe anytime.
 >
-> [Kit embed: form `a102d27b6a` — "The Small Firm AI Workflow Playbook"]
+> [Kit embed — form `a102d27b6a`, see Part 5]
 
-**Final CTA (ink band):** keep, with two edits — "20-minute" → "30-minute", and link straight to Calendly instead of the contact page.
+**Final CTA:** keep; "20 minutes" → "30 minutes."
 
-### 3.2 About — complete rewrite
+### 3.2 About
 
-**`<title>`:** `About Greg Yates — Actionable AI | Former Big Law Partner, AI Consultant for Florida Law Firms`
+- **Subhead (replace):** "Former Big Law corporate partner. Solo consultancy based in Daytona Beach Shores. I work with small law firms across Florida — plain English, practical work, no pitch decks."
+- **Fit list:** "Run under 50 people, attorneys included" → "Run 25 lawyers or fewer."
+- **Section 5 (replace):**
+  > **H2:** Daytona Beach Shores. Working across Florida.
+  >
+  > Most engagements run remote, which works anywhere. Retainer clients get one full day on-site each month — and because I keep my practice concentrated in Florida, that day is a drive, not a departure gate. Out-of-state firm? Remote advisory and assessments still work fine; ask.
+- **Section 6 (testimonials):** the placeholder framing is right — but confirm real quotes are live. If none exist yet, replace the block with the "What I won't do" list from Pricing (character proof you can already back) rather than shipping an empty promise. [CONFIRM]
+- **Add one stance to the point-of-view section:** *"**4. The Florida Bar got it right.** Opinion 24-1 isn't a barrier; it's a spec sheet. Confidentiality, supervision, honest billing — if a workflow can't meet those, you shouldn't run it, AI or not."*
 
-> **H1:** A guide, not a vendor. A practitioner, not a futurist.
->
-> **Lead:** I'm Greg Yates. I spent [CONFIRM: N years] as a lawyer, including [CONFIRM: partner at (firm/type)]. Now I help Florida firms of 25 lawyers or fewer use AI for the things that actually matter to a practice: reclaiming time, growing revenue, and making clients glad they hired you.
->
-> *(Keep your existing second and third paragraphs — "breathless or paranoid… what should I do on Monday morning?" is the best writing on the site. Change nothing.)*
->
-> **What I bring**
-> [CONFIRM: rewrite around the real résumé. Suggested shape:] Years inside a large firm taught me how legal work actually flows — and how partners actually decide. Since then I've built and shipped AI workflows for the tools small firms already run on: Microsoft 365, Clio, and the major AI assistants. I publish the specifics — fourteen practice-area playbooks and a weekly brief — so you can judge the thinking before you ever pay me.
->
-> I write *The Small Law Firm AI Workflow Brief*, a weekly newsletter on what's actually working in small-firm AI. I speak at bar associations, law-firm management conferences, and CLEs. I answer my own email.
->
-> **What I don't do** — keep your list, two edits:
-> - "Work with more firms than I can serve well. **I cap active engagements at [CONFIRM: number].**" (a cap is honest whether or not you're full; "that's typically eight to twelve active engagements" implies current volume)
-> - Add: "**Put client-confidential information into tools that train on it.** Yours or anyone's."
->
-> **Where I stand on a few things** — keep all three (they're strong), and add a fourth for Florida:
->
-> **On the Florida Bar and AI.** Opinion 24-1 got it right: the question isn't whether lawyers may use AI — they may — it's whether you can show your use protects confidentiality, stays supervised, and bills honestly. Every workflow I build is designed so a managing partner could explain it to the Bar without flinching.
->
-> **Outside the work** — keep, but replace "Based in the United States" with "Based in [CONFIRM: city], Florida." Keep the closing "boring thing, carefully, for a long time" line — it's excellent.
->
-> **CTA:** Book a 30-minute intro call → Calendly `website-intro-call`
+### 3.3 Pricing
 
-**Also:** replace the placeholder headshot block with a real `<img>` (`headshot.jpg` per the README instructions — you have a usable portrait on your Calendly profile if nothing newer exists).
+- Fill `[INSERT MONTHLY PRICE]` if still live. [CONFIRM decided number]
+- Reconcile payment language with reality (Part 2 #2): either wire Stripe into the two Calendly events or change both "paid in advance via Stripe at booking" lines to "invoiced at kickoff."
+- Fix the orphaned FAQ answer (it likely migrated to the live FAQ): "**H3:** Yes, after the three-month minimum. Month-to-month after that." is an answer with no question. Restore: "**Can we cancel the retainer?**"
+- Retainer copy: "one full day on-site each month" → "one full day on-site each month (Florida; travel outside Florida billed at cost)" [CONFIRM policy].
 
-### 3.3 Pricing — targeted revisions (page is fundamentally sound)
+### 3.4 FAQ
 
-1. **Rename tier 1** "The Assessment" → **"The AI Workflow Audit"** (see 2.6). Kicker stays "Diagnosis before prescription."
-2. **Point tier CTAs at the Calendly events you already built**, instead of the broken contact form:
-   - Workflow Audit → `calendly.com/gyates-actionableai/ai-assessment` (button: "Book the audit working session")
-   - Implementation Sprint → `calendly.com/gyates-actionableai/ai-implementation-discussion`
-   - Retainer → `calendly.com/gyates-actionableai/monthly-retainer-discussion`
-   - Undecided (bottom CTA) → `website-intro-call`
-3. **Add one Florida line** under the tier grid: "Workshops and CLE bookings priced separately" → "Workshops, firm retreats, and Florida tech-CLE sessions priced separately [CONFIRM CLE status] — get in touch."
-4. **FAQ:** keep all eight (they're good — the last one is your whole pitch in two lines). Add two:
-   - *"How do you handle the Florida Bar's AI guidance?"* → "Every workflow is designed to Ethics Opinion 24-1: confidential information stays out of self-learning tools, lawyers stay in the loop on anything resembling judgment, and nothing in the setup lets you bill for time you didn't spend. I'll walk your team through the why, not just the how."
-   - *"Are you a lawyer?"* → [CONFIRM: your preferred one-line answer re: bar status — this question comes on every first call anyway; answering it on the site builds trust]
-5. **Final CTA band:** "20 minutes" → "30 minutes," link → Calendly.
+- Firm-size answer per 1.1.
+- Add two Florida questions:
+  > **How do you handle the Florida Bar's AI guidance?** Every workflow is designed to Ethics Opinion 24-1: confidential client information stays out of self-learning tools, lawyers supervise anything resembling judgment, and billing stays honest. I'll walk your team through the why, not just the how.
+  >
+  > **Can training count toward Florida's technology CLE requirement?** [CONFIRM — if yes: "Yes — Florida requires three hours of technology CLE each cycle, and sessions can be structured to qualify." If not yet: "Florida requires three hours of technology CLE each cycle. My workshops are built as practical tech training; ask about CLE accreditation for your firm's session."]
+- The existing "more than half the states have issued guidance" answer: add "— including Florida, whose Opinion 24-1 I design to by default."
 
-### 3.4 Contact → rename "Book a call" — complete rewrite
+### 3.5 Blog
 
-Rename nav label and page purpose around the call (the form becomes the fallback, not the star).
+- **Newsletter block (replace Beehiiv):** name it — *The Small Firm Brief* — and embed the Kit General Sign Up form (`8f364d0a1a`, Part 5). Keep your two-line pitch; it's good.
+- **Link the real issues now** (also candidates for republishing as native posts so the page isn't empty):
+  - "$117 for a contract review. Attorney included." — actionable-ai-for-law.kit.com/posts/117-for-a-contract-review-attorney-included
+  - "The AI file note is becoming the whole ballgame" — actionable-ai-for-law.kit.com/posts/the-ai-file-note-is-becoming-the-whole-ballgame
+- The build guide's own rule applies: if fewer than two posts are live on the blog itself, hide Blog from nav until republished. [CONFIRM current post count]
+- Nav/footer "Newsletter" links → `newsletter.actionableai.net` (verified in Kit; use it as the canonical newsletter home).
 
-> **H1:** Book an intro call.
->
-> **Lead:** Thirty minutes, free, no pitch. Bring one workflow that's slower or more annoying than it should be — intake, client updates, drafting, follow-ups. I'll tell you honestly whether an engagement makes sense. If it doesn't, you'll leave with the first thing to try on your own either way.
->
-> **[Calendly inline embed — `website-intro-call`]**
-> ```html
-> <div class="calendly-inline-widget"
->      data-url="https://calendly.com/gyates-actionableai/website-intro-call?hide_gdpr_banner=1"
->      style="min-width:320px;height:700px;"></div>
-> <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
-> ```
->
-> **Sidebar — "Rather not book yet?"**
-> Email: gyates@actionableai.net *(or hello@actionableai.net — [CONFIRM which mailboxes exist]; kill every `.casa` reference)*
-> LinkedIn: [CONFIRM real URL]
-> *(Phone: drop it, or use a Florida/toll-free number — see Part 1 #6)*
->
-> **Keep the "What happens next" card** — it's excellent and directly serves goal 2. One edit: step 2 becomes "We talk for 30 minutes" since booking now *is* the first step.
->
-> **Keep the press/podcast card** as-is (with fixed email domain).
+### 3.6 Contact
 
-**Fallback form** (for the "I don't book calls with strangers" persona — real, at these firms): wire to a real backend (Formspree, Basin, or Netlify Forms — the README already suggests these; any of them is fine). Field changes:
-- Add **Role**: Managing partner / Firm administrator (CAO, COO, office manager) / Lawyer / Other
-- **Firm size**: Solo / 2–5 / 6–10 / 11–25 / Over 25 ("I mostly work with smaller firms")
-- **Interest** options renamed to match 2.6: Intro call / AI Workflow Audit ($995) / Implementation Sprint ($1,995) / Retainer ($2,995/mo) / Speaking, workshop, or CLE / Not sure yet
+- Replace `[INSERT EMAIL]` / any `actionableai.casa` reference with the real mailbox — `gyates@actionableai.net` [CONFIRM whether a hello@ alias exists; the April notes still recommended a `.casa` alias, which is stale].
+- Fluent Forms: add **Role** (Managing partner / Firm administrator / Lawyer / Other) and **Firm size** (Solo / 2–5 / 6–10 / 11–25 / Over 25); keep practice-area dropdown — align its options with the playbook lineup.
+- "Where I am" section: swap "I cover all 50 states for retainer clients" for the Florida-first framing (3.2).
+- Calendly info box: "20-minute" → "30-minute," link → `website-intro-call`.
 
-### 3.5 Blog — honest restructure
+### 3.7 Footer (all pages)
 
-The page currently lists eight posts; seven link to `#`. Two options, in order of preference:
+- Line: "Daytona Beach Shores, FL · Working with small law firms across Florida"
+- Connect column: LinkedIn [CONFIRM URL] · Newsletter → newsletter.actionableai.net · Playbooks → /playbooks · Email → real mailbox
 
-- **A (recommended): trim to what exists.** Keep only posts with a live destination — `post-example.html` today, plus your Kit-published pieces as they go up (link out to `actionable-ai-for-law.kit.com` posts; the README already anticipates this pattern). Delete "Older posts →" until it's true. A blog with two real posts reads as *young*; a blog with seven dead links reads as *fake*. Young is fine. Fake is fatal.
-- **B: publish the drafts.** The eight titles are genuinely good (the ABA-guidance one should become a Florida Opinion 24-1 piece — see Part 6). If you'd rather backfill than trim, prioritize: the intake workflow (exists), the Opinion 24-1 explainer, and the "five prompts" playbook.
+---
 
-**Newsletter band rewrite** (bottom of blog page — this is goal 3's page-level home):
+## Part 4 — NEW page: /playbooks (the lead-magnet hub)
 
-> **Eyebrow:** The newsletter
->
-> **H2:** The Small Law Firm AI Workflow Brief
->
-> One email a week: one workflow, one honest take, zero vendor hype. Written for managing partners and administrators at firms of 25 lawyers or fewer. Unsubscribe in two clicks.
->
-> [Kit embed: General Sign Up Form — `8f364d0a1a`]
-> ```html
-> <script async data-uid="8f364d0a1a" src="https://actionable-ai-for-law.kit.com/8f364d0a1a/index.js"></script>
-> ```
+Add "Playbooks" to the nav (between Pricing and Blog, or replacing FAQ's slot with FAQ moving under About — keep nav ≤ 6 items + button). This page is goal 3's engine and doubles as goal 1 proof: fourteen finished, practice-specific deliverables is a wall of evidence no "thought leadership" blog post matches.
 
-Also: "Follow on X" → "Connect on LinkedIn" (your channel is LinkedIn; the X link currently points at twitter.com's homepage). Delete the "Currently hosted on Beehiiv" line.
-
-### 3.6 NEW page — `playbooks.html` (the lead-magnet hub)
-
-This is the missing limb of the site. You have **fourteen finished lead magnets with live Kit forms**, and they do double duty: goal 3 (email exchange) *and* goal 1 (a wall of finished, specific work is thought-leadership proof no blog post matches). Add "Playbooks" to the nav.
-
-> **Eyebrow:** Free playbooks
->
 > **H1:** Pick your practice area. Steal the workflows.
 >
-> **Lead:** Each playbook maps AI-assisted workflows to one practice area — what to automate, what to leave alone, and how to stay inside the ethics lines — using tools your firm already pays for. Free, in exchange for your email. Each comes with a subscription to *The Small Law Firm AI Workflow Brief* (weekly, unsubscribe anytime).
+> **Subhead:** Each playbook maps AI-assisted workflows to one practice area — what to automate, what to leave alone, and how to stay inside the ethics lines — using tools your firm already pays for. Free, in exchange for your email. Each comes with *The Small Firm Brief* (weekly, unsubscribe anytime).
 
-**Practice-area grid** (link each card to its Kit-hosted landing page — zero backend work, forms already live):
+**Practice-area grid** (each card links to its live Kit-hosted page — zero WordPress form work):
 
 | Playbook | Kit URL |
 |---|---|
@@ -297,82 +201,88 @@ This is the missing limb of the site. You have **fourteen finished lead magnets 
 | Criminal Law | actionable-ai-for-law.kit.com/criminal-law-playbook |
 | Bankruptcy | actionable-ai-for-law.kit.com/bankruptcy-law-playbook |
 
-**Second row — firm-level guides** (these speak straight to the CAO):
+**Firm-level guides row** (these are the CAO's downloads):
 
 | Guide | Kit URL |
 |---|---|
-| The Small Firm AI Workflow Playbook (start here) | actionable-ai-for-law.kit.com/small-firm-ai-workflows |
+| The Small Firm AI Workflow Playbook — start here | actionable-ai-for-law.kit.com/small-firm-ai-workflows |
 | Intake Workflow Playbook | actionable-ai-for-law.kit.com/intake-workflow-playbook |
 | AI Ethics Quick Reference | actionable-ai-for-law.kit.com/ethics-reference |
 | AI Vendor Evaluation Worksheet | actionable-ai-for-law.kit.com/ai-vendor-evaluation-worksheet |
 | AI Readiness Self-Assessment | actionable-ai-for-law.kit.com/ai-readiness-assessment |
 
-*(Housekeeping while you're in Kit: the form named "Copy of Vendor Evaluation Worksheet" should be renamed, and "Vendor AI & Data Governance Audit Plan" vs "AI Insurance Audit Playbook" overlap with the worksheet — pick the strongest one to feature; a 14-item wall can also be curated down to ~10 with the rest linked from a "more" row.)*
+**Bottom CTA:** "Want a playbook installed instead of downloaded? → Book a 30-Minute Call."
 
-**Bottom CTA:** "Want the playbook installed instead of just downloaded? → Book a 30-minute intro call."
-
-### 3.7 Sitewide — nav and footer
-
-**Nav:** Home · About · Playbooks · Pricing · Blog · **[Book a call]** (button, unchanged style)
-
-**Footer, all pages:**
-- Tagline: "Practical AI for Florida's small law firms. No hype. Just the playbook."
-- Connect column: real LinkedIn URL · Newsletter → `actionable-ai-for-law.kit.com/general-subscription` · Playbooks → playbooks.html
-- Contact column: `gyates@actionableai.net` (or hello@ — whichever is real)
-- Bottom row: "© 2026 Actionable AI · Greg Yates" + "Serving law firms across Florida" (replaces "Built in the USA")
+*(Kit housekeeping while you're in there: rename the form still called "Copy of Vendor Evaluation Worksheet"; decide whether "Vendor AI & Data Governance Audit Plan" and "AI Insurance Audit Playbook" are featured or held back — a curated 10–12 reads better than an exhaustive 14.)*
 
 ---
 
-## Part 4 — Technical checklist
+## Part 5 — Wiring appendix
 
-1. **Calendly:** inline embed on Book-a-call (snippet in 3.4); plain links everywhere else. Keep using distinct event types per source (website-intro-call vs newsletter-scheduling etc.) — your existing setup already gives you channel attribution for free. Consider renaming the stray "AI Readiness Assessment " event (note the trailing space in its name) per 2.6.
-2. **Kit embeds:** each form has a script embed (`https://actionable-ai-for-law.kit.com/<uid>/index.js`). Homepage band → `a102d27b6a`; blog/newsletter → `8f364d0a1a`; playbook cards → Kit-hosted landing pages (no embed needed).
-3. **Form backend:** Formspree/Basin/Netlify Forms for the fallback form. Never `mailto:`.
-4. **Favicon:** add `<link rel="icon" href="favicon.svg" type="image/svg+xml">` to all pages.
-5. **SEO baseline:** per-page titles/descriptions with "small law firm(s) + Florida + AI" phrasing (drafts in Part 3); canonical tags; Open Graph + Twitter card tags (og:title, og:description, og:image — a simple branded card image); `sitemap.xml` + `robots.txt`.
-6. **Structured data:** JSON-LD `ProfessionalService` (name, founder Person "Greg Yates", `areaServed: Florida`, url, email) on the homepage; `FAQPage` schema on pricing (eight ready-made Q&As — free rich-result real estate).
-7. **Analytics:** Cloudflare Web Analytics or Plausible (README's instinct is right — no cookie banner needed). Without it you'll never know which of the three goals the site is actually serving. Track: Calendly link clicks, Kit form conversions, playbook page visits.
-8. **Accessibility quick wins:** the form labels are already proper; add `alt` text when the headshot lands; ensure the ink-section link colors pass contrast.
+**Kit embeds** (WordPress: Custom HTML block, wrapped in a Row Layout with the alt background per your build guide):
 
----
+```html
+<!-- Homepage magnet band: The Small Firm AI Workflow Playbook -->
+<script async data-uid="a102d27b6a" src="https://actionable-ai-for-law.kit.com/a102d27b6a/index.js"></script>
 
-## Part 5 — Facts to confirm before publishing (the [CONFIRM] list)
+<!-- Blog + footer: General Sign Up (The Small Firm Brief) -->
+<script async data-uid="8f364d0a1a" src="https://actionable-ai-for-law.kit.com/8f364d0a1a/index.js"></script>
+```
 
-1. Big Law history: firm (or "an AmLaw 100 firm"), role, years, practice area — and exactly how you want it phrased publicly.
-2. Bar status today (active/retired/which state) — for the "Are you a lawyer?" FAQ and general accuracy.
-3. Your Florida city (About + local SEO). Also whether the (212) number should be replaced, kept, or dropped.
-4. Which mailboxes actually exist on actionableai.net (gyates@ confirmed via Calendly; hello@?). All `.casa` references get replaced regardless.
-5. Real LinkedIn URL.
-6. CLE status of your workshops (accredited in Florida? planned?) — determines how hard the tech-CLE angle can be pushed.
-7. The origin of the current stats (8.5 hrs / 3 days→4 hrs). Real and attributable → keep with attribution. Otherwise → replace per 3.1.
-8. Which blog titles have finished drafts (determines Blog option A vs B).
-9. Headshot file.
-10. Engagement cap number for the About page.
+**Calendly:**
 
----
+```html
+<!-- Inline embed where the calendar should be visible (Contact) -->
+<div class="calendly-inline-widget"
+     data-url="https://calendly.com/gyates-actionableai/website-intro-call?hide_gdpr_banner=1"
+     style="min-width:320px;height:700px;"></div>
+<script src="https://assets.calendly.com/assets/external/widget.js" async></script>
+```
 
-## Part 6 — Prioritized rollout
+Button destinations: general CTAs → `/website-intro-call`; Assessment → `/ai-assessment`; One Workflow → `/ai-implementation-discussion`; Retainer → `/monthly-retainer-discussion`. Attach Stripe to the first two in Calendly if keeping "pay at booking."
 
-**Day 1 (an hour of find-and-replace — stops active harm):**
-- Replace every `actionableai.casa` email with the real .net address
-- Point every "Book a call" CTA at `calendly.com/gyates-actionableai/website-intro-call`; change "20-minute" → "30-minute"
-- Fix or remove all `#` links (LinkedIn, X, Newsletter, dead blog posts, "Older posts")
-- Remove the stats block (or attribute it); soften the implied-history lines (Part 1 #11)
-- Fix "Beehiiv" → Kit; add the favicon link tag; fix the contact form size options
+**SEO (Rank Math per-page):** add Florida to the April guide's keywords — Home: *AI for small law firms in Florida*; About: *AI consultant for Florida law firms*; Playbooks: *legal AI playbooks small firms*. Schema: Home → Local Business (Daytona Beach Shores address, `areaServed: Florida`); About → Person.
 
-**Week 1 (the conversion build):**
-- Rewrite Home and About per 3.1/3.2 (needs Part 5 answers)
-- Rebuild Contact as Book-a-call with the Calendly embed; wire the fallback form to a real backend
-- Build `playbooks.html` from the table in 3.6; add to nav
-- Swap newsletter forms for Kit embeds; drop the real headshot in
-- Add analytics
-
-**Month 1 (the thought-leadership flywheel):**
-- Publish the cornerstone piece: **"Florida Bar Opinion 24-1, translated for managing partners"** — your single best trust + SEO asset; it pairs naturally with the AI Ethics Quick Reference magnet (write once, capture emails forever). Source it from the [opinion itself](https://www.floridabar.org/etopinions/opinion-24-1/).
-- Publish two more from the existing title list (intake workflow is nearly done; "five prompts" is high-search)
-- Add JSON-LD, sitemap, OG images
-- Start collecting the first quotable testimonial; the moment one exists, add a testimonial section to Home and real numbers to the proof section
+**Search visibility — two findings from checking the index:**
+1. actionableai.net returns **no indexed pages** on a `site:` search. If the site has been live since spring, check: Search Console verified? Sitemap submitted? A stray "Discourage search engines" setting (Settings → Reading) left on from the build?
+2. **Name collision:** "actionable ai" searches surface [actionableai.com](https://www.actionableai.com/) — Alan AI, an established AI-platform company. You can't outrank them for the bare name soon; you don't need to. Brand the site in titles as **"Actionable AI for Law"** (you already use exactly this on Kit) and win "actionable ai law / legal / small law firms" instead.
 
 ---
 
-*Review conducted against the site source in this repo. If the deployed site at actionableai.net has drifted from `02-website/`, reconcile before applying — but every finding above was verified in the files, and the Calendly/Kit findings were verified against the live accounts.*
+## Part 6 — Facts to confirm (blocking items only)
+
+1. Retainer monthly price — decided? (Guide recommended $4,950/mo; old prototype said $2,995.)
+2. Testimonials — are real quotes live on About, or is the placeholder still there?
+3. Stripe on Calendly — attach to the two paid events, or change Pricing copy to "invoiced"?
+4. CLE status of workshops (determines how hard the tech-CLE line can be pushed).
+5. Real mailboxes on actionableai.net (gyates@ confirmed; hello@?), and the public LinkedIn URL.
+6. Current live blog post count (determines whether Blog stays in nav).
+7. Newsletter public name: standardize on "The Small Firm Brief"?
+8. On-site day policy for out-of-state retainer clients (travel billed at cost / not offered).
+
+## Part 7 — Spot-check list (reconcile this review against the live pages)
+
+Because the live site couldn't be fetched from this session, verify on the live pages (5 minutes): hero subhead still says "under 50"? · newsletter embed is Beehiiv or Kit? · which Calendly URL the Book-a-Call button uses · "20-Minute" wording · Pricing "paid via Stripe at booking" lines · retainer price placeholder · FAQ orphaned answer ("Yes, after the three-month minimum…") · any `.casa` email · testimonial section state · footer geography line.
+
+## Part 8 — Rollout order
+
+**This week (defects + dead-simple swaps):**
+1. Swap Beehiiv embeds → Kit (Part 5) — potential silent signup loss until done
+2. Point all CTAs at `website-intro-call`; "20-Minute" → "30-Minute" sitewide
+3. Resolve Stripe-at-booking (wire it or reword it); fill retainer price; fix orphaned FAQ answer; kill any `.casa` reference
+4. Under-50 → 25-or-fewer, all five locations
+
+**Next two weeks (positioning + goal 3):**
+5. Build /playbooks (Part 4) and add the homepage magnet band
+6. Florida-first edits: hero subhead, Section 4 rewrite, new Opinion 24-1 section, About/Contact/footer geography, Rank Math keywords + Local Business schema
+7. Fix indexing (Search Console, sitemap, reading settings); retitle site "Actionable AI for Law"
+8. Republish the two Brief issues as native blog posts; link the Kit archive
+
+**This month (compounding trust):**
+9. Cornerstone post: **"Florida Bar Opinion 24-1, translated for managing partners"** — pairs with the AI Ethics Quick Reference magnet as its CTA (write once, capture emails indefinitely)
+10. Land real testimonials on About; keep the honest framing
+11. Keep the April guide's best rule: one post + one Brief issue a week; every FAQ question is a post
+
+---
+
+*Sources for Florida claims: [Florida Bar Ethics Opinion 24-1](https://www.floridabar.org/etopinions/opinion-24-1/) · [JD Supra](https://www.jdsupra.com/legalnews/florida-bar-advisory-opinion-24-1-gives-9432036/) · [Hinshaw & Culbertson](https://www.hinshawlaw.com/en/insights/lawyers-for-the-profession-alert/florida-bar-advisory-opinion-24-1-gives-green-light-to-generative-ai-use-by-lawyers-with-four-ethical-caveats/) · [Florida Bar CLE requirements](https://www.floridabar.org/member/cle/general-cle-info-and-requirements/) · [ABA Journal](https://www.abajournal.com/news/article/florida_supreme_court_approves_mandatory_tech_cles_for_lawyers). Infrastructure facts (Calendly events, Kit forms/domains/posts) verified live against your connected accounts on July 21, 2026.*
