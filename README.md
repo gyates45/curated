@@ -159,3 +159,12 @@ template above): top AI news, practical AI for SMEs, small law firm news, AI for
 small law firms, and small-firm consulting. Data refreshes daily via GitHub Actions.
 
 See [`dashboard/`](dashboard/README.md) — or open [`dashboard/index.html`](dashboard/index.html) directly.
+
+## 🧠 Second Brain
+
+This repo also hosts [`second-brain/`](second-brain/README.md) — a plain-markdown
+knowledge vault wired to Readwise Reader, Recall, and Notion, edited in Obsidian,
+and operated with Claude and ChatGPT. Capture happens in the satellite apps;
+distilled, reusable knowledge lives here in git where every AI can read it.
+
+Start at [`second-brain/README.md`](second-brain/README.md).

@@ -91,3 +91,12 @@ sw.*
 
 # Python
 __pycache__/
+
+# Second brain
+# Obsidian per-machine workspace config
+.obsidian/
+# Readwise sync state + raw synced highlights (repo is public; keep raw
+# highlight dumps and client material local — see second-brain/docs/system.md)
+second-brain/scripts/.sync-state.json
+second-brain/sources/readwise/
+second-brain/**/private/
