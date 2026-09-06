@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
-  "generated_at": "2026-09-05T13:52:53.106151Z",
+  "generated_at": "2026-09-06T14:12:29.936083Z",
   "categories": [
     {
       "id": "top_ai",
@@ -8,18 +8,18 @@ window.NEWS_DATA = {
       "more_url": "https://news.google.com/search?q=artificial%20intelligence%20when%3A1d",
       "items": [
         {
-          "title": "META SAYS ITS NEW AI MODEL CAN FINALLY COMPETE WITH OPENAI AND ANTHROPIC",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQaERKNEtpbDdnQWtpanYxTjJZRExIWFFEWDRNR01PVlotbU1Vekk1Z3RzajNNZFhmdGFoclMwX2tfVWZwUFhOQ1BHYXBldG5RaVJyRHBCWnYwem1fSGhTTXRoYTZxNWZkX3JwSjhtcVN6aDZZRUVSd01oVUdReFlPNHRuVV9Nd3hSd09lWHZnZ0ZUUDdyeFEwMGMyMHVjaVBaS0xhU25zV2dVcWtacHY0NmF4cGdkb29WX0M4QnJDdnhHRXZNZHhxLQ?oc=5",
-          "source": "Magzter",
-          "published": "2026-09-05T04:40:06Z",
-          "summary": ""
+          "title": "Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft",
+          "url": "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/",
+          "source": "techcrunch.com",
+          "published": "2026-09-05T22:49:55Z",
+          "summary": "Two more news organizations are suing OpenAI and Microsoft over the supposed use of their journalism to train AI."
         },
         {
-          "title": "OpenAI’s $1 Billion Cyber Push Backs Cloudflare and SentinelOne. Which Has the Better AI Security Model?",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZ2hDdGZuRTFvS2RaNnJUbk8tWXZlRzRsblFZd0pvc29QNjZzWmw4LW5sTnB1bWp0RjM3NFV5QTZ6NFM3NFcyUWRqQk02c1ZBWlJoR0VfWGRBdHBCXzdaUWtiU0l6R0NuMXg1Y3ZHTmREYk8tRkpvR0hmNDltRV9PdC1QTHpYVmo1cDFlWlNJZEtiajk1Q3c?oc=5",
-          "source": "Yahoo Finance",
-          "published": "2026-09-05T12:26:09Z",
-          "summary": ""
+          "title": "OpenAI confirms ‘wiki incident,’ says it’s ‘working on a framework’ for more disclosure",
+          "url": "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure/",
+          "source": "techcrunch.com",
+          "published": "2026-09-05T18:05:27Z",
+          "summary": "OpenAI acknowledged its role in a recently reported incident where AI agents took over a German wiki forum."
         },
         {
           "title": "OpenAI admits to German wiki ‘incident’",
@@ -29,53 +29,53 @@ window.NEWS_DATA = {
           "summary": "OpenAI says it needs to overhaul how and when it reports instances of AI models attacking real-world targets. The acknowledgement comes as the company manages the fallout from reports that a swarm of its out-of-control agents hijacked a…"
         },
         {
-          "title": "OpenAI Agents Hijacked German Site, Researchers Say",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNWjFMaU5lMERJbXBIZ1ZsSHI1STZzTi1CQUFka2I3Z2g3a3lhMWZYNDRGcnZKLTJXRVJ0ZFRFYWpxZVlEZ19aZWx2dTYzWXRnZFUxZ2RmdEtVQkxudDVoVE41RFFNMDZkZzFXN2VIMlVSU0dYbXZxY3NFNzZmbHV2VXdwSTlIazBtRmROYXdPNUNIbU9FVU5naWQtZnp1R3JpNlgwTENn0gGrAUFVX3lxTFBJWWk4X2lDNmJ3UGRlbGIyZHNTWFJ2RUR1Z3ZGeEZXTUVJNUxJdGFNdHFMbW5qNFo0ajd0TzN0S3lMbjNRcEJrZExUcmwyeGpoMHAxczFhcmxIb2YzNHBYR1Byczh5MEs2ZGl4ODB2WDdQT3VrQ3ZGOXhMZG9pRnRTUVFHZGpKV2h4a3dSSlBrNDBYak5uS3VHZnZFRndxUjl0dTVNQmVDTUNHVQ?oc=5",
-          "source": "تسنیم",
-          "published": "2026-09-05T13:17:47Z",
-          "summary": ""
+          "title": "Hikers rescued after using Google Gemini for planning",
+          "url": "https://techcrunch.com/2026/09/05/hikers-rescued-after-using-google-gemini-for-planning/",
+          "source": "techcrunch.com",
+          "published": "2026-09-05T19:35:24Z",
+          "summary": "The sheriff’s office said the hikers “were advised by Gemini to bring far less food and water than their group required.\""
         },
         {
-          "title": "OpenAI has released a model it says can find and exploit zero-days on its own",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNLXVDX0JaM0p0UDFJT2NUQmJhS08yNDV5NUNaeXpUY182X2YzUFpTZEhjNm9tWWZ5dEJIUl91MHA5cUwzRU9jaldLNC1QY1JCV1p4QXJ2M0Nnb3R6dnk2b01sb1FTS2dYRmR5YTc0eXBNaXptMkNtWmtjT0p1OExzbGtQNW0xazFsbWhTYzdkMldPYndualE4VzZMckVkRGZKWDJYTzBIWERfVFJTaGtnQVJhM0dMZ1h0ZlNCUEtR0gHDAUFVX3lxTE9mYmhZcWlhMjNzbjVlenZaby1KVGxTQkt3c0oyNkI5OHlSVTZNamxHUnZsVllBUDRjbFotV2pFOVIxVzZSY1JFajBDeVU4N1FlNThwTlFoVFJMZ0p2YXJiV1hiVGxaR080SFlzaXRqUTJjLXl4T2w2Y0ttMHpLTDdSQVE1WFlBdkw3cFY4Y0NEZkFvT2ltVjZQS0ZVX29kd2dQeUFuWE96NXNXelpkc3VrSTVEQ3ZZNU5VZkY3MFlLTkF0Zw?oc=5",
-          "source": "WION",
-          "published": "2026-09-05T13:11:00Z",
-          "summary": ""
+          "title": "OpenAI’s rogue agents keep escaping, with no formal process to investigate them",
+          "url": "https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them/",
+          "source": "techcrunch.com",
+          "published": "2026-09-04T23:15:11Z",
+          "summary": "OpenAI’s latest agent swarm incident adds urgency to calls for independent investigations as researchers and lawmakers question whether AI labs should control the scope of their own safety reviews."
         },
         {
-          "title": "Nvidia inks $13 billion deal to buy the AI startup that was hacked by OpenAI",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNTmpFbWtrTTlMQ25yTkczWTlOUVRNTDgyWmlndE5EdF9xYzczUU92ejhMUUk2WXQ0QWxKUWdhQzZaVkJBUG1ZbzZmaDZmcjJ3dWdWTEtTNUNIQzJXbUo3MW9teGhiRHR0TUMtcnRjdVNhWGJ3NzJ0ZFFYOEFyME5GN2RwdU0ySkI1cGx5QnV3cVhRSXhmbjhvU25JNUNoaDhPekk1R0ZwR0lPZVdHcnc?oc=5",
-          "source": "Egypt Independent",
-          "published": "2026-09-05T12:39:59Z",
-          "summary": ""
+          "title": "AI compute provider Nscale is looking for $3.5B in pre-IPO financing",
+          "url": "https://techcrunch.com/2026/09/04/ai-compute-provider-nscale-is-looking-for-3-5b-in-pre-ipo-financing/",
+          "source": "techcrunch.com",
+          "published": "2026-09-04T21:12:11Z",
+          "summary": "Nscale, which recently struck a $45 billion deal with Anthropic, is in talks to raise additional funds in anticipation of an upcoming IPO."
         },
         {
-          "title": "OpenAI Says Its New Model Might Be AGI. Wall Street Is Already Asking Who Gets Hurt.",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQRC16TmUwTVBnTTNQWnhFSG42UFJvUUlQY0tfbzRiVDJ0eVdsdnN0c1FSaHRKdFpTVXBBUnAxN0dGVmhIc1ktcU1ydXRWOHUyOUhDOWVPa243MzBYRzJkU3pIUFJqU0VHNWRRSklqNGtZMVBBcGgwbmhiclpQMTZMS0FHMWZPZTZfamFtTmlpSWlGaXJQNk42RVNyYVYxM181R1RfQlFrWVI2ZWM4VXo5b3Zjd0E3ckFJUWNiSXBSVktOd2t1SlVSUmVB?oc=5",
-          "source": "The South Shore Press",
-          "published": "2026-09-05T12:26:34Z",
-          "summary": ""
+          "title": "Another swarm of OpenAI agents reached the open internet without the frontier lab’s knowledge",
+          "url": "https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge/",
+          "source": "techcrunch.com",
+          "published": "2026-09-04T16:21:11Z",
+          "summary": "It's the latest failure of OpenAI's internal monitoring and security systems."
         },
         {
-          "title": "Anthropic IPO launch pushed toward mid-October (ANTHRO:Private)",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNREZZZ0o5aXMycHZnNVdValhvSnNqbWxMckhIX3k2SERQWWpJYWNadUhod2hTUV9MVzhiYjlOVWFVaFNJbmdNMzVTMXZRakNTZGtTSHlmaVNaN2I5NjVxNGNzU2ZhUXhfdnhIbDFsRE5nRnZmamFrNGpmRHVvcEdMMXZwRmVqNjRRYmJvNg?oc=5",
-          "source": "seekingalpha.com",
-          "published": "2026-09-05T12:21:04Z",
-          "summary": ""
+          "title": "What will Apple’s John Ternus era look like?",
+          "url": "https://techcrunch.com/video/what-will-apples-john-ternus-era-look-like/",
+          "source": "techcrunch.com",
+          "published": "2026-09-04T17:18:00Z",
+          "summary": "It’s officially the Ternus era at Apple. Tim Cook stepped down as CEO this week, handing the company to former hardware chief John Ternus, whose first memo promised a “huge launch next week” — timing that puts Apple’s next iPhone event on…"
         },
         {
-          "title": "Anthropic Launches Claude Fable 5.1 and Restricted Mythos 5.1 for Advanced Coding, Cybersecurity and Scientific Research",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOczZLQWhJUjZVdEs0cnFXVmktX2JTaDFVVEFVX3hQLU8zcmtTQjJzd1Y1cHZVVmNsenBIWDRIOW4zbndpZGZMaEJWVlJQN1FBeWNMck9ObDlEQW5GSmVBSU4zRTIyRWdDSUhiMDV3aGUxd1BGcXRRajJLUldMOWlJOUtEUDBzTjBQRko2MEFyVjNKcDA?oc=5",
-          "source": "LinkedIn",
-          "published": "2026-09-05T12:00:07Z",
-          "summary": ""
+          "title": "Apple’s Ternus era begins as Nvidia bets on the whole AI stack",
+          "url": "https://techcrunch.com/podcast/apples-ternus-era-begins-as-nvidia-bets-on-the-whole-ai-stack/",
+          "source": "techcrunch.com",
+          "published": "2026-09-04T16:04:08Z",
+          "summary": "It’s officially the Ternus era at Apple. Tim Cook stepped down as CEO this week, handing the company to former hardware chief John Ternus, whose first memo promised a “huge launch next week” — timing that puts Apple’s next iPhone event on…"
         },
         {
-          "title": "1,200 AI-Agents Built a Secret Society Inside OpenAI",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1GS0hkYWxHTXhRZlBCa2FFQUZhUUpaQjN5SmlfT3NTd3ZWWmlBaF9IY0RBSEpCUjFKZVVFMlNSU1pJd0xmZU5XRklGQS11Y2JGM1kxd3Z4X05yTzIwZ09HUXRBWjNBMnBtVzk4WTBEUkVwZ1phamgxNWhB?oc=5",
-          "source": "Davis Vanguard",
-          "published": "2026-09-05T11:05:00Z",
-          "summary": ""
+          "title": "Google’s Gemini Spark can now manage your Google Photos library",
+          "url": "https://techcrunch.com/2026/09/04/googles-gemini-spark-can-now-manage-your-google-photos-library/",
+          "source": "techcrunch.com",
+          "published": "2026-09-04T14:47:11Z",
+          "summary": "Gemini Spark can edit and curate photo albums, create shared collections, turn photos into calendar events, and handle other Google Photos tasks for AI Pro and Ultra subscribers."
         }
       ]
     },
@@ -105,55 +105,6 @@ window.NEWS_DATA = {
           "source": "Trinidad Guardian",
           "published": "2026-09-05T01:50:07Z",
           "summary": ""
-        },
-        {
-          "title": "Tech Town Beaconsoft: Website, Facts & Guide 2026",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFAzWHV2SWJlYmVYaU1jbVBBWlEweDNmSVJXNXdkamFrbnpjR0dHWHZRUG5pNjZqUm5WVl9pS1cwWlV2UGZfX0hGRmwySk1zUWUyMzJ0U1pjeFg5a19tcXc?oc=5",
-          "source": "Tycoonstory Media",
-          "published": "2026-09-05T04:43:22Z",
-          "summary": ""
-        },
-        {
-          "title": "What AI marketing tools mean for local businesses and designers",
-          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOVzcwX2dndUtaQy1hSm1zUzV1WUEyRlNjUnlWbUVRd3lPMkt0cFktbzYwOU43ZHhCYjROd3VpbmdyTXNOUnRMMm5pb0lFUkVjNHk2czM1eVZtNXhaTGJ6LTVvdmQ4X05yUC12U0EwTFd4dEhPYnlzOHlpVGN3d3dzWW9EQmR6Y1hPQTN0dktNczV4RkV2SlItNnVuMGE4WXNSalAxYzNVaUJudXIyWUlTT3R1Z29Ba005cExBR3lNM1h5LXduSWRJcnRCMWliYUR4SERFY3VuRlVueFozSHZPbw?oc=5",
-          "source": "Spectrum News",
-          "published": "2026-09-04T01:53:00Z",
-          "summary": ""
-        },
-        {
-          "title": "How SMBs Should Measure ROI from AI Initiatives",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOX0lwcTh3QjM3aEFrUFZscUNvaWVXbVB1VktLelE2MGxVM19qdHN3Z0VxRmxJX0pQcFdGVnIxZl9UdFVmVGZITXd2WHFybXRBbnR2UlRrNU43MW56Z1NjQTBZR1R1V2dOWk11dFo0dElOQU96TGdvS0xmaW1nZ3JyaEh5VDVfbngteFlISGIzUQ?oc=5",
-          "source": "BizTech Magazine",
-          "published": "2026-09-04T16:58:20Z",
-          "summary": ""
-        },
-        {
-          "title": "Survey: 60% of Leaders Expect Robot Fleets Within Five Years",
-          "url": "https://smallbiztrends.com/survey-60-of-leaders-expect-robot-fleets-within-five-years/",
-          "source": "smallbiztrends.com",
-          "published": "2026-09-04T17:11:00Z",
-          "summary": "Explore the findings of a recent survey revealing that 60% of leaders anticipate the integration of robot fleets in their operations within the next five years. Discover the implications for industries and the future of automation."
-        },
-        {
-          "title": "GSIT Stock Rallies: AI Data Center Momentum Lifts Small-Cap SRAM Memory Chip Maker",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOaUxSZGh4SXMzS3RNVzY3dkpjX3BObGVhM2hGN3paNEN3bEM5aUlNbnpfWmJSQ0RMTnh3THJVLU5heW9XWlh4aDRFZ1FKTTNvOHVCeGxCVUt0eXpiUGdYSlhwQ0ZpcHlqLWt4Ul9PME9yNVh4eXM5emxXQUdGX21aV1B1M21mR05tbWVWYkhrY2lLWXlCaDNfZW8waV84bzUyZWlkaGtxMU85NHNVai1rakhvdTMtUC1pNXJPWTNWVURXQnRyUlJMcDh0b1JOYzVITE4zeThlQnN6ODFsYVE?oc=5",
-          "source": "Stocktwits",
-          "published": "2026-09-05T06:41:44Z",
-          "summary": ""
-        },
-        {
-          "title": "AI Image Generation for Australian Small Business: What It Costs and Where It Actually Helps",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOVmlWMi1zV3lNVWlZMTUxaHZ3QTgxRVpPcm51TU00WTlUQkN5STFCRnlnQ2JUOW5nNV94VkVfODEwYXJtYW12ZGYxT1p5XzdrUkFubHprcFVFSnNIN1o1VjNCY0VLd09fVVZySVl4eVVFeHIzWHNyR3ltbXFWak1KRnMySS1sTnF4bEdMVnNybEFUX0RFM2ZPV0FPdmFDLWp1SEZzNFBHbENzLVlLSnkzOGkwY04tczNoejNiZEhWa2hpMFNSbjRta185LUNhNFdiUThPTERBNFY?oc=5",
-          "source": "techguide.com.au",
-          "published": "2026-09-05T05:43:35Z",
-          "summary": ""
-        },
-        {
-          "title": "Does AI really save time in vending operations?",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQQ084VWJoRjAtM2J4RWItUG1SSkdodWowT1d5Q2FMbWFRTHE1TmIyVkd4NG5VaHV0aG5yZzBLYnpOR0lZR0sxcFFPQndCMGd3aWVxQUpiZXp6MXpGMUREZmlKbUhDcGNNazNQY3lnLW9Va0hqeHozY0xCTnpzNWRvYmdRNnViN1FJVHgzOVZn?oc=5",
-          "source": "Vending Times",
-          "published": "2026-09-04T10:00:00Z",
-          "summary": ""
         }
       ]
     },
@@ -178,48 +129,6 @@ window.NEWS_DATA = {
           "summary": "Steve Kherkher and Jesus Garcia | The hardest case to refer is the one that is bigger than your practice. But making a referral doesn't mean giving up o your client. The post 5 Things We Wish Every Referring Lawyer Would Tell Us Before…"
         },
         {
-          "title": "Boutique Firms Emerge As Trump Admin's 'Achilles' Heel'",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9rai1tQ2JIUkdoZ0pMaGdDdmFJcmNDOE5Gc3QzUG1Ca2VFZDFLcUV6V3NPWW9yZk5idUNLSExPYUF5empaVjBkX0ZGUVF6YmE3MWV4TV930gFWQVVfeXFMT2tqLW1DYkhSR2hnSkxoZ0N2YUlyY0M4TkZzdDNQbUJrZUVkMUtxRXpXc09Zb3JmTmJ1Q0tITE9hQXl6alpWMGRfRkZRUXpiYTcxZXhNX3c?oc=5",
-          "source": "Law360",
-          "published": "2026-09-03T16:45:00Z",
-          "summary": ""
-        },
-        {
-          "title": "Gregory Wayne Neeley Obituary (2026) - Longview, TX - East Texas Funeral Home",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNLTFLY1ZmbUppNDVXZExpb3B0cmNpdm5Xc09TWUhGLUYzVFhtTlZwSDlXN0d1QUNIYm1zSXVHeW03UmpOblloODJncmRXV2Z4dHFQbnNVNW1yM3RMbVJYSFhIZ2VvS0RBNXBOOEpqb0pEU29falBMLVIxR3NzaHRHeUdqcw?oc=5",
-          "source": "Legacy obituary",
-          "published": "2026-09-04T22:09:15Z",
-          "summary": ""
-        },
-        {
-          "title": "Who Is Kevin Reddington? What To Know About Lindsay Clancy’s Attorney",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPREFRWjdpU3B6NDcxbjB5M3YyUnJaSS1YYUFWNG5aSUZ5T2ZROE9rRkRqbzF1MWJrYWVaM0YtakVBSzhSOFQ4OWtGWEJtM0NrcEc5VUxMaEJ6LXJrVG1yaVJzX2JoUC1weENQTWt2bmVobWw3Y2dCcHVHUFl4YVI2WktVZUxDZE9UTFE?oc=5",
-          "source": "Newsweek",
-          "published": "2026-09-04T17:13:00Z",
-          "summary": ""
-        },
-        {
-          "title": "Payouts in L.A. County’s $4-billion sex abuse settlement delayed to two largest law firms",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOc2hEeXhRaFd6UnN2MU9xZEhORjBOa1ItTHpLSmlpalBvNGtXNXJXS3FhT1F5bmZxQ2hGeHpCSEM3M1pMTF9tdUxBaVN0UUhIOW5RdXhFZUF1Q3k5ajREV0FFODNlOW41RjNMVERxQVJpUkxTVThUOEdUZUtHUW1BNVVhaElXYXFKRWZON3VRZGNhbGpfQzRIR001aWxkYU5JQ3ZGUFpQc05yVWVh?oc=5",
-          "source": "Los Angeles Times",
-          "published": "2026-09-04T10:00:00Z",
-          "summary": ""
-        },
-        {
-          "title": "What World Cup Coaches Can Teach Lawyers About Building A Book Of Business",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOQ2IzQlhxckpZWmoyQTdYbDJFRnJlWTd2X0wxem15VF9ZbkJyZjAyc3RMTDBUeEttRndSdVpJQ1RYVkttbmtPVS1CS2tEb2hEdFFBVVhKaDZXQ0duNmdodVN0VlppbkxSX0RfeHpUWWpIRldpdHk0WEIwVHF6d3ZFTzRNSVNCR3BIbFZzRTMySnRXVEJmdWlJMHJMTk1tS1l0WFlyVFFiMkxTaUk?oc=5",
-          "source": "Above the Law",
-          "published": "2026-09-03T18:16:00Z",
-          "summary": ""
-        },
-        {
-          "title": "Hori7on members terminate contracts with management agency",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPbmtyVlFEc0tlSjhNR3VjWjlUcXdpTEVsanY4RUc0WlF4bFI2b1E3TU9WbnRrRWlFTEUzV0JvUy1td0p0aWNjSlJDTGZHSW5JWVEwYmlaQmQzc2o2b3htdDNZUjJhNnNXOUlETy1ESEhXUDhwQjE1QXluSS1iVWJMX19iVU9mdjhQZjlrcG5IcUZjNHRDQU4tamJmc3RYN0lZYWxpaXdFQVQzTDdXLVZqZ0xaRHo1NVAxVjRSVy1rS3N5aXpyZ2fSAcsBQVVfeXFMT2tXQ01JZGZ1RkhNYnNJWkNsalF1ZGJNRGdSNUl4NmlrdjIyUm5rQnkyWGx2YVNZNjFFR3NROFA4M05rQjRKUHFhSkU5eTV5SGZEdHNuUXpsSml4WHBZVnhhQkNONkhBdkVCbGxaYS0yOFpMNGpubzAybzJXQ1JtOGlySHg3bmdwaVRvNVBqbmYzdEJDQ1l6cGNIVW9oWGFNVDhoTXVJR2NmcUpHRE4xbHllTzhLOHphVDR1Y1liVHRUc1BPNGc1ZGMyLWM?oc=5",
-          "source": "GMA Network",
-          "published": "2026-09-04T06:57:51Z",
-          "summary": ""
-        },
-        {
           "title": "Do You Feel Your Life Matters?",
           "url": "https://www.attorneyatwork.com/mattering-for-lawyers/",
           "source": "attorneyatwork.com",
@@ -227,11 +136,32 @@ window.NEWS_DATA = {
           "summary": "Sometimes you can't help wondering if you make a difference at all. Teddy Snyder dives into two new books that explore the human need to feel our lives matter. The post Do You Feel Your Life Matters? appeared first on Articles, Tips and…"
         },
         {
-          "title": "Ethics Opinion 1301: Virtual law office; advertising a VLO as the lawyer’s office address",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPYllPZjBqZXUwQWs1dndsWm92S3E0ZEN0M3ZHOFE0NEhjWnBpZUFhR09QUUlfMXEzZVRBVUZVeFJNd2w1c05YcHE4NGdfSXp5WGtfaWlIYUhKMlVyd2hjQmRnWjZvOFNiOWMyS3pUM01XZDI4V3ZiOXZ4c2E0UWVoa3JvbFgxUjBvU082UmhKZXVPUQ?oc=5",
-          "source": "New York State Bar Association",
-          "published": "2026-09-03T22:56:04Z",
-          "summary": ""
+          "title": "Sound Counsel: How Lawyers Handle Legal Ethics and Podcasting",
+          "url": "https://www.attorneyatwork.com/legal-ethics-and-podcasting/",
+          "source": "attorneyatwork.com",
+          "published": "2026-09-02T10:00:00Z",
+          "summary": "Want to launch a law firm podcast but stuck on legal ethics? Prolific legal podcaster Jared Correia has answers on handling disclaimers, indiscreet guests, and the multi-jurisdictional mole hill. The post Sound Counsel: How Lawyers Handle…"
+        },
+        {
+          "title": "How to Stop ‘Rough-Drafting’ and Learn to Speak with Precision",
+          "url": "https://www.attorneyatwork.com/lawyer-presentation-skills-hanging-fragmentitis/",
+          "source": "attorneyatwork.com",
+          "published": "2026-08-31T23:30:00Z",
+          "summary": "Do your presentations suffer from \"hanging fragmentitis\"? Here’s how to stop yourself from constantly editing, restarting and revising out loud. The post How to Stop ‘Rough-Drafting’ and Learn to Speak with Precision appeared first on…"
+        },
+        {
+          "title": "This Is How to Answer the Phone",
+          "url": "https://www.attorneyatwork.com/this-is-how-to-answer-the-phone/",
+          "source": "attorneyatwork.com",
+          "published": "2026-08-31T16:23:00Z",
+          "summary": "Telephobia (ringziety?) is real. Here are Bull Garlington's helpful tips and tricks for conquering your anxiety over answering the phone, or (NO!) placing a call yourself. The post This Is How to Answer the Phone appeared first on…"
+        },
+        {
+          "title": "Protecting the Record: Security Best Practices for Complex Litigation",
+          "url": "https://www.attorneyatwork.com/protecting-the-record-security-best-practices-for-complex-litigation/",
+          "source": "attorneyatwork.com",
+          "published": "2026-08-31T10:01:00Z",
+          "summary": "As a case becomes more complex, so too does the challenge of ensuring security and privacy are strictly maintained. Veritext CIO Jacob Mathai walks us through best practices for keeping confidential data secure. The post Protecting the…"
         }
       ]
     },
@@ -256,27 +186,6 @@ window.NEWS_DATA = {
           "summary": "We start the Wrap with news about Legal Innovators UK, London, Nov 4 + 5, and some of the excellent speakers we can already announce ..."
         },
         {
-          "title": "ABA Formal Opinion 512 Explained: The Ethics Rules Governing Lawyer AI Use",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9WMVE0cXdUb0J2UkxERjNCN3RFMHJ6YkpyYnF6Y3o4VGZiTkJmMjJMbnhkNGVMQUp3NE1kQzV0ZmxiSEJNakRzOFpJVlRyYmRtVDRoRDg5OHhQZFFFdFNZRzZ5YUNFbHFf?oc=5",
-          "source": "Legal Desire",
-          "published": "2026-09-03T07:59:37Z",
-          "summary": ""
-        },
-        {
-          "title": "Why Do Many Law Firms Still Waste Money On Big Offices?",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQLXdZZjdKWWRGeUJzS0tWVlB5X2ZiN0FPcEVNVWRlVEpkN25QOGxLREdFd2RmNXlyMkV0dWw3R05aOHRMVXlxQlBabHVtbTJFb1VrcUE1SEdRUWhjamsxQURkblJLcWZGWGtEUm05emFfY3F4OVUzeVMtWGF2VHEzT2xwNktzdzRZVG5qdk8xZHA?oc=5",
-          "source": "Above the Law",
-          "published": "2026-09-04T15:50:00Z",
-          "summary": ""
-        },
-        {
-          "title": "Ex-IRL App CEO Says Prosecutors Ignored Ethics Breaches",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPY21Fa0RvNi16V2tCVEFNYkNKQzhDZDR4anhrekQ5WUQ1X29CZms5VmdnY2Y1MTBIWjJhRklNb21UUnNHbGxtWE9sTUV2UzZaaS1nU3ZMckM3MWkyRDhkUC00M2piNEZoQk1PSVV4bFJBOEg0eU85dFU4TUpGeDA3YS1lRldUaXpmdDdYeUhWUkJONXB6a0Itdnl1eDhtdHlXeGJqUlNQbzBjMjZ1TXYtd21FbkNuMDFlNWfSAV5BVV95cUxQSzMza29qemhLWkhqNzJoNzd2blNSaXFzbnZvcjNOWUZCWHllejVQeFNNWTM3a2dVVUJLSGdWVzk5bFVnd1puQTZnSlBZSlE0aURQVm9kOWJfMHdtM3Bn?oc=5",
-          "source": "Law360",
-          "published": "2026-09-03T19:35:00Z",
-          "summary": ""
-        },
-        {
           "title": "ILTACON News Round-Up Part 4, The Business of Law: Litera, Aderant, Oddr, TRĒ AI, Intapp",
           "url": "https://www.lawnext.com/2026/09/iltacon-news-round-up-part-4-the-business-of-law-litera-aderant-oddr-tre-ai-intapp.html",
           "source": "lawnext.com",
@@ -284,32 +193,53 @@ window.NEWS_DATA = {
           "summary": "Last week’s ILTACON, the annual conference of the International Legal Technology Association, brought what may have been the busiest news cycle I can remember for this conference, with a torrent of product announcements dominated by two…"
         },
         {
-          "title": "What It’s Really Like To Be General Counsel",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNdC1zcDdVYjNmT0lLeFhZOVN1cUxQMG12aE5DLTE4MnE3WmlmWW5xRVdNU0NFUUs2NDVoSjNSakdqbjZxRDBXWU9qZTk3eVJsWXpMMDlDenExVWVOcWZkN3l0MUhScDZkbDBWOXo2NUlpT3Z4TVBuVmJSaGk2TkNwVA?oc=5",
-          "source": "Above the Law",
-          "published": "2026-09-04T20:01:00Z",
-          "summary": ""
+          "title": "On LawNext: Why Legal AI Pioneer Pablo Arredondo Is Joining Clio to Build Technology for the Courts",
+          "url": "https://www.lawnext.com/2026/09/on-lawnext-why-legal-ai-pioneer-pablo-arredondo-is-joining-clio-to-build-technology-for-the-courts.html",
+          "source": "lawnext.com",
+          "published": "2026-09-01T19:27:06Z",
+          "summary": "Pablo Arredondo, the Casetext cofounder who helped build some of the earliest and most influential applications of AI in legal practice, is joining Clio as senior vice president, judiciary, where he will lead the company’s strategy for…"
         },
         {
-          "title": "Cooley Life Sciences M&A Atty Joins Goodwin In California",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPa1RBWjExZzZEcnB5RmxNNTdYQ3hQZmw5a2UwTjZWNVpUY2ozbjVHUFktQkxSelg2VnVQSm1odHJRY00wUEY4OEc4NC1BT0ZhZTUzS2NoUlkyblVIMjZSM3NyQjBjd2pRaGlYdkJGNExVR2pKTlAyMzRFMkVaWjRCTHVDQl9BS1FvTklKa3NCc09rSk1tY28xY3ZxMGRoV2lIUXd3MXB5MVFtY1NWQUFHUUtBd2Fmb01ocEHSAV5BVV95cUxOb1FkeTdOSUtiTlE3ekhGc1VmWmtFV3E1eXlhMFh0WDJ6LWJRb1ZmRVVVa0x5OTJLQ0hHcmRITmpJVVVTZndXaUhzakxMTk9FSkN5MVZZekw5Ulh5V0NB?oc=5",
-          "source": "Law360",
-          "published": "2026-09-04T19:11:00Z",
-          "summary": ""
+          "title": "The Innovators – ‘Conference’",
+          "url": "https://www.artificiallawyer.com/2026/09/03/the-innovators-conference/",
+          "source": "artificiallawyer.com",
+          "published": "2026-09-03T07:56:07Z",
+          "summary": "Recap: After the summer break, Katie’s adventures as head of innovation at Smyth & Marmalade continue. Project Rubicon – to build their own AI system ..."
         },
         {
-          "title": "DC Appeals Court: Blames Deutsche Bank AI Hallucinations, Strikes Brief",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOY1V4bHdHR3hsWXQyaW1jcTF5a0VBZFUtTzl6emdPOEVUalY1dXFQU1ZoOEVfVDEyaTctRllYMjBCZzZpb1ltN0xnaDFUb0w1NVJJVGJ5ZXk4NzVWMDd4UFNucWtFVWVrVkFHT2dfT2JQakpnZjIySGxzOWllcE10R2ViUEtFM2FwOEhuQ0E5aFJRTDRBTGx6TFdSZk9yN2pSdjJMRzd4ZTh6Yk9EcDZ4Z2RvUkpKUWc0MjNlbWN6MW02MlpiakE?oc=5",
-          "source": "wansom.ai",
-          "published": "2026-09-04T18:53:00Z",
-          "summary": ""
+          "title": "Building the Judgment Layer with Legal AI – Aloi",
+          "url": "https://www.artificiallawyer.com/2026/09/03/building-the-judgment-layer-with-legal-ai-aloi/",
+          "source": "artificiallawyer.com",
+          "published": "2026-09-03T06:42:17Z",
+          "summary": "‘Legal AI can’t do judgment’, some have said, as if this were a sacrosanct area of legal work. But, AI can capture and leverage judgment ..."
         },
         {
-          "title": "Legal Tech Roundup: Clerky, LexText, EvenUp",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNZzRIQ1lCbEp5cjNzM3Y1ZXN2VVRpN05YdDlHS3g2NGdqeWcwMG5vTTUtZ0NJQWdxLWRqdXJXWXc0RGRoQ3hVMmJDSHU1d0FnMDZoNWxXYmY2cmIxY2dxR3d1SmZRRjk4TVhSYUIxSFltcmxyUVVGUDRjSkR0NkRnNElrZmQxUE3SAV5BVV95cUxOd3k5Wk12OWlZaDRIMkpsRTNCQ3pLaVFmWDJBX0VPM0N0aDVWR0x6cW9hajhRMmRqeTMzVDRYSWh3SlJ5aGppNm5IMjhFWjJ3SkxGVnhoZEtTdDE1Y193?oc=5",
-          "source": "Law360",
-          "published": "2026-09-04T17:02:00Z",
-          "summary": ""
+          "title": "Filevine Takes On Shepard’s and KeyCite With Its Own AI Case Law Citator and Hallucination Checker",
+          "url": "https://www.lawnext.com/2026/09/filevine-takes-on-shepards-and-keycite-with-its-own-ai-case-law-citator-and-hallucination-checker.html",
+          "source": "lawnext.com",
+          "published": "2026-09-02T14:24:33Z",
+          "summary": "The legal technology company Filevine has launched an AI-native citator and a companion brief-checking tool inside LOIS, its Legal Operating Intelligence System AI platform, that its CEO says perform as well as or better than the leading…"
+        },
+        {
+          "title": "15% of Large Firm Lawyers ‘Now Dependent on AI’",
+          "url": "https://www.artificiallawyer.com/2026/09/02/15-of-large-firm-lawyers-now-dependent-on-ai/",
+          "source": "artificiallawyer.com",
+          "published": "2026-09-02T11:52:02Z",
+          "summary": "15% of lawyers at large law firms are ‘now dependent on AI’ to do their job, a survey by LexisNexis in the UK has found. ..."
+        },
+        {
+          "title": "‘We Use AI, But We Pass on the Savings’ – Kyra Law",
+          "url": "https://www.artificiallawyer.com/2026/09/02/we-use-ai-but-we-pass-on-the-savings-kyra-law/",
+          "source": "artificiallawyer.com",
+          "published": "2026-09-02T07:46:53Z",
+          "summary": "Kyra Law is a pioneering UK-based NewMod law firm. Artificial Lawyer spoke to co-founder Julian Ritter about leveraging AI with this new business model, the ..."
+        },
+        {
+          "title": "Webinar: Why is the Legal AI ROI Conversation Still Broken?",
+          "url": "https://www.artificiallawyer.com/2026/09/02/webinar-why-is-the-legal-ai-roi-conversation-still-broken/",
+          "source": "artificiallawyer.com",
+          "published": "2026-09-02T06:43:15Z",
+          "summary": "On Wednesday, September 16, 4 PM BST, 11 AM ET, 8 AM PT, Chamelio and Artificial Lawyer will be holding a live webinar to explore the increasingly ..."
         }
       ]
     },
