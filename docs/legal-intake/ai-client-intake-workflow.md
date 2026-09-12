@@ -1507,6 +1507,8 @@ At 30/60/90 days, join `scoring.total` to outcomes (engaged? billed? collected? 
 
 ### 11.4 Dashboard layout
 
+> **Built version:** `docs/legal-intake/intake-dashboard.html` implements this layout with representative data — the five bands below, the §11.2 metrics and targets, and the §11.5 queries as its table view.
+
 **Row 1 — Today (the wall monitor)**
 `Open intakes by status` (funnel) · `SLA breaches now` (big number, red) · `SOL ≤30 days` (list, always visible) · `Awaiting attorney review` (count by attorney)
 
