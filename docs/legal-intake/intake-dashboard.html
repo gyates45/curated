@@ -1,0 +1,942 @@
+<title>Intake Operations Board</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap">
+
+<style>
+:root {
+  color-scheme: light;
+  --plane:        #f1f3f6;
+  --surface:      #fbfcfd;
+  --surface-sunk: #eef1f5;
+  --ink:          #0d1117;
+  --ink-2:        #4c5461;
+  --ink-3:        #7b8494;
+  --rule:         #dde2ea;
+  --rule-strong:  #c2cad6;
+  --grid:         #e6eaf0;
+  --chrome:       #1c3f6e;
+  --chrome-wash:  #e7edf6;
+
+  --s1: #2a78d6; --s2: #eb6834; --s3: #1baf7a; --s4: #eda100; --s5: #e87ba4;
+  --o1: #86b6ef; --o2: #5598e7; --o3: #2a78d6; --o4: #1c5cab; --o5: #104281;
+
+  --good: #0ca30c; --warning: #fab219; --serious: #ec835a; --critical: #d03b3b;
+  --good-ink: #006300; --critical-ink: #a92e2e; --serious-ink: #a4542f; --warning-ink: #7a5400;
+  --good-wash: #e7f5e7; --critical-wash: #fbeaea; --serious-wash: #fdeee7; --warning-wash: #fdf3df;
+}
+@media (prefers-color-scheme: dark) {
+  :root:where(:not([data-theme="light"])) {
+    color-scheme: dark;
+    --plane:        #0d0f12;
+    --surface:      #16181c;
+    --surface-sunk: #1d2026;
+    --ink:          #f2f4f7;
+    --ink-2:        #b9c0cb;
+    --ink-3:        #848d9b;
+    --rule:         #272b33;
+    --rule-strong:  #3a404b;
+    --grid:         #23272e;
+    --chrome:       #8fb3e0;
+    --chrome-wash:  #1a2330;
+
+    --s1: #3987e5; --s2: #d95926; --s3: #199e70; --s4: #c98500; --s5: #d55181;
+    --o1: #cde2fb; --o2: #9ec5f4; --o3: #6da7ec; --o4: #2a78d6; --o5: #184f95;
+
+    --good-ink: #35b935; --critical-ink: #e06b6b; --serious-ink: #ec835a; --warning-ink: #d9a01c;
+    --good-wash: #12240f; --critical-wash: #2a1516; --serious-wash: #2b1a13; --warning-wash: #2a2110;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --plane:        #0d0f12;
+  --surface:      #16181c;
+  --surface-sunk: #1d2026;
+  --ink:          #f2f4f7;
+  --ink-2:        #b9c0cb;
+  --ink-3:        #848d9b;
+  --rule:         #272b33;
+  --rule-strong:  #3a404b;
+  --grid:         #23272e;
+  --chrome:       #8fb3e0;
+  --chrome-wash:  #1a2330;
+
+  --s1: #3987e5; --s2: #d95926; --s3: #199e70; --s4: #c98500; --s5: #d55181;
+  --o1: #cde2fb; --o2: #9ec5f4; --o3: #6da7ec; --o4: #2a78d6; --o5: #184f95;
+
+  --good-ink: #35b935; --critical-ink: #e06b6b; --serious-ink: #ec835a; --warning-ink: #d9a01c;
+  --good-wash: #12240f; --critical-wash: #2a1516; --serious-wash: #2b1a13; --warning-wash: #2a2110;
+}
+
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--plane);
+  color: var(--ink);
+  font-family: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+.wrap { max-width: 1420px; margin: 0 auto; padding: 0 20px 72px; }
+
+/* ---------- header ---------- */
+.masthead {
+  position: sticky; top: 0; z-index: 40;
+  background: var(--plane);
+  border-bottom: 1px solid var(--rule);
+  padding: 14px 0 12px;
+  display: flex; flex-wrap: wrap; align-items: baseline; gap: 10px 22px;
+}
+.mast-name {
+  font-family: "IBM Plex Sans Condensed", "IBM Plex Sans", sans-serif;
+  font-weight: 700; font-size: 20px; letter-spacing: .01em;
+}
+.mast-name span { color: var(--chrome); }
+.mast-sub { color: var(--ink-2); font-size: 13px; }
+.mast-right { margin-left: auto; display: flex; align-items: center; gap: 18px; flex-wrap: wrap; }
+.mast-meta {
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 11.5px; color: var(--ink-3); letter-spacing: .01em;
+}
+.live { display: inline-flex; align-items: center; gap: 7px; font-size: 11.5px; color: var(--ink-2);
+  font-family: "IBM Plex Mono", ui-monospace, monospace; }
+.live-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--good); flex: none; }
+@media (prefers-reduced-motion: no-preference) {
+  .live-dot { animation: pulse 2.4s ease-in-out infinite; }
+  @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: .35; } }
+}
+.btn {
+  font: 500 12px/1 "IBM Plex Sans", sans-serif;
+  color: var(--ink-2); background: var(--surface);
+  border: 1px solid var(--rule-strong); border-radius: 4px;
+  padding: 7px 11px; cursor: pointer;
+}
+.btn:hover { background: var(--chrome-wash); color: var(--chrome); border-color: var(--chrome); }
+.btn:focus-visible { outline: 2px solid var(--chrome); outline-offset: 2px; }
+
+/* ---------- bands ---------- */
+.band { margin-top: 30px; }
+.band-head { display: flex; align-items: baseline; gap: 14px; margin-bottom: 12px; }
+.band-eyebrow {
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+  font-weight: 700; font-size: 12px; letter-spacing: .13em; text-transform: uppercase;
+  color: var(--chrome); flex: none;
+}
+.band-purpose { font-size: 12.5px; color: var(--ink-3); flex: none; }
+.band-rule { flex: 1; height: 1px; background: var(--rule); align-self: center; }
+
+.grid { display: grid; grid-template-columns: repeat(12, 1fr); gap: 14px; }
+.card {
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  padding: 14px 15px 13px;
+  display: flex; flex-direction: column; min-width: 0;
+}
+.card-title {
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+  font-weight: 600; font-size: 13px; letter-spacing: .04em; text-transform: uppercase;
+  color: var(--ink-2); margin: 0 0 2px;
+}
+.card-note { font-size: 11.5px; color: var(--ink-3); margin: 0 0 10px; }
+.card-note b { color: var(--ink-2); font-weight: 600; }
+
+.c3 { grid-column: span 3; } .c4 { grid-column: span 4; } .c5 { grid-column: span 5; }
+.c6 { grid-column: span 6; } .c7 { grid-column: span 7; } .c8 { grid-column: span 8; }
+.c9 { grid-column: span 9; } .c12 { grid-column: span 12; }
+@media (max-width: 1100px) {
+  .c3, .c4, .c5 { grid-column: span 6; }
+  .c7, .c8, .c9 { grid-column: span 12; }
+}
+@media (max-width: 680px) {
+  .c3, .c4, .c5, .c6, .c7 { grid-column: span 12; }
+}
+
+/* ---------- figures ---------- */
+.hero-card { justify-content: space-between; }
+.hero-fig {
+  font-size: 62px; line-height: .95; font-weight: 600; letter-spacing: -.02em;
+  color: var(--critical-ink); margin: 6px 0 2px;
+}
+.hero-fig.is-clear { color: var(--good-ink); }
+.hero-cap { font-size: 12.5px; color: var(--ink-2); }
+.stat-val {
+  font-size: 30px; font-weight: 600; letter-spacing: -.01em; line-height: 1.1; margin: 2px 0 1px;
+}
+.stat-delta { font-size: 11.5px; font-family: "IBM Plex Mono", monospace; color: var(--ink-3); }
+.stat-delta.good { color: var(--good-ink); }
+.stat-delta.bad  { color: var(--critical-ink); }
+
+/* ---------- chips ---------- */
+.chip {
+  display: inline-flex; align-items: center; gap: 5px;
+  font: 600 11px/1 "IBM Plex Sans", sans-serif;
+  padding: 3px 7px; border-radius: 3px; white-space: nowrap;
+}
+.chip svg { flex: none; }
+.chip.critical { background: var(--critical-wash); color: var(--critical-ink); }
+.chip.serious  { background: var(--serious-wash);  color: var(--serious-ink); }
+.chip.warning  { background: var(--warning-wash);  color: var(--warning-ink); }
+.chip.good     { background: var(--good-wash);     color: var(--good-ink); }
+
+/* ---------- lists / tables ---------- */
+.rows { display: flex; flex-direction: column; gap: 1px; background: var(--rule); border-top: 1px solid var(--rule); }
+.row {
+  background: var(--surface); display: grid; align-items: center; gap: 10px;
+  padding: 8px 2px; font-size: 12.5px;
+}
+.row.sol { grid-template-columns: 78px 1fr auto auto; }
+.row-id { font-family: "IBM Plex Mono", monospace; font-size: 11.5px; color: var(--ink-3); }
+.row-name { color: var(--ink); font-weight: 500; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.row-meta { font-family: "IBM Plex Mono", monospace; font-size: 11.5px; color: var(--ink-3); white-space: nowrap; }
+
+table.data { border-collapse: collapse; width: 100%; font-size: 12.5px; }
+table.data th, table.data td { text-align: left; padding: 6px 10px 6px 0; border-bottom: 1px solid var(--rule); }
+table.data th {
+  font-family: "IBM Plex Sans Condensed", sans-serif; font-weight: 600;
+  text-transform: uppercase; letter-spacing: .06em; font-size: 11px; color: var(--ink-3);
+}
+table.data td.num { text-align: right; font-family: "IBM Plex Mono", monospace; font-variant-numeric: tabular-nums; padding-right: 0; }
+.table-scroll { overflow-x: auto; }
+
+/* ---------- legend ---------- */
+.legend { display: flex; flex-wrap: wrap; gap: 6px 14px; margin-top: 10px; }
+.legend-item { display: inline-flex; align-items: center; gap: 6px; font-size: 11.5px; color: var(--ink-2); }
+.legend-key { width: 10px; height: 10px; border-radius: 2px; flex: none; }
+
+/* ---------- svg chart chrome ---------- */
+.chartbox { position: relative; }
+svg.chart { display: block; width: 100%; height: auto; overflow: visible; }
+svg.chart text { font-family: "IBM Plex Mono", ui-monospace, monospace; font-size: 10.5px; fill: var(--ink-3); }
+svg.chart text.lbl { font-family: "IBM Plex Sans", sans-serif; font-size: 11.5px; fill: var(--ink-2); }
+svg.chart text.val { font-family: "IBM Plex Mono", monospace; font-size: 11px; fill: var(--ink); font-weight: 500; }
+svg.chart .gridline { stroke: var(--grid); stroke-width: 1; }
+svg.chart .axis { stroke: var(--rule-strong); stroke-width: 1; }
+svg.chart .hit { fill: transparent; cursor: default; }
+
+.tip {
+  position: absolute; z-index: 20; pointer-events: none; opacity: 0;
+  transform: translate(-50%, -100%); transition: opacity .09s linear;
+  background: var(--surface); border: 1px solid var(--rule-strong); border-radius: 4px;
+  padding: 7px 9px; min-width: 116px;
+  box-shadow: 0 4px 14px rgba(13,17,23,.13);
+  font-size: 11.5px; color: var(--ink);
+}
+.tip.on { opacity: 1; }
+.tip-head {
+  font-family: "IBM Plex Sans Condensed", sans-serif; font-weight: 600;
+  text-transform: uppercase; letter-spacing: .05em; font-size: 10.5px; color: var(--ink-3);
+  margin-bottom: 4px;
+}
+.tip-row { display: flex; align-items: center; gap: 7px; justify-content: space-between; }
+.tip-row + .tip-row { margin-top: 2px; }
+.tip-key { display: inline-flex; align-items: center; gap: 6px; color: var(--ink-2); }
+.tip-sw { width: 9px; height: 9px; border-radius: 2px; flex: none; }
+.tip-num { font-family: "IBM Plex Mono", monospace; font-variant-numeric: tabular-nums; font-weight: 600; }
+
+.foot { margin-top: 34px; padding-top: 14px; border-top: 1px solid var(--rule); color: var(--ink-3); font-size: 11.5px; }
+.foot b { color: var(--ink-2); font-weight: 600; }
+[hidden] { display: none !important; }
+</style>
+
+<div class="wrap">
+
+  <header class="masthead">
+    <div>
+      <div class="mast-name">Intake Operations <span>Board</span></div>
+      <div class="mast-sub">Brenner &amp; Kohl LLP — civil litigation &amp; small-business advisory</div>
+    </div>
+    <div class="mast-right">
+      <span class="live"><span class="live-dot"></span>LIVE</span>
+      <span class="mast-meta">PERIOD 2026-05-23 → 2026-08-20 · 90 DAYS</span>
+      <span class="mast-meta">REFRESHED 09:15 ET</span>
+      <button class="btn" id="tableToggle" type="button" aria-expanded="false">Table view</button>
+    </div>
+  </header>
+
+  <!-- ============ ROW 1 — TODAY ============ -->
+  <section class="band">
+    <div class="band-head">
+      <span class="band-eyebrow">Today</span>
+      <span class="band-purpose">What needs a person right now</span>
+      <span class="band-rule"></span>
+    </div>
+    <div class="grid">
+
+      <div class="card c3 hero-card">
+        <h2 class="card-title">SLA breaches now</h2>
+        <p class="card-note">Past due on first response, conflicts, or recommendation</p>
+        <div>
+          <div class="hero-fig" id="heroFig">3</div>
+          <div class="hero-cap" id="heroCap">2 conflicts pre-check · 1 recommendation</div>
+        </div>
+        <div style="margin-top:12px;display:flex;gap:6px;flex-wrap:wrap">
+          <span class="chip critical">
+            <svg width="11" height="11" viewBox="0 0 12 12" aria-hidden="true"><path d="M6 1.2 11 10.4H1z" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/><path d="M6 4.6v2.6M6 8.6v.1" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+            Escalated to Ops Lead
+          </span>
+        </div>
+      </div>
+
+      <div class="card c5">
+        <h2 class="card-title">Open intakes by status</h2>
+        <p class="card-note"><b>97</b> records in a non-terminal status</p>
+        <div class="chartbox"><div id="statusChart"></div></div>
+      </div>
+
+      <div class="card c4">
+        <h2 class="card-title">SOL &amp; deadline watch — ≤30 days</h2>
+        <p class="card-note"><b>7 open</b> · <b>0 unreviewed</b> · target is zero unreviewed</p>
+        <div class="rows" id="solList"></div>
+      </div>
+
+      <div class="card c4">
+        <h2 class="card-title">Awaiting attorney review</h2>
+        <p class="card-note"><b>16</b> packets queued · target ≤2 business days</p>
+        <div class="chartbox"><div id="attorneyChart"></div></div>
+      </div>
+
+      <div class="card c4">
+        <h2 class="card-title">First response, today</h2>
+        <p class="card-note">Automated acknowledgement · target ≤10 min, 24/7</p>
+        <div class="stat-val" id="ttfrToday">5.4<span style="font-size:16px;color:var(--ink-3);font-weight:500"> min</span></div>
+        <div class="stat-delta good">median · p90 18.2 min · 31 inquiries</div>
+        <div class="chartbox" style="margin-top:10px"><div id="todaySpark"></div></div>
+      </div>
+
+      <div class="card c4">
+        <h2 class="card-title">Conflicts queue</h2>
+        <p class="card-note">Nothing advances until a human clears it</p>
+        <div class="stat-val">8<span style="font-size:16px;color:var(--ink-3);font-weight:500"> pending</span></div>
+        <div class="stat-delta">oldest 3h 10m · SLA 4 business hours</div>
+        <div style="margin-top:12px;display:flex;gap:6px;flex-wrap:wrap">
+          <span class="chip good">
+            <svg width="11" height="11" viewBox="0 0 12 12" aria-hidden="true"><path d="M2.2 6.3 4.8 8.9 9.8 3.4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            6 within SLA
+          </span>
+          <span class="chip serious">
+            <svg width="11" height="11" viewBox="0 0 12 12" aria-hidden="true"><circle cx="6" cy="6" r="4.6" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M6 3.4V6l1.8 1.2" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" fill="none"/></svg>
+            2 past 75% of window
+          </span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============ ROW 2 — FLOW ============ -->
+  <section class="band">
+    <div class="band-head">
+      <span class="band-eyebrow">Flow</span>
+      <span class="band-purpose">Where volume comes from and how fast it moves</span>
+      <span class="band-rule"></span>
+    </div>
+    <div class="grid">
+
+      <div class="card c7">
+        <h2 class="card-title">Intakes by week × channel</h2>
+        <p class="card-note">13 weeks · <b>452</b> inquiries · excludes 31 spam</p>
+        <div class="chartbox"><div id="channelChart"></div></div>
+        <div class="legend" id="channelLegend"></div>
+      </div>
+
+      <div class="card c5">
+        <h2 class="card-title">Median time to first response</h2>
+        <p class="card-note">Weekly median · target <b>&lt;10 min</b> (shaded)</p>
+        <div class="chartbox"><div id="ttfrChart"></div></div>
+      </div>
+
+      <div class="card c12">
+        <h2 class="card-title">Pipeline funnel — received to engaged</h2>
+        <p class="card-note">Conversion at each stage · <b>403</b> qualified inquiries → <b>96</b> engagements (23.8%)</p>
+        <div class="chartbox"><div id="funnelChart"></div></div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============ ROW 3 — DECISIONS ============ -->
+  <section class="band">
+    <div class="band-head">
+      <span class="band-eyebrow">Decisions</span>
+      <span class="band-purpose">What the firm accepted, passed on, and why</span>
+      <span class="band-rule"></span>
+    </div>
+    <div class="grid">
+
+      <div class="card c3">
+        <h2 class="card-title">Final decision mix</h2>
+        <p class="card-note"><b>331</b> attorney-reviewed matters</p>
+        <div class="chartbox"><div id="donutChart"></div></div>
+        <div class="legend" id="donutLegend"></div>
+      </div>
+
+      <div class="card c4">
+        <h2 class="card-title">Declination reasons</h2>
+        <p class="card-note"><b>168</b> declines · every one letter-documented</p>
+        <div class="chartbox"><div id="declineChart"></div></div>
+      </div>
+
+      <div class="card c5">
+        <h2 class="card-title">Score distribution vs thresholds</h2>
+        <p class="card-note">Accept ≥75 · Decline ≤45 · else Needs Info</p>
+        <div class="chartbox"><div id="histChart"></div></div>
+      </div>
+
+      <div class="card c6">
+        <h2 class="card-title">Attorney override rate</h2>
+        <p class="card-note">Final decision ≠ system recommendation · healthy band <b>10–25%</b> (shaded)</p>
+        <div class="chartbox"><div id="overrideChart"></div></div>
+      </div>
+
+      <div class="card c6">
+        <h2 class="card-title">Conflicts screening quality</h2>
+        <p class="card-note">A low verified/potential ratio means the matcher is too loose and is burning analyst time</p>
+        <div class="grid" style="grid-template-columns:repeat(3,1fr);gap:14px;margin-top:4px">
+          <div>
+            <div class="stat-val">23.8<span style="font-size:15px;color:var(--ink-3);font-weight:500">%</span></div>
+            <div class="stat-delta">flagged potential · 96 of 403</div>
+          </div>
+          <div>
+            <div class="stat-val">17.7<span style="font-size:15px;color:var(--ink-3);font-weight:500">%</span></div>
+            <div class="stat-delta good">verified of potential · target ≥15%</div>
+          </div>
+          <div>
+            <div class="stat-val">21</div>
+            <div class="stat-delta">declined for conflict · 3 screened, 1 waived</div>
+          </div>
+        </div>
+        <div class="chartbox" style="margin-top:14px"><div id="conflictChart"></div></div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============ ROW 4 — BUSINESS ============ -->
+  <section class="band">
+    <div class="band-head">
+      <span class="band-eyebrow">Business</span>
+      <span class="band-purpose">Which sources and practice areas are worth the spend</span>
+      <span class="band-rule"></span>
+    </div>
+    <div class="grid">
+
+      <div class="card c4">
+        <h2 class="card-title">Lead-to-engagement by source</h2>
+        <p class="card-note">Engaged ÷ qualified inquiries</p>
+        <div class="chartbox"><div id="sourceChart"></div></div>
+      </div>
+
+      <div class="card c4">
+        <h2 class="card-title">Conversion by practice area</h2>
+        <p class="card-note">Engaged ÷ inquiries by matter type</p>
+        <div class="chartbox"><div id="areaChart"></div></div>
+      </div>
+
+      <div class="card c4">
+        <h2 class="card-title">Revenue per accepted matter</h2>
+        <p class="card-note">Billings to date ÷ engagements, by source</p>
+        <div class="chartbox"><div id="revChart"></div></div>
+      </div>
+
+      <div class="card c12">
+        <h2 class="card-title">Cost per intake</h2>
+        <p class="card-note">Tool and API spend ÷ qualified inquiries · monthly</p>
+        <div class="chartbox"><div id="costChart"></div></div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============ ROW 5 — HEALTH ============ -->
+  <section class="band">
+    <div class="band-head">
+      <span class="band-eyebrow">Health</span>
+      <span class="band-purpose">Is the machinery itself working</span>
+      <span class="band-rule"></span>
+    </div>
+    <div class="grid" id="healthGrid"></div>
+  </section>
+
+  <!-- ============ TABLE VIEW ============ -->
+  <section class="band" id="tableView" hidden>
+    <div class="band-head">
+      <span class="band-eyebrow">Table view</span>
+      <span class="band-purpose">Every charted value, as text</span>
+      <span class="band-rule"></span>
+    </div>
+    <div class="grid" id="tableGrid"></div>
+  </section>
+
+  <footer class="foot">
+    <b>Sample data.</b> Figures are representative of a 14-attorney firm handling ~150 inquiries per month; they are illustrative, not measured.
+    Built to the dashboard specification in <b>§11.4</b> of the AI-Assisted Client Intake Workflow, with metrics and thresholds from §11.2 and queries from §11.5.
+    Scores and recommendations shown here are advisory only — every accept, decline, and conflicts clearance in the underlying workflow is made by a named human.
+  </footer>
+
+</div>
+
+<script>
+(() => {
+  "use strict";
+
+  /* ================= data (representative sample) ================= */
+  const D = {
+    status: [
+      ["New", 9], ["Triaged", 12], ["Conflicts pending", 8], ["Conflicts cleared", 5],
+      ["Eligibility scored", 4], ["Needs info", 23], ["Scheduled", 14],
+      ["Pending attorney review", 16], ["Accepted, pending engagement", 6]
+    ],
+    sol: [
+      ["INT-2026-0431", "Okonkwo v. Harlan Freight", 6, "critical", "Ohio R.C. 2305.10"],
+      ["INT-2026-0447", "Delgado Fabrication LLC", 11, "critical", "Contractual §14.3"],
+      ["INT-2026-0402", "Sandoval — EEOC charge", 14, "serious", "300-day charge window"],
+      ["INT-2026-0455", "Prytania Holdings LLC", 19, "serious", "Ohio R.C. 2305.06"],
+      ["INT-2026-0459", "Byrne — notice of claim", 23, "warning", "Public-entity notice"],
+      ["INT-2026-0438", "Castellano Bros. Supply", 27, "warning", "Contractual §9.2"],
+      ["INT-2026-0461", "Whitcomb Dairy Co.", 30, "warning", "Ohio R.C. 2305.06"]
+    ],
+    attorneys: [["J. Kohl", 6], ["M. Brenner", 4], ["L. Ruiz-Navarro", 3], ["T. Adeyemi", 2], ["S. Park", 1]],
+    todaySpark: [7.9, 6.2, 5.1, 4.8, 6.6, 5.4, 4.2, 5.9, 7.1, 5.0, 4.6, 5.4],
+    weeks: ["W22","W23","W24","W25","W26","W27","W28","W29","W30","W31","W32","W33","W34"],
+    channels: [
+      { name: "Web form", key: "--s1", data: [12,14,13,15,12,16,14,13,15,17,14,16,15] },
+      { name: "Phone",    key: "--s2", data: [10, 9,11, 9,10, 8,11,10, 9,11,10, 9,10] },
+      { name: "Email",    key: "--s3", data: [ 6, 5, 6, 7, 5, 6, 5, 6, 7, 5, 6, 6, 5] },
+      { name: "Referral", key: "--s4", data: [ 4, 5, 4, 4, 6, 5, 4, 5, 4, 5, 6, 5, 5] },
+      { name: "Other",    key: "--s5", data: [ 2, 2, 3, 2, 2, 3, 2, 2, 3, 2, 2, 3, 2] }
+    ],
+    ttfr: [11.2, 9.8, 8.4, 7.9, 8.6, 7.2, 6.8, 7.4, 6.1, 5.8, 6.4, 5.9, 6.2],
+    funnel: [
+      ["Received", 403], ["Triaged", 403], ["Conflicts cleared", 388],
+      ["Attorney reviewed", 331], ["Engaged", 96]
+    ],
+    decisions: [["Accept", 112, "--good"], ["Decline", 168, "--critical"], ["Needs info", 51, "--warning"]],
+    declines: [
+      ["Outside practice area", 41], ["Economics", 34], ["Merits", 29], ["Conflict", 21],
+      ["Not licensed in forum", 16], ["SOL expired", 12], ["Capacity", 9],
+      ["Fee model mismatch", 4], ["Other", 2]
+    ],
+    hist: { from: 20, bin: 5, counts: [4,9,14,19,24,26,30,33,31,29,26,29,26,21,8,2] },
+    override: [22.1, 19.4, 24.6, 17.8, 21.2, 15.9, 18.4, 20.1, 16.7, 19.8, 17.2, 18.9, 18.1],
+    sources: [
+      ["Repeat client", 61], ["Attorney referral", 44], ["Client referral", 38],
+      ["Professional referral", 35], ["Website direct", 21], ["Google search", 17],
+      ["Google Ads", 12], ["Directory", 9]
+    ],
+    areas: [
+      ["Business formation", 41], ["Business transaction", 31], ["Contract litigation", 28],
+      ["Real estate", 24], ["Employment advisory", 22], ["Business tort", 19], ["Other", 11]
+    ],
+    revenue: [
+      ["Attorney referral", 31.2], ["Repeat client", 24.8], ["Professional referral", 18.6],
+      ["Client referral", 14.1], ["Google search", 9.8], ["Google Ads", 7.4], ["Directory", 6.2]
+    ],
+    costMonths: ["Mar","Apr","May","Jun","Jul","Aug"],
+    cost: [6.85, 5.90, 5.12, 4.48, 4.10, 3.62],
+    health: [
+      { label: "Automation failures, 7d", value: "2", delta: "0.4% of 512 executions · target <1%", tone: "good",
+        spark: [5,3,4,2,6,3,2,1,3,2,1,2] },
+      { label: "Records stuck >24h", value: "4", delta: "caught by nightly reconciliation", tone: "bad",
+        spark: [2,3,5,4,6,5,3,4,6,5,3,4] },
+      { label: "Extraction correction rate", value: "6.8%", delta: "−1.9 pts vs prior 30 days", tone: "good",
+        spark: [11.4,10.8,10.1,9.6,9.9,8.7,8.2,8.6,7.8,7.4,7.1,6.8] },
+      { label: "Dead-letter queue depth", value: "1", delta: "oldest 2h 40m · owner notified", tone: "good",
+        spark: [0,2,1,0,3,1,0,1,2,0,1,1] }
+    ]
+  };
+
+  /* ================= helpers ================= */
+  const $ = id => document.getElementById(id);
+  const esc = s => String(s).replace(/[&<>"']/g, c => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;" }[c]));
+  const v = token => `var(${token})`;
+  const fmt = n => n.toLocaleString("en-US");
+
+  function svgEl(w, h, inner) {
+    return `<svg class="chart" viewBox="0 0 ${w} ${h}" role="img" preserveAspectRatio="xMidYMid meet">${inner}</svg>`;
+  }
+  function barH(x, y, w, h, r = 4) {
+    const rr = Math.max(0, Math.min(r, w, h / 2));
+    if (w <= 0.5) return "";
+    return `<path d="M${x} ${y}h${w - rr}a${rr} ${rr} 0 0 1 ${rr} ${rr}v${h - 2 * rr}a${rr} ${rr} 0 0 1 ${-rr} ${rr}H${x}z"/>`;
+  }
+  function barV(x, y, w, h, r = 4) {
+    const rr = Math.max(0, Math.min(r, h, w / 2));
+    if (h <= 0.5) return "";
+    return `<path d="M${x} ${y + h}V${y + rr}a${rr} ${rr} 0 0 1 ${rr} ${-rr}h${w - 2 * rr}a${rr} ${rr} 0 0 1 ${rr} ${rr}v${h - rr}z"/>`;
+  }
+  const linePath = pts => pts.map((p, i) => `${i ? "L" : "M"}${p[0].toFixed(1)} ${p[1].toFixed(1)}`).join("");
+
+  function attachTip(box) {
+    const tip = document.createElement("div");
+    tip.className = "tip";
+    box.appendChild(tip);
+    const show = (x, y, html) => {
+      tip.innerHTML = html;
+      const bw = box.clientWidth;
+      tip.style.left = Math.max(74, Math.min(bw - 74, x)) + "px";
+      /* measure, then flip below the cursor when there is no room above */
+      const h = tip.offsetHeight;
+      if (y - 10 - h < 0) {
+        tip.style.transform = "translate(-50%, 0)";
+        tip.style.top = (y + 16) + "px";
+      } else {
+        tip.style.transform = "translate(-50%, -100%)";
+        tip.style.top = (y - 10) + "px";
+      }
+      tip.classList.add("on");
+    };
+    const hide = () => tip.classList.remove("on");
+    box.addEventListener("mouseleave", hide);
+    return { show, hide };
+  }
+  function wire(box, tip) {
+    box.querySelectorAll("[data-tip]").forEach(node => {
+      const handler = ev => {
+        const r = node.getBoundingClientRect();
+        const b = box.getBoundingClientRect();
+        const ax = node.dataset.tipx ? (r.left - b.left + r.width / 2) : (ev.clientX - b.left);
+        /* vertical anchor follows the pointer so wide hit areas do not pin the
+           tooltip to the top of the plot, where it would clip out of the card */
+        const ay = Math.min(Math.max(ev.clientY - b.top, 0), box.clientHeight);
+        tip.show(ax, ay, node.dataset.tip);
+      };
+      node.addEventListener("mouseenter", handler);
+      node.addEventListener("mousemove", handler);
+      node.addEventListener("mouseleave", tip.hide);
+    });
+  }
+  function mount(id, markup) {
+    const host = $(id);
+    if (!host) return;
+    host.innerHTML = markup;
+    const box = host.closest(".chartbox") || host;
+    wire(box, attachTip(box));
+  }
+  function tipHTML(head, rows) {
+    return `<div class="tip-head">${esc(head)}</div>` + rows.map(([k, val, color]) =>
+      `<div class="tip-row"><span class="tip-key">${color ? `<span class="tip-sw" style="background:${color}"></span>` : ""}${esc(k)}</span><span class="tip-num">${esc(val)}</span></div>`
+    ).join("");
+  }
+  const attr = html => html.replace(/'/g, "&#39;");
+
+  /* ============ generic horizontal bars ============ */
+  function hBars(id, rows, opts = {}) {
+    const { labelW = 132, valW = 46, rowH = 26, thick = 14, color = "--s1", unit = "", head = "Value", W = 460 } = opts;
+    const H = rows.length * rowH + 6;
+    const barMax = W - labelW - valW;
+    const max = Math.max(...rows.map(r => r[1]));
+    let s = "";
+    rows.forEach((r, i) => {
+      const y = i * rowH + 3, cy = y + rowH / 2;
+      const w = max ? (r[1] / max) * barMax : 0;
+      s += `<text class="lbl" x="${labelW - 10}" y="${cy + 4}" text-anchor="end">${esc(r[0])}</text>`;
+      s += `<g fill="${v(color)}">${barH(labelW, cy - thick / 2, w, thick)}</g>`;
+      s += `<text class="val" x="${labelW + w + 7}" y="${cy + 4}">${esc(r[1] + unit)}</text>`;
+      s += `<rect class="hit" x="0" y="${y}" width="${W}" height="${rowH}" data-tipx="1" data-tip='${attr(tipHTML(r[0], [[head, r[1] + unit, v(color)]]))}'></rect>`;
+    });
+    mount(id, svgEl(W, H, s));
+  }
+
+  /* ============ generic line chart ============ */
+  function lineChart(id, opts) {
+    const { series, labels, max, tickStep, unit = "", W = 620, H = 200, color = "--s1",
+            band = null, bandLabel = "", labelEvery = 2, decimals = 1, head = "" } = opts;
+    const padL = 34, padR = 38, padT = 10, padB = 22;
+    const plotH = H - padT - padB, plotW = W - padL - padR;
+    const x = i => padL + (i / (series.length - 1)) * plotW;
+    const y = val => padT + plotH - (val / max) * plotH;
+    let s = "";
+    if (band) {
+      const yTop = y(band[1]), yBot = y(band[0]);
+      s += `<rect x="${padL}" y="${yTop}" width="${plotW}" height="${yBot - yTop}" fill="${v("--good")}" opacity="0.07"></rect>`;
+      if (bandLabel) s += `<text x="${padL + 6}" y="${yTop - 5}" style="font-size:10.5px">${esc(bandLabel)}</text>`;
+    }
+    for (let t = 0; t <= max; t += tickStep) {
+      s += `<line class="gridline" x1="${padL}" y1="${y(t)}" x2="${padL + plotW}" y2="${y(t)}"/>`;
+      s += `<text x="${padL - 8}" y="${y(t) + 3.5}" text-anchor="end">${t}${unit}</text>`;
+    }
+    const pts = series.map((val, i) => [x(i), y(val)]);
+    s += `<path d="${linePath(pts)}" fill="none" stroke="${v(color)}" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>`;
+    const last = pts[pts.length - 1];
+    s += `<circle cx="${last[0]}" cy="${last[1]}" r="4.5" fill="${v(color)}" stroke="${v("--surface")}" stroke-width="2"/>`;
+    s += `<text class="val" x="${last[0] + 9}" y="${last[1] + 4}">${series[series.length - 1].toFixed(decimals)}${unit}</text>`;
+    series.forEach((val, i) => {
+      if (i % labelEvery === 0) s += `<text x="${x(i)}" y="${H - 7}" text-anchor="middle">${esc(labels[i])}</text>`;
+      s += `<rect class="hit" x="${x(i) - plotW / (2 * (series.length - 1))}" y="${padT}" width="${plotW / (series.length - 1)}" height="${plotH}" data-tipx="1" data-tip='${attr(tipHTML(labels[i], [[head, val.toFixed(decimals) + unit, v(color)]]))}'></rect>`;
+    });
+    s += `<line class="axis" x1="${padL}" y1="${padT + plotH}" x2="${padL + plotW}" y2="${padT + plotH}"/>`;
+    mount(id, svgEl(W, H, s));
+  }
+
+  function sparkline(id, data, tone) {
+    const W = 300, H = 34, pad = 3;
+    const max = Math.max(...data), min = Math.min(...data);
+    const span = (max - min) || 1;
+    const x = i => pad + (i / (data.length - 1)) * (W - pad * 2);
+    const y = val => H - pad - ((val - min) / span) * (H - pad * 2);
+    const pts = data.map((val, i) => [x(i), y(val)]);
+    const stroke = tone === "bad" ? v("--serious") : v("--s1");
+    let s = `<path d="${linePath(pts)}" fill="none" stroke="${stroke}" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" opacity="0.85"/>`;
+    const last = pts[pts.length - 1];
+    s += `<circle cx="${last[0]}" cy="${last[1]}" r="4" fill="${stroke}" stroke="${v("--surface")}" stroke-width="2"/>`;
+    mount(id, svgEl(W, H, s));
+  }
+
+  /* ================= Row 1 ================= */
+  hBars("statusChart", D.status, { labelW: 176, rowH: 23, thick: 11, head: "Open intakes", W: 470 });
+  hBars("attorneyChart", D.attorneys, { labelW: 112, rowH: 26, thick: 14, head: "Packets queued", W: 420 });
+
+  $("solList").innerHTML = D.sol.map(([id, name, days, tone, basis]) => {
+    const icon = tone === "critical"
+      ? '<svg width="11" height="11" viewBox="0 0 12 12" aria-hidden="true"><path d="M6 1.2 11 10.4H1z" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/><path d="M6 4.6v2.6M6 8.6v.1" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>'
+      : '<svg width="11" height="11" viewBox="0 0 12 12" aria-hidden="true"><circle cx="6" cy="6" r="4.6" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M6 3.4V6l1.8 1.2" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" fill="none"/></svg>';
+    return `<div class="row sol">
+      <span class="row-id">${esc(id.replace("INT-2026-", "…"))}</span>
+      <span class="row-name" title="${esc(name)}">${esc(name)}</span>
+      <span class="row-meta">${esc(basis)}</span>
+      <span class="chip ${tone}">${icon}${days}d</span>
+    </div>`;
+  }).join("");
+
+  (function todaySparkline() {
+    const W = 420, H = 48, pad = 4;
+    const d = D.todaySpark, max = 12;
+    const x = i => pad + (i / (d.length - 1)) * (W - pad * 2);
+    const y = val => H - pad - (val / max) * (H - pad * 2);
+    const pts = d.map((val, i) => [x(i), y(val)]);
+    const ty = y(10);
+    let s = `<rect x="0" y="0" width="${W}" height="${ty}" fill="${v("--critical")}" opacity="0.05"></rect>`;
+    s += `<line class="gridline" x1="0" y1="${ty}" x2="${W}" y2="${ty}"/>`;
+    s += `<path d="${linePath(pts)}" fill="none" stroke="${v("--s1")}" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>`;
+    const last = pts[pts.length - 1];
+    s += `<circle cx="${last[0]}" cy="${last[1]}" r="4" fill="${v("--s1")}" stroke="${v("--surface")}" stroke-width="2"/>`;
+    d.forEach((val, i) => {
+      s += `<rect class="hit" x="${x(i) - 16}" y="0" width="32" height="${H}" data-tipx="1" data-tip='${attr(tipHTML(`${i + 8}:00`, [["Median response", val.toFixed(1) + " min", v("--s1")]]))}'></rect>`;
+    });
+    mount("todaySpark", svgEl(W, H, s));
+  })();
+
+  /* ================= Row 2 — stacked columns ================= */
+  (function channelStack() {
+    const W = 620, H = 230, padL = 30, padB = 22, padT = 8;
+    const totals = D.weeks.map((_, i) => D.channels.reduce((a, c) => a + c.data[i], 0));
+    const max = 40, plotH = H - padB - padT, plotW = W - padL - 6;
+    const slot = plotW / D.weeks.length, bw = Math.min(24, slot - 10);
+    const yOf = val => padT + plotH - (val / max) * plotH;
+    let s = "";
+    for (let t = 0; t <= max; t += 10) {
+      s += `<line class="gridline" x1="${padL}" y1="${yOf(t)}" x2="${W - 6}" y2="${yOf(t)}"/>`;
+      s += `<text x="${padL - 8}" y="${yOf(t) + 3.5}" text-anchor="end">${t}</text>`;
+    }
+    D.weeks.forEach((wk, i) => {
+      const cx = padL + slot * i + (slot - bw) / 2;
+      let acc = 0;
+      const rows = [];
+      D.channels.forEach((c, ci) => {
+        const val = c.data[i];
+        const y0 = yOf(acc + val), y1 = yOf(acc);
+        const h = Math.max(0, y1 - y0 - 2);
+        const isTop = ci === D.channels.length - 1;
+        s += `<g fill="${v(c.key)}">${isTop ? barV(cx, y0, bw, h, 4) : `<rect x="${cx}" y="${y0}" width="${bw}" height="${h}"/>`}</g>`;
+        acc += val;
+        rows.unshift([c.name, String(val), v(c.key)]);
+      });
+      rows.push(["Total", String(totals[i]), null]);
+      s += `<text x="${cx + bw / 2}" y="${H - 7}" text-anchor="middle">${esc(wk)}</text>`;
+      s += `<rect class="hit" x="${padL + slot * i}" y="${padT}" width="${slot}" height="${plotH}" data-tipx="1" data-tip='${attr(tipHTML(wk + " · 2026", rows))}'></rect>`;
+    });
+    s += `<line class="axis" x1="${padL}" y1="${padT + plotH}" x2="${W - 6}" y2="${padT + plotH}"/>`;
+    mount("channelChart", svgEl(W, H, s));
+    $("channelLegend").innerHTML = D.channels.map(c =>
+      `<span class="legend-item"><span class="legend-key" style="background:${v(c.key)}"></span>${esc(c.name)}</span>`).join("");
+  })();
+
+  lineChart("ttfrChart", {
+    series: D.ttfr, labels: D.weeks, max: 14, tickStep: 5, unit: "", W: 470, H: 214,
+    band: [0, 10], bandLabel: "target ≤10 min", head: "Median first response", decimals: 1
+  });
+
+  /* ================= Row 2 — funnel (columns) ================= */
+  (function funnel() {
+    const W = 1120, H = 234, padT = 44, padB = 46;
+    const ramp = ["--o1", "--o2", "--o3", "--o4", "--o5"];
+    const max = D.funnel[0][1], plotH = H - padT - padB;
+    const slot = W / D.funnel.length, bw = Math.min(150, slot - 46);
+    let s = "";
+    D.funnel.forEach(([name, val], i) => {
+      const h = (val / max) * plotH;
+      const x0 = slot * i + (slot - bw) / 2, y0 = padT + plotH - h;
+      s += `<g fill="${v(ramp[i])}">${barV(x0, y0, bw, h, 4)}</g>`;
+      const pct = ((val / max) * 100).toFixed(1);
+      s += `<text class="lbl" x="${x0 + bw / 2}" y="${padT + plotH + 18}" text-anchor="middle">${esc(name)}</text>`;
+      /* value always above the bar: an in-fill label would need ink chosen by the
+         fill's luminance, and this ramp inverts between light and dark mode */
+      s += `<text class="val" x="${x0 + bw / 2}" y="${y0 - 9}" text-anchor="middle" style="font-size:13px">${fmt(val)}</text>`;
+      s += `<text x="${x0 + bw / 2}" y="${padT + plotH + 33}" text-anchor="middle">${pct}% of received</text>`;
+      if (i < D.funnel.length - 1) {
+        const nxt = D.funnel[i + 1][1];
+        const carry = ((nxt / val) * 100).toFixed(1);
+        const mx = slot * (i + 1);
+        s += `<text x="${mx}" y="${padT - 30}" text-anchor="middle" style="font-size:10.5px">→ ${carry}%</text>`;
+      }
+      s += `<rect class="hit" x="${slot * i}" y="${padT}" width="${slot}" height="${plotH}" data-tipx="1" data-tip='${attr(tipHTML(name, [["Records", fmt(val), v(ramp[i])], ["Of received", pct + "%", null]]))}'></rect>`;
+    });
+    s += `<line class="axis" x1="0" y1="${padT + plotH}" x2="${W}" y2="${padT + plotH}"/>`;
+    mount("funnelChart", svgEl(W, H, s));
+  })();
+
+  /* ================= Row 3 — donut ================= */
+  (function donut() {
+    const W = 260, H = 200, cx = 130, cy = 96, r = 66, thick = 26;
+    const total = D.decisions.reduce((a, d) => a + d[1], 0);
+    const gap = 0.030; /* radians ≈ 2px surface gap */
+    let ang = -Math.PI / 2, s = "";
+    D.decisions.forEach(([name, val, key]) => {
+      const sweep = (val / total) * Math.PI * 2;
+      const a0 = ang + gap / 2, a1 = ang + sweep - gap / 2;
+      const large = (a1 - a0) > Math.PI ? 1 : 0;
+      const p0 = [cx + r * Math.cos(a0), cy + r * Math.sin(a0)];
+      const p1 = [cx + r * Math.cos(a1), cy + r * Math.sin(a1)];
+      s += `<path d="M${p0[0].toFixed(1)} ${p0[1].toFixed(1)}A${r} ${r} 0 ${large} 1 ${p1[0].toFixed(1)} ${p1[1].toFixed(1)}" fill="none" stroke="${v(key)}" stroke-width="${thick}"/>`;
+      const mid = (a0 + a1) / 2;
+      const lx = cx + (r + 24) * Math.cos(mid), ly = cy + (r + 24) * Math.sin(mid);
+      const pct = ((val / total) * 100).toFixed(0);
+      s += `<text class="val" x="${lx.toFixed(1)}" y="${(ly + 4).toFixed(1)}" text-anchor="${Math.cos(mid) < -0.15 ? "end" : (Math.cos(mid) > 0.15 ? "start" : "middle")}">${pct}%</text>`;
+      s += `<path d="M${p0[0].toFixed(1)} ${p0[1].toFixed(1)}A${r} ${r} 0 ${large} 1 ${p1[0].toFixed(1)} ${p1[1].toFixed(1)}" fill="none" stroke="transparent" stroke-width="${thick + 8}" class="hit" data-tipx="1" data-tip='${attr(tipHTML(name, [["Matters", fmt(val), v(key)], ["Share", pct + "%", null]]))}'/>`;
+      ang += sweep;
+    });
+    s += `<text x="${cx}" y="${cy - 3}" text-anchor="middle" class="val" style="font-size:20px">${fmt(total)}</text>`;
+    s += `<text x="${cx}" y="${cy + 14}" text-anchor="middle" style="font-size:10.5px">reviewed</text>`;
+    mount("donutChart", svgEl(W, H, s));
+    $("donutLegend").innerHTML = D.decisions.map(([name, val, key]) =>
+      `<span class="legend-item"><span class="legend-key" style="background:${v(key)}"></span>${esc(name)} <span style="color:var(--ink-3)">${val}</span></span>`).join("");
+  })();
+
+  hBars("declineChart", D.declines, { labelW: 150, rowH: 24, thick: 12, head: "Declines", W: 440 });
+
+  /* ================= Row 3 — histogram ================= */
+  (function hist() {
+    const W = 520, H = 214, padL = 30, padB = 26, padT = 14;
+    const c = D.hist.counts, max = 36;
+    const plotH = H - padT - padB, plotW = W - padL - 10;
+    const slot = plotW / c.length, bw = slot - 3; /* 2px+ surface gap between adjacent bars */
+    const yOf = val => padT + plotH - (val / max) * plotH;
+    const xOfScore = sc => padL + ((sc - D.hist.from) / (c.length * D.hist.bin)) * plotW;
+    let s = "";
+    for (let t = 0; t <= max; t += 12) {
+      s += `<line class="gridline" x1="${padL}" y1="${yOf(t)}" x2="${padL + plotW}" y2="${yOf(t)}"/>`;
+      s += `<text x="${padL - 8}" y="${yOf(t) + 3.5}" text-anchor="end">${t}</text>`;
+    }
+    c.forEach((val, i) => {
+      const lo = D.hist.from + i * D.hist.bin, hi = lo + D.hist.bin;
+      const zone = hi <= 45 ? "--critical" : (lo >= 75 ? "--good" : "--warning");
+      const x0 = padL + slot * i;
+      s += `<g fill="${v(zone)}" opacity="0.85">${barV(x0, yOf(val), bw, padT + plotH - yOf(val), 3)}</g>`;
+      s += `<rect class="hit" x="${x0}" y="${padT}" width="${slot}" height="${plotH}" data-tipx="1" data-tip='${attr(tipHTML(`Score ${lo}–${hi}`, [["Matters", String(val), v(zone)], ["Zone", hi <= 45 ? "Decline" : (lo >= 75 ? "Accept" : "Needs info"), null]]))}'></rect>`;
+    });
+    [[45, "Decline ≤45"], [75, "Accept ≥75"]].forEach(([sc, lbl]) => {
+      const x = xOfScore(sc);
+      s += `<line x1="${x}" y1="${padT - 8}" x2="${x}" y2="${padT + plotH}" stroke="${v("--ink-2")}" stroke-width="1.5"/>`;
+      s += `<text class="val" x="${x + (sc === 45 ? -5 : 5)}" y="${padT - 12}" text-anchor="${sc === 45 ? "end" : "start"}" style="font-size:10.5px">${esc(lbl)}</text>`;
+    });
+    [20, 40, 60, 80, 100].forEach(sc => {
+      s += `<text x="${xOfScore(sc)}" y="${H - 8}" text-anchor="middle">${sc}</text>`;
+    });
+    s += `<line class="axis" x1="${padL}" y1="${padT + plotH}" x2="${padL + plotW}" y2="${padT + plotH}"/>`;
+    mount("histChart", svgEl(W, H, s));
+  })();
+
+  lineChart("overrideChart", {
+    series: D.override, labels: D.weeks, max: 30, tickStep: 10, unit: "%", W: 560, H: 200,
+    band: [10, 25], bandLabel: "healthy 10–25%", head: "Override rate", decimals: 1
+  });
+
+  /* ================= Row 3 — conflicts quality ================= */
+  (function conflicts() {
+    const months = [["June", 31, 5], ["July", 34, 6], ["August", 31, 6]];
+    const W = 560, H = 120, padL = 62, rowH = 34, barMax = W - padL - 120;
+    const max = 40;
+    let s = "";
+    months.forEach(([m, pot, ver], i) => {
+      const y = i * rowH + 8, cy = y + 12;
+      s += `<text class="lbl" x="${padL - 10}" y="${cy + 4}" text-anchor="end">${esc(m)}</text>`;
+      const wp = (pot / max) * barMax, wv = (ver / max) * barMax;
+      s += `<g fill="${v("--s1")}" opacity="0.28">${barH(padL, cy - 7, wp, 14)}</g>`;
+      s += `<g fill="${v("--s1")}">${barH(padL, cy - 7, wv, 14)}</g>`;
+      s += `<text class="val" x="${padL + wp + 8}" y="${cy + 4}">${ver} verified of ${pot}</text>`;
+      s += `<rect class="hit" x="0" y="${y}" width="${W}" height="${rowH}" data-tipx="1" data-tip='${attr(tipHTML(m + " 2026", [["Flagged potential", String(pot), v("--s1")], ["Verified conflict", String(ver), v("--s1")], ["Precision", ((ver / pot) * 100).toFixed(0) + "%", null]]))}'></rect>`;
+    });
+    mount("conflictChart", svgEl(W, H, s));
+  })();
+
+  /* ================= Row 4 ================= */
+  hBars("sourceChart", D.sources, { labelW: 138, rowH: 25, thick: 13, unit: "%", head: "Lead-to-engagement", W: 440 });
+  hBars("areaChart", D.areas, { labelW: 142, rowH: 27, thick: 13, unit: "%", head: "Conversion", W: 440 });
+  hBars("revChart", D.revenue.map(([k, val]) => [k, val]), { labelW: 138, rowH: 27, thick: 13, unit: "k", head: "Revenue per matter ($000)", W: 440 });
+
+  lineChart("costChart", {
+    series: D.cost, labels: D.costMonths, max: 8, tickStep: 2, unit: "", W: 1120, H: 180,
+    labelEvery: 1, head: "Cost per intake ($)", decimals: 2
+  });
+
+  /* ================= Row 5 — health tiles ================= */
+  $("healthGrid").innerHTML = D.health.map((h, i) => `
+    <div class="card c3">
+      <h2 class="card-title">${esc(h.label)}</h2>
+      <div class="stat-val">${esc(h.value)}</div>
+      <div class="stat-delta ${h.tone === "good" ? "good" : "bad"}">${esc(h.delta)}</div>
+      <div class="chartbox" style="margin-top:12px"><div id="spark${i}"></div></div>
+    </div>`).join("");
+  D.health.forEach((h, i) => sparkline("spark" + i, h.spark, h.tone));
+
+  /* ================= table view (accessibility fallback) ================= */
+  function tableCard(title, headers, rows, span = "c4") {
+    return `<div class="card ${span}">
+      <h2 class="card-title">${esc(title)}</h2>
+      <div class="table-scroll"><table class="data">
+        <thead><tr>${headers.map((h, i) => `<th${i ? ' style="text-align:right"' : ""}>${esc(h)}</th>`).join("")}</tr></thead>
+        <tbody>${rows.map(r => `<tr>${r.map((c, i) => i ? `<td class="num">${esc(c)}</td>` : `<td>${esc(c)}</td>`).join("")}</tr>`).join("")}</tbody>
+      </table></div>
+    </div>`;
+  }
+  $("tableGrid").innerHTML = [
+    tableCard("Open intakes by status", ["Status", "Records"], D.status.map(r => [r[0], fmt(r[1])])),
+    tableCard("SOL & deadline watch", ["Matter", "Days left", "Basis"],
+      D.sol.map(r => [r[1], r[2] + "d", r[4]])),
+    tableCard("Awaiting attorney review", ["Attorney", "Packets"], D.attorneys.map(r => [r[0], String(r[1])])),
+    tableCard("Intakes by week × channel", ["Week", ...D.channels.map(c => c.name), "Total"],
+      D.weeks.map((w, i) => [w, ...D.channels.map(c => String(c.data[i])),
+        String(D.channels.reduce((a, c) => a + c.data[i], 0))]), "c8"),
+    tableCard("Median time to first response", ["Week", "Minutes"],
+      D.weeks.map((w, i) => [w, D.ttfr[i].toFixed(1)])),
+    tableCard("Pipeline funnel", ["Stage", "Records", "Of received"],
+      D.funnel.map(([n, val]) => [n, fmt(val), ((val / D.funnel[0][1]) * 100).toFixed(1) + "%"])),
+    tableCard("Final decision mix", ["Decision", "Matters", "Share"],
+      (() => { const t = D.decisions.reduce((a, d) => a + d[1], 0);
+        return D.decisions.map(([n, val]) => [n, fmt(val), ((val / t) * 100).toFixed(1) + "%"]); })()),
+    tableCard("Declination reasons", ["Reason", "Count"], D.declines.map(r => [r[0], String(r[1])])),
+    tableCard("Score distribution", ["Score band", "Matters", "Zone"],
+      D.hist.counts.map((val, i) => {
+        const lo = D.hist.from + i * D.hist.bin, hi = lo + D.hist.bin;
+        return [`${lo}–${hi}`, String(val), hi <= 45 ? "Decline" : (lo >= 75 ? "Accept" : "Needs info")];
+      }), "c4"),
+    tableCard("Attorney override rate", ["Week", "Rate"], D.weeks.map((w, i) => [w, D.override[i].toFixed(1) + "%"])),
+    tableCard("Lead-to-engagement by source", ["Source", "Rate"], D.sources.map(r => [r[0], r[1] + "%"])),
+    tableCard("Conversion by practice area", ["Practice area", "Rate"], D.areas.map(r => [r[0], r[1] + "%"])),
+    tableCard("Revenue per accepted matter", ["Source", "$000"], D.revenue.map(r => [r[0], r[1].toFixed(1)])),
+    tableCard("Cost per intake", ["Month", "$"], D.costMonths.map((m, i) => [m, D.cost[i].toFixed(2)])),
+    tableCard("System health", ["Metric", "Value"], D.health.map(h => [h.label, h.value]))
+  ].join("");
+
+  const tv = $("tableView"), tb = $("tableToggle");
+  tb.addEventListener("click", () => {
+    const open = tv.hasAttribute("hidden");
+    if (open) { tv.removeAttribute("hidden"); } else { tv.setAttribute("hidden", ""); }
+    tb.setAttribute("aria-expanded", String(open));
+    tb.textContent = open ? "Hide table view" : "Table view";
+    if (open) tv.scrollIntoView({ behavior: "smooth", block: "start" });
+  });
+})();
+</script>
