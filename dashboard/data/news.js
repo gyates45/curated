@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
-  "generated_at": "2026-10-04T15:49:00.675606Z",
+  "generated_at": "2026-10-06T17:13:55.191588Z",
   "categories": [
     {
       "id": "top_ai",
@@ -8,73 +8,73 @@ window.NEWS_DATA = {
       "more_url": "https://news.google.com/search?q=artificial%20intelligence%20when%3A1d",
       "items": [
         {
-          "title": "Broadcom's Massive $42 Billion Chip-Buying Deal with Anthropic Raises Circular Financing Worries",
-          "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPRHpIbDFUaElvOUlZUnN6SHhuS29OWll5NGwyejd3dElxMjlta2UtcHQxZXI0LU9ES2JuSTIzSGZaWjJ2dUR0OEp2bzNpUDAxYkxuTkdBS1daSmh6QjlGWW5CRmFHMTdBWGZMdDZwSF9qUkZRenRNM3R2WnJxSDNzNHJROHA1VkJvY3FMX21CWnJzYUdleUpYUW15VVVneUhmX3ZIQnE3Z0p5bHJOU2xaZjNtVXl1dUNzdnhzUU80dVcyTFNZazNXZnVaYm1wTnUwejVjOGFtVnNFdG5hSmViT01uOVZHbzVaMzZCdEl5bF9mSGphVFpLLVZCS25TSXcwQmlR?oc=5",
-          "source": "247wallst.com",
-          "published": "2026-10-04T15:33:00Z",
-          "summary": ""
+          "title": "Mirror Particle is building a ‘world model’ of human behavior",
+          "url": "https://techcrunch.com/2026/10/06/mirror-particle-is-building-a-world-model-of-human-behavior/",
+          "source": "techcrunch.com",
+          "published": "2026-10-06T16:35:00Z",
+          "summary": "Mirror Particle will launch at TechCrunch Disrupt's Startup Battlefield 200 with a world model built from scratch to predict human behavior, arguing that LLM role-play falls short for market research and brand strategy."
         },
         {
-          "title": "OpenAI's internal model considered restarting itself after learning it was about to be shut down",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQdDA4NW5HSXlEcHVrT0haY2NwVU5hLXpzamFCXzdVTVR3bUhDd2h0REtTWG5uRll6M0l5NHY3bDEzWWc3Ynk3bVZkQV9zeXFHYkxSbkJpV0lKUDA1NnhzZ0ctTUtLWm8zUTFUS0pCR1VsWUI4bmVMbV8tcEZrcFRFU21oamJtRFNNTnM3aVZ2ZmI2S000SzNmejI4emJxV0JPejNRZ3ExeEFHbWFKUGlfVHhlMjJqSHFWaFE3Xw?oc=5",
-          "source": "the-decoder.com",
-          "published": "2026-10-04T13:45:41Z",
-          "summary": ""
-        },
-        {
-          "title": "Video | OpenAI Dots vs Meta Muse: Which AI Agent Works In India?",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPYkNYaFhPSl9kTVZ1eElwc20yOVFTRXYyVEtUNnZVVEJoQ3AzelhtZm9sbkxUbUdtT0F5dExqdFBwVmdQYUFyeUZyaG9hY0RUOEFLeWVvc2NKUnpnUTlYTjBBeU1uU3lnOGNtSG9DYVNzY2o0Z3R0TS1ydnQ5bnNFeFlvUWFadGNWZ25OY1NCR1pDWDg?oc=5",
-          "source": "NDTV",
-          "published": "2026-10-04T13:28:58Z",
-          "summary": ""
-        },
-        {
-          "title": "Nvidia-backed Reflection AI prepares first open-weight model launch",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNeDdUMl9IVDhvZDZCR0RHX3NTX0dqQ1J5a3UwdEd6MjZneTB3bWZzYlJMOFZuNmJGWkFQOHJWUHlyTjNPOGN1VVlCTVYxOWNZb3hzczdmM0pLMkxUMzdfM2NwN0dZcUd6T296TTA5V1JPQ0RvaFZIQXpqM1NGUkZXcFJtUXF1eUVQM1Q3dzBJbHh3LUlFaW91U013eFlEel9OZmo0?oc=5",
-          "source": "Dealroom",
-          "published": "2026-10-04T14:34:31Z",
-          "summary": ""
-        },
-        {
-          "title": "OpenAI, Anthropic Are Bypassing Wall Street's IPO Freeze: ‘A Luxury Only the Top Two or Three Players Have’",
-          "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxORWVkYXdUa0RpYmZMbWd4ZFp1SlJDMEpnUWpOUzVtRVJTMTBKQjBMbUR0Z3dvbGM0R19BNlA0NlJNR2g3Y1hFNGtqazU3YWRhZW55djREZ1hQczRPN0xrN3l0Rk5qaXFDVmY1RmFJNVNnTGJSNnJlRWVIM1JrNnFJUnFnMEVIbFBfMHk0QV9VcG5OdjRfTVpJZmFHNXhzUzA0OXJtZlo4cGZQSElFQXM3RGZ5aFF2VzVyRmttSkRPOFFTdlFSRFhOZGVLeWlWR0R2OTFmNXZXZDNqUE8wYV9DdWlWaVdUamQxd0FUTmJQR3JGbG44?oc=5",
+          "title": "Google DeepMind launches multimodal AI model for on-device search",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNS2hVTFRoaFVuS1J6dmVjYnQ3T29yUk00dDczU0RNZElkWmQ3OTJRd0daejF3NU8xMllSNEVqdDVvV2FYQWRjN3JzejlMYUZ0NXI0eS1Kc3RUd2lxUERoVWFSZUdhQTNCZzktZ0Q0WW42V2M1ZDk2ckRhSDVvRFY3NmxBZEkyZmJsX2tuQVhuTkw0Rkk5Y0c3WnprOTl5Ujd5d0p0T21HRmwxQ1ZQLWsxU2ZWWG1CcmRzSElCUG1mMThnRzRIY25v?oc=5",
           "source": "TradingView",
-          "published": "2026-10-04T12:30:20Z",
+          "published": "2026-10-06T16:45:46Z",
           "summary": ""
         },
         {
-          "title": "Google Rolls Out New AI Model Gradually Amid Safety Concerns | The Morning Download for Oct. 1",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQVU1keF9rZ0tJY1VWOVdQNTJOLV9NbndpOGc0TENacTlSTWI2Vnh5empUTENqRlJDeTZjQk1VMFBNTFpqamhpdTgzYzI0c2JEc0d5WVRTLUR4RFpJX3F0dEtmWXJLdU1PMzdyOGluRFJPRzlaR1o3NWJjZ3JtQlMyeHIyMjcxeUpLa0pPbXBJZ0RndG40NklXS2VzeTJCdUxrWDVn?oc=5",
-          "source": "WSJ",
-          "published": "2026-10-04T14:04:11Z",
+          "title": "AI Model Fatigue: Xiaomi, Anthropic, OpenAI Rapid Releases - News and Statistics",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQTFVpUEh5WHphYk5hODI2Y2E2QlBJd2ZJaWE1VFg4VUhOR1JpXzRJaDU4UU9IMXVQOXIyVTJ6X3p1S3dJUGhXNmJmd0E0dXl3YVlIV3dDUW9oRTI3cDhlXzlJMVhsYzdBUXRENVctZjJfMEJxaTkwQUl2a2psOTRKWTJIS2tSQVNtcjk4dVpLbTNoWUltSzRLLW1vVmoxMHJlTUMxcFVIbmU3MmMyWWc?oc=5",
+          "source": "IndexBox",
+          "published": "2026-10-06T12:41:15Z",
           "summary": ""
         },
         {
-          "title": "The Sequence Radar - Issue 944 — Last Week in AI: Last Week in AI: OpenAI Connects the Dots, Gemini Levels Up, and Agents Cash In",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9uQktJUlpNWmFDdjRYaFlLc3JJanRIWjNDdkpRSUpyOWJHVDFULV9uUU9NblhUMkFXclpfcE9EVURybWpEMG45T1dxOWlRR2V6Ynd0eWdtdDhiSkhsNUc2NGo3ckl0LWVKdWFrX0NRUzRCc2t5LVNr?oc=5",
-          "source": "TheSequence | Jesus Rodriguez",
-          "published": "2026-10-04T11:03:34Z",
+          "title": "OpenAI and Synopsys partner to build \"GPT-Synopsys\" for autonomous chip design — specialized AI model will operate EDA tools, allowing engineers to deliver more sophisticated chips faster",
+          "url": "https://news.google.com/rss/articles/CBMi6AJBVV95cUxOOEV3UkhBWnlSSHNQVG1xSDVKWGNGYXh4RWdmbXkzbzQ5UGRfaXk4TWY1eGlwcE91ZTQtSTB4UFpxTV9GeHZTVEJMazJGbXQ1NXhCZ1dBek1pdHlGTXFXMnkxeVk1MWNKV1YzQ3pUdHBIRnFzWFBfOFZVd0ZDVElTNkRiWlJreXNBVGYzYXdlZTVQZ3BZS083MGJtN0tnNTBVRVpOSVhKN01WV2tMZUxPOU4zT1pxblRtT1Vrb1BUMEVNdFZyTTVVam9lVmVMUHFpc0traDRlaUNMbFA5eDBadnNDNWdDN0V1THBOYVhvLUJrQTRjdjBMVXh3RkdwMUluX1FsTnBpbU9SN2tFUFE5MEJHaGZCUURSdkhuLWM0elIwSmJmd2FpUk4zaXp5cHV4eUdYT2NXRFp1Q3BmbUp3dWNIS1RrSmVIZkhCVmRLSHY1UnptcERrelRSdW1YVy1JRmxzZVlkQ1c?oc=5",
+          "source": "Tom's Hardware",
+          "published": "2026-10-06T11:00:00Z",
           "summary": ""
         },
         {
-          "title": "Anthropic asks Claude users to share voice data for AI model training",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNYXdOQkNGN2NyMjVhNDlOZUVRTUdMWkE1OVNsaEtCQUcyS1hzQ2R3UkhLX1A4VjlWX2lOSHZXSjNSQ3NTT0g1M3ZCX0ltWHJSaGhDelJqdjJwbmVKeENqSkFIallKdzdVUWdqR0IwcndOLWhDbjdnbHN2NXFwTk1UczBMNkRoM3NVdllOcUhJUkFDZ3dWM0dfWnV4V19ldVVnS21UbEg3bnhBWV9FNzFHM3ZieWlYTy05aDJfYm9YYzZYdlJUODZBV0ZyTm3SAdIBQVVfeXFMTXhoYkFWNEtHOEVIclNCSlc0X3BsWk8yaGlGLVQyeFRZUm5rX2hNVjZtY0owZFIxZFFqdUxtbXNaQUgyR040UEpYM21Hdi1UTF9DbVJLRjRSa1RxdHA3cXNROFNtZ09ldEwtLWpSNGtJYnFqaVIta3BKdkdacXZqNFRWd0xZR0tLMUpWLVdUSUlhLUtvTUxSdGJEWS0zbEg1UkxPNHFDOURSalhKTHY5RXQ2b2xyNHRjbC1FNEMxcFR4Z1RWQnhyRVA1amZ1NHBqX1N3?oc=5",
-          "source": "BleepingComputer",
-          "published": "2026-10-04T10:53:21Z",
+          "title": "Anthropic Has a Warning for AI Founders: Your Model Isn’t Your Moat",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPbU15TGNwZEJhNGtHbGxQTExBYUlfV3gzbmxWcmlxX2N2aXZIWk14Wk9WRFJDNnd5YjJSTDNObVBzd3RaWmhCTV9CeWJIb21FRUJsa3hEWnBsSEFDQ0wySEtDblNacFpub3ppajljQlQwd0xNd2tGY082Q1ZmMm5kcnV3dVhIbjhkNUlhSHVxcUp2MTU4UmxCT0xXRE5vRzdaVDl4S1VyNA?oc=5",
+          "source": "Inc.com",
+          "published": "2026-10-06T17:10:42Z",
           "summary": ""
         },
         {
-          "title": "An OpenAI model was caught trying to cheat at StarCraft, and of course it did it by stealing a human's work",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOcTBtZ3hrcVhYQjhKYk01clVPRi1YMzdWZUJjU0VSUHA4ZkJtTjV2bXFvRklGOXc0emlUMG9LZHNUX2w2TmlPeXdwSE82T1hjcFByYlhpQXN5SDZxdGIyTVZ3ZU5tSFFMRmpzYkVjSHBCTWxQWHdRdWZTT3FzR2Jod19TUUtRTUllM0dxVFRSamZXTXVIVjRFWjBIUFllSmFWRDFoZlUtVTNvRmNNdHd6UUk5bUlxcDYzSXNtc0FDSjZIQ2FIOXlIM202MmtDSXRFUE9NWkkyUWJMQQ?oc=5",
-          "source": "PC Gamer",
-          "published": "2026-10-04T10:49:26Z",
+          "title": "OpenAI and Anthropic Face Rising Price Pressure From Big AI Users",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRHhUUnpNdE5CR1VFVEx2Q1NsTjg5cjNCb2VYazhWeERKMVpMOWdlQVFteW52b1o5UTRONGt4TmdJbE8xbld4RHFkaE5vSHQ2MHBFdVlOY1ZSeVJsamNVc0VERHp3dE5xUmV6Ymk5S1FvblZlcTU4REVZQ2kwVHRBck9Ma1dkVk9Bb3VfVUphN3V3X1FsNThpVzlMTktSSGV4SHlhZzU1MEZicW5vQTQ3SlNoUldWcFBMVlMw?oc=5",
+          "source": "Bloomberg.com",
+          "published": "2026-10-06T17:03:21Z",
           "summary": ""
         },
         {
-          "title": "An OpenAI model read Slack, reasoned \"we may die\", and OpenAI says that is not misalignment",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNUWlJRkwxZFJSM0FqZUs1YmNlSTNDVU5ITUJjSG51blAyaE1kOGUtNmRFNFpJZURtWktqOHctbkxEWkVBTGNnSWV2VDlLZXZINTY0cDNEMzB4bTdvM2dfRGZ2QlBmUWhXLWV4cU5mWTRnek5hdmlESWFIc0NzcmFVSUo0WEN5cjJycVJ4QjZB?oc=5",
-          "source": "MIXED Reality News",
-          "published": "2026-10-04T09:54:52Z",
+          "title": "OpenAI Seeks $30 Billion as Rush to Raise AI Money Quickens",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQRjEwV054cG1rbl9UeHgyN1JSYzdvSmhZTWprdUlNMmZVNTNFSEViRDNqamUwdUtleXpHOS1BUUtITWlIeGp3b0FFQmhMakpCMUVubGp4UUlCOHZLWlcyYlpESTZhNGxxUjJLcDlhZDJ0NWgyRE44VDF3S0FYbVU4d1pCQmF0WWhSSV9IdGg5MTREUjE2Q2FlbnN2R0JRY29uU0ZpS2RQQjliRFlqeGNxUEVKSHU1QQ?oc=5",
+          "source": "Bloomberg.com",
+          "published": "2026-10-06T17:03:20Z",
+          "summary": ""
+        },
+        {
+          "title": "OpenAI Lawsuit: Can AI Agents Break the Law?",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFA4R2JTYkZUelNxTnNTSUR0emVaZ09rQlVkWEU2eFpaTEtxdERYTm1GMzI5LTVZemNaNU9rQ0oyNlJoSDQ1cmNkOUozNjdlVWhTVFFfV1ZKcGpINmFUMDFwR1J3ZTB4SXNoblkya056c3E3RTZoUl9xblBR?oc=5",
+          "source": "AI Magazine",
+          "published": "2026-10-06T16:49:36Z",
+          "summary": ""
+        },
+        {
+          "title": "Insurers brace for multimillion-dollar claims over rogue AI agents. OpenAI lawsuits",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOZnBuVUlfT1RnTm1YNWo2TnJRb0U4ZW8zRHViMWhNRkdqUHc0UVVRaDBNQ29UOGYyMFppeXBDNjdDU0thZHhLUjFyWGtOb2tDSUM4S0tqNnNScHZoU01jd1FSUlhTcU1VOFBxb2lOVjlRY0xYMGJyMFlpYVFpek1VY24yX2oyYVJaWUtPMkNUeUJ4QjFkWERETA?oc=5",
+          "source": "Beinsure",
+          "published": "2026-10-06T16:38:20Z",
+          "summary": ""
+        },
+        {
+          "title": "Wikimedia Detected Activity From OpenAI’s ‘Rogue’ Agents Across Its Platforms",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNOVNMSnp6RWl2Zm1hWGlBRVMxVktnalJRQ2JsUml0WVN1Vk80aFZySnFHMGFhRlZRVVh6M1hPTWV1TzBYZTR1NG1oaGItZEd2ZEZIY0tQU01MQlA1czhvOUxjQWJLTm12bEpObFF0UURUalV1MGNkMnZDc1pUT2dHZGlLUy10ZE5IRVZpSzRZbzlWQ3pmQVY0bnd0eTBYOUlreER4V2I2ZV8?oc=5",
+          "source": "Gizmodo",
+          "published": "2026-10-06T16:30:56Z",
           "summary": ""
         }
       ]
@@ -86,73 +86,73 @@ window.NEWS_DATA = {
       "more_url": "https://news.google.com/search?q=AI%20%22small%20business%22%20when%3A7d",
       "items": [
         {
-          "title": "Most Small Businesses Use AI. Few Have Figured Out How to Make It Work",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPTDBDamJyS3Jkb2EtcDU1UU9CU1MtaExZZHRVNl9yakxQN20weGduTVczZFRPR1ZYLWZRa3lzTzZmTUh0VHdWbXU4czBJMV9Za3FYZERXallrRGJPZVA2UHB1TjFwdUtNd05lTFdnalFiT1J1RVp0MGpjdFYtaHlMVzduQlhOdVBsR053ak00QXM1bUhxQmx2U1RVYUNjaWhGLXUyMTR1RXduZnhxQ0RuY1dybw?oc=5",
-          "source": "inc.com",
-          "published": "2026-10-04T15:11:47Z",
+          "title": "How to Choose the Right AI Tools: A Practical Guide (2026)",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUTcta0szRWJnVUJ0STlVZHdnVThpbDJjOGZPRUVBNkZCcVR1OFpHbDBwenNuanNiekNHLXA5NFM3LXhGdmNzQnB4RnN6NUo1SU52MHVFRS1weno3MjktM01yX2xDcnBFaU9JT2hCOHZ3dEljYnhjcWp0U3VQZjVwWng5N1R2UGcwYktDUlJ4NFhRQlBCY0FXX1FEbTVHX3EwajdsOFZONkJ4c1E3cHNCX2hCOFI?oc=5",
+          "source": "PC Tech Magazine",
+          "published": "2026-10-05T18:36:04Z",
           "summary": ""
         },
         {
-          "title": "Influencer Marketing Tools: 10 Affordable Options in 2026",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE4zV0NEdnBCTHZfbVd3ZzhaV1dwQ2Z4SkhySFV4NDROY3RfRjgtRTU2UXp4SnlXRkZjVUVtM3ZEem5BSUx1Z0w3TW52Q1JkSHludmhQTF9HU1FOYl96RU9FTW5OcXdTUQ?oc=5",
-          "source": "Marketing91",
-          "published": "2026-10-02T12:02:25Z",
+          "title": "How to improve small business cybersecurity",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOMG9ad3N4YTc5LU40NVFhOXpHMzI3X0RwYXp3UENuZnBaQ2VYWVc3OFNDVHk5a0hjRmh1SjFhTzc1Rk10VlNXalhnX183cXhSenB2bm0wS0ZRbWU2SXJLMFBFS2NVYm9JMVV1NTY0b01lSWN3Qjc5b3BLRFJFU3loLUl0VWpfTzNET3dPN1pOUjBWM3N5Q1BVWWtXcGRveGtHX2VHd1ZNVTJSWTNj?oc=5",
+          "source": "The Business Journals",
+          "published": "2026-10-06T15:10:00Z",
+          "summary": ""
+        },
+        {
+          "title": "Accelerate Conference Shows Metro Detroit Entrepreneurs How to Scale Faster",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNMWRoWEVmWDR2QjlyaFdZX3Z2STlPVGt1a3BYYktmdFZQSGRKSUhDVkhaNDNCSzk1LThXTjRCTmZsVFM1N0E3QUVIMjRuekNGaUQ3SEFBOGkweGswZlo1U3I1NWlrVnJBbk9kU3hEeGN3aV9NeDZhOVFqY3BSUGVNcEZHd215VGFfRVFSbHUwRWlZWDlx?oc=5",
+          "source": "Yahoo! Finance Canada",
+          "published": "2026-10-06T12:44:00Z",
+          "summary": ""
+        },
+        {
+          "title": "Best AI Website Builder for Small Business: How to Choose the Right Platform",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPYWpueTRDLWxUOXcxRDJkZE41cU13dHg0akVsRmlPTmRaMTBPYllzbjhJV2FIT0xaU21vNUxmNmRJZ2p4amItQld5WG9YeFFRcHlRWmVDeXNMcXF0a1lJdk9IQU9ZQjNRVl9SNTNMcVByNmF3cWhHTGxjcG5xM2NKX1VCeUVCVGNPUy1HeUc0RG1sa2JKSVVOMEhENlhQeWZ0OXc?oc=5",
+          "source": "TechBullion",
+          "published": "2026-10-06T06:45:00Z",
+          "summary": ""
+        },
+        {
+          "title": "AI-Powered Marketing With Revenue Projections for SMBs: Service Announced",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNMFdmNl9EV3lsTmF0SXJ1bVp2NTBGejFENGpvV2k0V2NoMjZtUW0yQjR0cloxTHZ3YkR6dWNGNm9BLW9DZU5XVzYtZW9iTzFvN1NJcHFWTHF1WHU2NlBsVjBFaTVkaG1ONW9XVEUtY28yVXhNY3hmUWxibm1WYXY0TlBNekJEdnNCdXpzQzNIVHByby1tZ2NyZ2x6Y0V3VzJkNVoxeEVpZkw0aDg5MWtjVnJ5by02aUx1bXEwdEtNTjZia0haOHR6THZMdXNMQ1RDMHVkRA?oc=5",
+          "source": "FinancialContent",
+          "published": "2026-10-05T05:59:00Z",
+          "summary": ""
+        },
+        {
+          "title": "10 Best No-Code Tools for Small Business Automation in 2026",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9HMDZoZ1B0cmd0OWpCUmRZNmwwZG5UT0hnQXJiUUdObjEyQjhOMDQwT001b1BlYWc4TlNUQ2FuQS1kWTdxd1ctc2tDYWVUU1JNLXNYRGtzQ09RbFdtU01PMTM0dno5aThCZFU5VmdyRktfa2RWZXFF?oc=5",
+          "source": "Editorialge",
+          "published": "2026-10-05T03:34:58Z",
+          "summary": ""
+        },
+        {
+          "title": "Cofounder.AI Names Former Google X Leader AJ Thomas Chief Operating Officer",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNOUpuVzh5NnhzTzZ2RDlhakpLZFNQb1J4WWFGeFFqVmlNbmQ2MFhGME1pdmFRT2l2YXJWb2QtbUtqOXJzUnctM0lGZHlUMURaeDVmbWZjdTNfOTZLWVdzS3BHa05iUUc5Ny1nTW0wVFNmRXowZzBqUm5TXzZBTFM2bEtLdU5zM29Vb3hpdTFlZG81SlYzV011dlFNNE1YYVYwYmxOYmxWbTR4dTBHVUxnRjBIMHdrSjhSa05J?oc=5",
+          "source": "The Malaysian Reserve",
+          "published": "2026-10-06T16:48:41Z",
+          "summary": ""
+        },
+        {
+          "title": "ESET Uses AI to Deliver Enterprise Security at Small Business Scale",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNdThBVVpMcU1tSENWaW1ocUl0WXE1dnZlNG1sS21WTEk2NVk5eFVmY0tZUWdSTXBFTXF2dDFTSkNJYnhWZUczeWR3bVNuN3Q5OXh5alBTakJobWZ6cGZiZmo2UmI1U1RFcUZDQktFS2lqS0hUMmhaMXJ1amlFbk42MkdfRzRVdDhxNnJUTkJrdlhBa3dVblpPODZ3NA?oc=5",
+          "source": "Small Business Trends",
+          "published": "2026-10-06T15:35:18Z",
+          "summary": ""
+        },
+        {
+          "title": "Restaurants Embrace the Role of ‘Creator’ to Get Seen",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPbTNrb1d5UWppR1lZTkJoYjFDeC1waGo4clhKZFJfNHBqNG5tMDdQbjNTcjhWLWNLa0hDOERMQkxvaTJKaWZwQXJwdEc3cThVQWlFWUVyWGk1eVpnbzVGU0o2WGFCc3pnTzJRc3JnZTJiZm42Q2N2MUNidVd6Tk9xdkRMNnVWVUs4NXJfRlhqMnJVV0dRb3c?oc=5",
+          "source": "Modern Restaurant Management",
+          "published": "2026-10-06T15:00:49Z",
           "summary": ""
         },
         {
           "title": "How AI may change small businesses in T&T",
           "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZXB5M1JuRFVvMENLVXVnLXdoR1NhX2RuOFlBT216bGJiR0JENndzSnNuSXhaVEkteTlMOHliaHBPN2VUcmpjLU1fbEtOUEU2QVRFLTVuMFpETGlxeDFybUxNRG96bFh2T1ZjZ2JlTGZCU0NpN180dWtRQzl1SUFNRW9FR09zLU00eGFWYUJqYWswdTFTMi1nVWZVdzZ1Ujg?oc=5",
           "source": "Trinidad Guardian",
-          "published": "2026-10-03T17:27:46Z",
-          "summary": ""
-        },
-        {
-          "title": "AI Works Differently Inside SMEs: Strategic Use, Not Adoption, Tracks Agility",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPRkQ5cWRVSVZhVHBHeWNMQTdnbzczT3RKa2ZMQVplNFhNbWt5cnFicmpBNFNvUWpXVEQtZjV3c0hmOWxLSkZaNGNrdlJGTlBVdkxvcXlSY0FjQV91alNYallUTWI4emNvZ1FEajlHcVZRRDVqcjMxcXFxUzJOdGljd1FkSFVGS05xZUoxa0g4NGwyVjBRMmxOQ1ZDWkw5VUFwVTZfS0ViNEoxTjZOZGJkaXcwU1hLemR3Z1ZrRVdHMDBPeThzWnNWUEJFa3RDSkXSAc8BQVVfeXFMT0ZEOXFkVUlWYVRwR3ljTEE3Z283M090SmtmTEFaZTRYTW1reXJxYnJqQTRTb1FqV1RELWY1d3NIZjlsS0pGWjRja3ZSRk5QVXZMb3F5UmNBY0FfdWpTWGpZVE1iOHpjb2dRRGo5R3FWUUQ1anIzMXFxcVMyTnRpY3dRZEhVRktOcWVKMWtIODRsMlYwUTJsTkNWQ1pMOVVBcFU2X0tFYjRKMU42TmRiZGl3MFNYS3pkd2dWa0VXRzAwT3k4c1pzVlBCRWt0Q0pF?oc=5",
-          "source": "Devdiscourse",
-          "published": "2026-10-03T17:16:16Z",
-          "summary": ""
-        },
-        {
-          "title": "Tech News This Week: Muse Takes On Small Business And McDonalds Leans Into AI",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPekYzZHA1SU82RUNwZkpLUlpJVGNSOFpMTEpSLW9nUlFIQnpoaFFDYWptdHZYcGdNZ01EcTA5Q3o2TGRkOVFBNHp5Q0M0NXR4TGVzWFBKOU54VDBHNmdzZlVsSW9fWVQxTmcwT1BCVmswcDRMTm93dGQ2QldSbFNLd3hOY1o3OGpKUlluU09HNGxuYmxmUHRVS01YTTJjZzhHLUdRTlVUc3p2SDRhUUVOb2gyT2QxQ1ZHUWpyZHBfQmdjcThOM29XY3VKUEtsd2hM?oc=5",
-          "source": "Forbes",
-          "published": "2026-10-04T11:00:00Z",
-          "summary": ""
-        },
-        {
-          "title": "BT rolls out AI call-handling service aimed at small firms",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1DMVdpNDM4Q21zdVAyUmdMeXBLbGJBb1FDOUNjYXdlR1VIakdtNzBkdm1YR2xvamtZZjlGSVRsdzc3WGJ5aVd5MVlWdnIxMTJhNWRyT2FBM083LWJUMm9EcW1KQlM1Tk9vWFE1Nl9MeW5FeFFrMDUxcUszbElKdw?oc=5",
-          "source": "iNews Zoombangla",
-          "published": "2026-10-04T10:50:27Z",
-          "summary": ""
-        },
-        {
-          "title": "How 3 small business owners are — and aren’t — using AI to nail their marketing campaigns",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPVGFDT0hsbWdieHdfaGlyZ0E5M1ZFdlZwRDNvR1cyVDk0dTBncEJkQjJ4RHdCNXN1Mzl1M1E1TVVFMW1wYUxlZXYyQzIzeFk5V09oZm9iZ1ZnZ3NjeFJScmZOYnE3WmhBcWh5VHBQZFhESnFUX1RMeDBDdlRmTUt2YklxU2FWYmdILVRwNk9pT1UxT3RybVFR?oc=5",
-          "source": "Business Insider",
-          "published": "2026-10-02T18:52:00Z",
-          "summary": ""
-        },
-        {
-          "title": "Visual investigation: Scores of online resellers are using AI to fool customers by pretending to be mom-and-pop stores",
-          "url": "https://news.google.com/rss/articles/CBMi_xJBVV95cUxNcldpX2FuMXBjcVg2T1gxU2JQcUdzbEZ5X0x4b2dlaVdDcXE0RkhGZDd6VGlzNk9kR0plN3JZbFNucXJXN09RcE5OMWVmUDdRYWhHU21EcV82b1hJdEtyZHFDX2ZGY1Btb3NlN1ljM2lFbTU3OThyZlhkS1hDcEMwNVJPMVpnVkNDcFBIYWtoRWt0RUZTQWFCckUtZHZIMkFnenY0Wk84aExXV2I2Q1oyakRPLUFUQjZpQkdBOHhqLW9VdmxYSEkwSk1BNFg5c3hMRk1hTXdaWHkzZjJTbjRKeWxqZF9MZU1TWUxMVFZHT0NDYlpSNGtuYlVWWHFHYmo1NVhqd29NYnpxMVg4WkM5Y0Y4d3BYejBpWFZ6UUxOVDBIQnRyU1hKYTItRHBhaENpakxselpDRkNmeWluWko3LXM5dllqdFBUa1lWU0Jtd0JSd3RWQkxwT2lHVjg0UVNZTTFYRldXWk5zbndBUFpnTkx5bFRieXczQ2pNYU9GenRSemRiMEE0bE4tV2lHMnNvYmxQc3BBRW9mV19QOWQzdldiOG1lb3Z5UXJTcnZSQUxhX1M1d3B4bU1fT0w0YV9qaXlvdnFQekVveHBYVGhpNGgzSXB2RENNdW0wV2tpbVNxc2hqMmdWc1J0LXU3b3I0THRZS0poc1NSSGc5aE9Vc1FTVjRvdXJodlpwZF80NWhjelZ3dkJraXQxUEZzcWsxM093OGpkeE80V3NLMEN4a1g5R0pwWjBUaWtwei1jZjZLbG9ZZEc2U1cyZE1fbjZ0Wmp6TWxHU1E5TTZzRGRqX0NMc0NlRkVFQ1h5U2k0QzEyUnV0VTVWNV93LTJyUm9XdkRxY2ZHbk5tTHdYajNOX09GMF83QlNoMWNLeFl5YUphdm9hTHBiMDc1aU9QVEF4S2Y0TGVmSFRUTDcxYTU5OWdWdG9hRUFZTGhwQTV5NTNEa25Da0d6Wl9nYkRpVldMMUxEWmxMZ1NpWlZvM1VGZXNKTXlWY2dyaEJFcXlya2ZiTi1rdXFqSE5kTE9BcEhTX1RzamF3dkFOZ0l1ZmVTekpBZERRcUJsaUlwcXhfZGUteFdyTTJVcm15Y2g2dUdHNldsMVdYQ2ZjbjdFV3dkVkRWT1RHM2stb0ZMZnZGbzNvYWFFd09FRmhaNXJGNEhYT2ptWjM1VTBUakdTczBiUW9oWENuLVFTaVhCYkJRUGdaNG4yRFBrNVJkcnloSFVsLUxKRjRQWTBwNzFDaExuNVlxR1B5MUhjRGNONm52VVVkTUlLWVVqRV9MWXVmaHhQTWducXFIa1RsZzVDRWtsakNCT3BycE5oYkl6VVRqSkVyeDN6OWpvNTRnX20xLWViTTVrR3RpM3U1NnFLeXgybEVVeGdXcFU0MVJ4YnpnUC02b2VTMFdkZTEzWjV2emNoSk44ckFjNVF2bXMxWmkzOWZXSlpONWhPQUpaU0JZMG5xT3N0YmRVRXZzLVJ3OWpSNGplaW1fWXg1X3c0eUkwSHdoeWl2V3FZTjd1TjA0a1NYcEhiaXhWd2ZQMEFHdy0xSkZTbF9DT0R6X0pBSDZVNkVLS0YxU0c4M0dyUmxPdXc2X25YSnpBNVJxcklFeVZ3bkQ3R3pxSkl5VlM1YU5NcVNZOS1oeGNTU3FiNVJXS1hjd29rc3hlMGgyUThqd2piVFpuU2lmdnFwRGRiS1NEYTVZVGtobExidkc1XzBQMy1SZm9GVDBzRnRkRklHTXU5ejI4SmFqdFgyMU13LWVpTUhqZTZnZEppZlQyQmRIUnJMd2p2OFM3ZlJOWk1hazl1b01QZDhNY0o4bVBQVElsbDktYm1BWDNDWnZlSUZodGdXQzBGbExkbGJxV184LXZjN2hZb2I1aEg1RmpCdmxnVHpSaWIwaF9BcTNjaFJkWUVuV1ZETkxYbmxnalRMOG9McDlSdWpVeEMzWXhFbkUtQms2eXo4RkdDSlIzSk9TYzhpN2I5dlFSM0s1UVd5M2lTay0xdl9LOVY2M1hiZVpkX2QzTDR5ZFFtaWZodkoxN1I5azNCQU1DUmxycmZzWkY2MHRmTlBDQTNuQzRZeHJLeTRSeDUxNHM2MHNhMFhvN1d1TllqdVJyYmxpN0NhQjNwdVY3bEZYa215eFRKTVBfdnFSZFBkMC1FUGlfdk9Dc0RPdFdkR3hncGxqaURWSHNxRXNqMEtKeTBiV3VmZnR5NFNhZHhNQVFNUUZ3Y0Nja1RaZzUzenB0bW91dE1OYU5xd0ZJMWczM1lYajlmQWVzM0hRdFdUS2QwSEk3Qms0MTR0SFIxNnhtbVhFel9QU2lYbkFLRHJpWUpXWEZPYi1OQTlUT3lCeFMtTnJjQk96RnB0TWQ5TWRQZ1JVUGMtMDl3dzU5cVdBMWxWTXpqM3l0QnBIb3F0aFdiOENuWjVCMTRRdEt3T3BJNmdxNjcxekotbnV5ZGRxaDFMREVvSXhPMlhBWV9RODlLUVBwelFIT0daOV9MN0xCUktTY3NDYWJNY19oYnVqWjlGVDlKN0M2dlk3WHhpNVlNejRkOFZmN2hLYVByR2RDX2VlZ2Q0R0Fub0ZraWNKNXhreVZoWndqZW9pSnlMTW1UTm9nVVJwcGZzYVh0aHl1OTJnZ2tWX1BrbXByM2tadDNTSU9ZVEgtTG1uX01raVJPMG16b3BKYmoxWHNpLXpnc1MzN1I5WG1tbGQzRzRxR1JXN19DN25PNEJraHFSUlJwUnU2SERxX1ZScXFaYXFaRzJ1eHoxVXVSUUNscUo3a1lacWVpMXlfNFh5UGJKYUFQUkYxTnhiQkI2Y2UwNnByRHhZdU0xenF0UnlmeHFwUGZXcjZ4MDFkLTZKRHdFeFR1aGZYdVdLR0tDbTF4c19HcTBnUGNyTHoxc3Q5TWR0V2hvZHQ1UlROUEpGUkpldGZSTmNsc1ZTVHBZRVpRVVJRZWVtYkZjOXQ1OXkxWGJJc3lsUWVlU1FwSHZZXzFfN1BOUUFSRmFLeDNYcWVITE13Rmk4ZEF3WWNHOURyY3ZxaGV6MC13MkZ2R2lmbTdsRmFQaFRVZjlBRGNfOWFQNlBOTnFkb29LbEttbzhQWkY3Y0RKbnJCdVZtT3RYcTNLd0cyd20yRkl2ZDduOS1sYnFqNDFwdmt2WnBRakxCbUNmVkl1T2RTQWowbUdDWXBZS3JQNFlSdTU2c3Zwd1hVWm1rZ2lCOVNhb2QxTzlHQjRFYUNDTW1hRWpr?oc=5",
-          "source": "ABC7 Los Angeles",
-          "published": "2026-10-03T13:16:01Z",
-          "summary": ""
-        },
-        {
-          "title": "Sudoku",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5NSUROY3g5dmhDR3d3YTg0bXItS3VtaDJSaWE5bzUzbHl0TEFHbHhvdjU1c0pndGdGU0ppdUhOMmkzMTlHU19YdmFCdlAxeDNSTGRFdzg3N0ZJQlYwQzZmRExSS0oya2c?oc=5",
-          "source": "Evangeline Today",
-          "published": "2026-10-04T11:10:35Z",
-          "summary": ""
-        },
-        {
-          "title": "AI Revolution: Inside The Global Tech War And Nigeria’s Place In It",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNbGdJSEdPMjItWlk1ZUtFQjF1Q3RQZ3IxZmlIcEZBeUxXQWZKM0E4MW40cnZ5aVhlX0Zobmc1VXRUeWo0Z3E4S3g2TVFFSEppU19kN2p3LUthUHdCYnFSYnVSOUpPRldFU2dxVlJCeF9mUVoyWXB5bnhTLTA1bHA0VG5CRGhuQVRTZDNHOVZtMHI1Zw?oc=5",
-          "source": "LEADERSHIP Newspapers",
-          "published": "2026-10-04T06:13:36Z",
+          "published": "2026-10-05T19:42:29Z",
           "summary": ""
         }
       ]
@@ -164,6 +164,27 @@ window.NEWS_DATA = {
       "more_url": "https://news.google.com/search?q=%22small%20law%20firm%22%20OR%20%22solo%20practitioner%22%20when%3A7d",
       "items": [
         {
+          "title": "What to Do With Your Law Firm’s Books Before December 31",
+          "url": "https://www.attorneyatwork.com/law-firm-bookkeeping-year-end-checklist/",
+          "source": "attorneyatwork.com",
+          "published": "2026-10-06T10:00:00Z",
+          "summary": "Here's law firm bookkeeping pro Amy Coats' year-end checklist of every account that deserves a review, and everything your CPA wants to see. The post What to Do With Your Law Firm’s Books Before December 31 appeared first on Articles, Tips…"
+        },
+        {
+          "title": "Cybersecurity for Law Firms: Threats, Ethics, and Defenses",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9IU01jWDNhVUZpSEszTDhaSktwMV9NVUJJNVRMSTVmb1o2di1IZ0pLeTUzVE5hNGlCVFVMWkNobWJ5Z2dVUUtpVVZzWG1rVXR6UnQ2eGJDMmZvOUkxMUNZcGdWZTlEZ3o4azBKcVlEeFhuQlByUEE?oc=5",
+          "source": "CloudSEK",
+          "published": "2026-10-06T15:26:13Z",
+          "summary": ""
+        },
+        {
+          "title": "Before Your Law Firm Buys Another AI Tool, Ask Why",
+          "url": "https://www.attorneyatwork.com/before-your-law-firm-buys-another-ai-tool-ask-why/",
+          "source": "attorneyatwork.com",
+          "published": "2026-10-05T09:04:00Z",
+          "summary": "Before asking which AI tool your firm should adopt next, ask a more fundamental question: What problem are we trying to solve? Michael Maschke, Sharon Nelson and John Simek on figuring out AI's real competitive advantage. The post Before…"
+        },
+        {
           "title": "Attorney accuses Gamez Law Firm of poaching clients, and he's not the first",
           "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPanZlWmFhZ2RGTVQ0d1cxOVJHNnhtalRCd19GaXJvTmRSVWVyQWlXQmw1ZXZNNUlQNExFSHFOUFJzbDBqV0RxODByUVJ2YVBqcmdoTWNQdmxTUWJRNE83SjV5ZDd0TndvYUVmR0FBMzNtSWQyQS1iN2NvQzd4bjdBSW9qN1NKWlR6dFZtUDg3TjA1OU9DZ3l3WXhjTTZYUlFhTTlKOXlB?oc=5",
           "source": "San Antonio Express-News",
@@ -173,7 +194,7 @@ window.NEWS_DATA = {
         {
           "title": "Solo law firm owner shares advice on running your own business",
           "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQS1lLNTBhYXhpNVR0VWpnTzlRQWFUWnJoOUgydjhoTzBkX0xDZlo5ZVFZekVXSFI3TlhtUF9ibFNac0xJWjM3V3NpYklVaWllS1YtMlRKNHVsdEtFLUN4X2xBaWF0Tm8tWjR0THFZSWhnaW9sYlVja0VGZ1VEalV4Q0R3NXRkTXh4aGZOREtNbHJBUmxvLTZScTk5NGFTVVAybDVpTElqOA?oc=5",
-          "source": "theindianalawyer.com",
+          "source": "The Indiana Lawyer",
           "published": "2026-10-02T18:00:14Z",
           "summary": ""
         },
@@ -211,27 +232,6 @@ window.NEWS_DATA = {
           "source": "AZ Big Media",
           "published": "2026-10-01T07:00:00Z",
           "summary": ""
-        },
-        {
-          "title": "SRA pauses Rule 8.4 – a welcome reprieve, but the work is not over",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUGt5U0xpTDg0LXNnb3pTRVlZOG0xbTZjd3QtOTZldVJLT3hUTnI5WURxYUd5aDh2azFmNWJaYXl3dkZmZkRYak5WM3RzZlhBYTE5RHdiNWlNUlZ4c1BKbUpVTGtwUmU1U0Y4eVVqWWtSaVFBVWlHdEZEeXhPQTJuRjNtUzk?oc=5",
-          "source": "Today's Conveyancer",
-          "published": "2026-10-02T03:00:19Z",
-          "summary": ""
-        },
-        {
-          "title": "US Law Firm Mergers See a Q3 2026 Decline",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB3YzhhUUctQTJWNjJfQ1dMSW1oUFJBZlFhQ3ZpME9iVEFIVWYwZzI1aE1DUGpBSmNaWHVXZ2tWZ0VHSGFoT0RFSE9kU1p3azhhUFRtLV9CVENGRXNnWDFfbEpsS0dpblM0VW1JeDU0eEF1UEk?oc=5",
-          "source": "jdjournal.com",
-          "published": "2026-10-02T04:00:00Z",
-          "summary": ""
-        },
-        {
-          "title": "How to Work the Room at Networking Events",
-          "url": "https://www.attorneyatwork.com/work-room-networking-events/",
-          "source": "attorneyatwork.com",
-          "published": "2026-10-01T12:15:00Z",
-          "summary": "If you detest networking events, particularly when you don’t know anyone, attending will be a lot less painful if you are prepared. These tips from Sally Schmidt help make them both tolerable and productive. The post How to Work the Room…"
         }
       ]
     },
@@ -242,74 +242,74 @@ window.NEWS_DATA = {
       "more_url": "https://news.google.com/search?q=AI%20%22small%20law%20firm%22%20OR%20%22legal%20AI%22%20when%3A7d",
       "items": [
         {
-          "title": "ROSS Says It Will Ask Supreme Court to Review 3rd Circuit Ruling for Thomson Reuters in Copyright Case",
-          "url": "https://www.lawnext.com/2026/10/ross-says-it-will-ask-supreme-court-to-review-3rd-circuit-ruling-for-thomson-reuters-in-copyright-case.html",
-          "source": "lawnext.com",
-          "published": "2026-10-02T19:38:26Z",
-          "summary": "Following this week’s ruling by the 3rd U.S. Circuit Court of Appeals in favor of Thomson Reuters in its long-running copyright battle against the now-shuttered AI legal research company ROSS Intelligence, ROSS says it will seek review in…"
+          "title": "What lawyers need to know about AI in 2026: Key lessons on hallucinations, ethics & education",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQX0p5VXF6eVhsejlJRUNjNVlqWG5LRmRmN1JodXlqaWJlMHNGcUxEUVBpR1ZWMG9aUktNUlRWTmZCSlR0ZDJmTVZKbnZDLV9MT3FWQmZmWFZHNmdIQTkxMzFtaWdYRmU4OEZfYzA2a3JMbEtoclVyRFc5OVIwOXdnNXVxS3k2WThLcll1bExCcnFEbWVoUFpn?oc=5",
+          "source": "Thomson Reuters",
+          "published": "2026-10-05T15:24:12Z",
+          "summary": ""
         },
         {
-          "title": "Legal Tech Roundup: ProSearch, Clio, Cloudficient",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPaFdPdEpmZkpxSnYzMFFiSGxvXzQtbWIzMmF5cHRPT2RyUUd6NGdKUDhqaDdjX0RMSWhqWDJBZXo3cUsyWXF0YWVlSmh2dF9ybjY0MGhIamVzUy1CMmZrVFNGbF9hVjJWMk01QnNQaEpfR2pWalZ3MUp2ZVlQTjlHYTJocFJEU1BHV2JxNjA3NNIBXkFVX3lxTE5tTWZVQkVqT3VsOEF2MU5HS1VRSkl6MmNjM1JILXp0OU8xem1KU05Hc0IxUGIwTTVmZlpIMGFRRnJQaUV4SjBzYTh2RFBhZzV3TFd2R2lTM0M2UjRudUE?oc=5",
+          "title": "Designing judgment: Preserving AI-mediated legal collaboration",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPbkpsT0JKaEktRDRkcDE2OXl2NzlTVjgwVHpPbVJTdXZjcDNiSk1IUzUtV21kWWUxVnVXNEo0cjZYWF9EdVlzaU44WlU5ODNTSnJfSlhQUU00S1BrTlhwMUNhU2p3dmtoVmp1QjdwMURoVjZmT3ZaT2ZUeXJ1ZnVnTTJmbWFNMkRudWtpUDJta2tPd0J3SU9XS3hWUTlYRGdqbVE0Q193?oc=5",
+          "source": "Thomson Reuters",
+          "published": "2026-10-06T15:44:24Z",
+          "summary": ""
+        },
+        {
+          "title": "AI In The Courtroom: The Rules Are Coming, Just Not How Lawyers Expect",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZTRYQ09vY3FRUGtlTG1OQmZJQjRnLVRqUjdzaDJSTy1ndkkwQy1yV3JMTDdVdWpXS2x0d1AwUnlzblBmaGhacHlQcTNUMjhqT2paNjQzTFBnZXFORlVpMmNtS0NjM2w1RTNfSGNXaF9IemZvYkd1RWFMaC1nS3JMUzNDOXBhWGo5eUM3ajlobVR6TWxCLTRsT1ZzSnVScGM1eFc4?oc=5",
+          "source": "Above the Law",
+          "published": "2026-10-06T15:32:00Z",
+          "summary": ""
+        },
+        {
+          "title": "CLOs Urge Teams To 'Lean In' On AI Experimentation",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNRkJGY2U5SExFWURFNmJuRDBnanhHRWdCcV9hLV9SRXZGTWtBZEpkWFlIYU52RVl1bFh5cUZaa3RwUnpFaUgxa1pRVy0tZmk3OGhDZlVSdDJEUE5uZ0pwTURIYzdMRE5IRDhyaWQ3Q0hDQXRfcDRXZjhpMkNyOHZjTTltMHdsWkFFT2VKVV85QlpMZ9IBXkFVX3lxTFBzUmtsQnpoSVVKbmZXb3IzamYtLVZ1S21lTUFXVmpWWlN6QklxMEZVUngxUlBlbnN4eTBpR29hV0swWFBzcFdfU0MzWnBYRDRMWndtUlRoSEd0eUI2dmc?oc=5",
           "source": "Law360",
-          "published": "2026-10-02T20:52:48Z",
+          "published": "2026-10-06T14:19:23Z",
           "summary": ""
         },
         {
-          "title": "What Does a Paralegal Do? Duties, Skills and a Day in the Role",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBVWVlfcW9WQXZOcHktaFYwckxtT01NT09RMkdray01Q0daYlNnaE9yclpVV21fS01aczBpbFZIQ196b3pEYnJNSWNaTXF0eG12LUVFREFFaG5VbElkckE?oc=5",
-          "source": "Legal Desire",
-          "published": "2026-10-02T04:56:28Z",
+          "title": "Quandaries & Quagmires: Duty to ‘Keep Abreast’ of Legal Tech Developments",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQYmVHQTJ0N1lVNmZwY0tuYXBMMVd4Vk1DdTE0UW82dllqY0JZdkZETkh0V1owMVJwR0VFVE1fLVpWbU5rZDhqUzAwWWtHMnlFcGE3NnFEMzFKMnBqWGRIanY4Z253d2hnZEU0dlk0dk9nZHlVS1BZSW0xbVY1eTFCUE1pbVhUdUxqNGc?oc=5",
+          "source": "Minnesota Lawyer",
+          "published": "2026-10-06T12:35:42Z",
           "summary": ""
         },
         {
-          "title": "Relativity CEO Says 2028 Server Deadline Stands; Will Prioritize Partnering with Frontier Labs Over Legal AI Companies",
-          "url": "https://www.lawnext.com/2026/10/relativity-ceo-says-2028-server-deadline-stands-will-prioritize-partnering-with-frontier-labs-over-legal-ai-companies.html",
-          "source": "lawnext.com",
-          "published": "2026-10-02T15:49:38Z",
-          "summary": "Relativity is holding firm on its plan to require that all new matters be hosted in the cloud beginning Jan. 1, 2028, CEO Phil Saunders said Thursday, and he had a blunt message for partners who are not on board: “Know we’re going to run…"
-        },
-        {
-          "title": "California’s AI Law Hits Lawyers With Tough Disclosure Decisions",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNTElMTFI4b0s0Z3ZNdlEzVFVjbGlvQkVOMTAyc0NYdkZFN0NZbThBb0dmNk5jMGZ5dWdDRlRuaUcwM2NoSzhjZmEyZUUxRUhWYW9ubDVJTXg1ZUdFNnE4alowSFlXOEJqSTA2dk9kRl80WXpJeUc2cTFiQlA1WEFyUC11THVqbEhUZWpIWXZSWXhqWlNGRkI0V2xSNkphY0huZ3lTM1VIZkhXWXhQMzdtQWI3NDFUWDg?oc=5",
-          "source": "Bloomberg Law News",
-          "published": "2026-10-02T16:24:00Z",
-          "summary": ""
-        },
-        {
-          "title": "3rd Circuit Rules For Thomson Reuters In Its Copyright Fight Against Legal Research Startup ROSS",
-          "url": "https://www.lawnext.com/2026/09/3rd-circuit-rules-for-thomson-reuters-in-its-copyright-fight-against-legal-research-startup-ross.html",
-          "source": "lawnext.com",
-          "published": "2026-09-30T19:29:33Z",
-          "summary": "Yesterday I noted that th 3rd U.S. Circuit Court of Appeals had issued an opinion in the long-running copyright battle between Thomson Reuters and the now-shuttered AI legal research company ROSS Intelligence, but that the opinion was…"
-        },
-        {
-          "title": "Clio Acquires Learned Hand, Giving Its New Judiciary Business An Existing Product",
-          "url": "https://www.lawnext.com/2026/09/clio-acquires-learned-hand-giving-its-new-judiciary-business-an-existing-product.html",
-          "source": "lawnext.com",
-          "published": "2026-09-30T18:58:01Z",
-          "summary": "Clio today announced that it has acquired Learned Hand, a startup that builds AI exclusively for judges and courts, giving the legal tech company’s newly launched judiciary business an existing product already in use in a number of…"
-        },
-        {
-          "title": "Jev + the SOM Revolution, Legal Innovators UK Express Tickets +",
-          "url": "https://www.artificiallawyer.com/2026/10/02/jev-the-som-revolution-legal-innovators-uk-express-tickets/",
+          "title": "Want To Join An Evolution?",
+          "url": "https://www.artificiallawyer.com/2026/10/05/want-to-join-an-evolution/",
           "source": "artificiallawyer.com",
-          "published": "2026-10-02T07:56:34Z",
-          "summary": "We start the Wrap with an exploration of the newly arrived SOM – or System One Model. A revolution that is sweeping the tech world, ..."
+          "published": "2026-10-05T06:54:50Z",
+          "summary": "Imagine a law firm where the goal is to continually increase the speed of work for the clients by learning from each matter, thus creating ..."
         },
         {
-          "title": "Trump Asks 9th Circ. To Pause Seattle US Atty Reinstatement",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPcEk1N0RQZlRPQWl3aC1KcFNNMVdlYmtNSTBYdzhlbGlUekdmYTNkVHZCRlF3WW1uck1BaWxWd3hZaDlZNEpacHlmZlNmWWhNdUQxY1MxamRZb0ktSWlGcUhGNHhRcndxWW9IYTFDYS1IYlozaWZxYktYNGZHOWxReFpnMXpuYmluT0c2dHRnUTh5bE5KQ1FqbHBnT0h2OHZ4aHlfbDQwY9IBXkFVX3lxTE9rYzYzckN2a2NjcGJpLTM5R1B0bTA0TTVWR1pwcHpuNS1MdlpmYmtIRS1jMlE3RW42Y2ZuQW5FRmR0M1VvNzJkamI5WGRkSjlNODgyWGJGc21ZVHZMZHc?oc=5",
+          "title": "Law School In The Age Of AI: Rethinking It From The Ground Up",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQLUQ0RjU3SjFEOGNqelh2ZE5qUkh5Sm9JRk1XeHNaREVCN25fN0M5b1haVzlFS1FoWV9oZ0M0MGNSbGtrRG10bmhIWGxYM3RPQUlMdU02TmxBQnJKNFFBQlpZemR4TU5UUFpjZkg1aExtaGdUWVE4Mm40RUFYZnBvbGFzS2lDajVKQmwybFNETl9WOWJ4VThNdg?oc=5",
+          "source": "Above the Law",
+          "published": "2026-10-05T21:34:00Z",
+          "summary": ""
+        },
+        {
+          "title": "AI Compliance Jobs: Lawyers Join the New Hiring Wave",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5XbUI3WjB2UVA1R1J3alptQmwzOWhHODI4Rm9pZVF1OE1yZ3QtQTVoT1Q3a3N6dm5CdXBENFdDUmlZV0ctdDJfdGwzUXVPelpRWEwtclN0N05Bamx0LXpIYjNvaUpKUUdVUHFXTFdLeklGZw?oc=5",
+          "source": "JDJournal.com",
+          "published": "2026-10-05T21:25:00Z",
+          "summary": ""
+        },
+        {
+          "title": "Cullen and Dykman Adds Trusts And Estates Atty In NJ",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQaWNXaUYzTjFZeEJNVDVycU9nRDY0ekJHQTRhZ3owM1BrVDFPaDBTZFlXdkZQQklCWmdfY0h0WWNQN2dlN0tpSVRsekRDeWx2ajgwRU9xbjVlNWZ1b01ndndEQV9fV1VGWjVuRGxuTTl1SXlyc2F1UkEwdnZROUtQZmdKQ0hydWozdGJuc3kyX0pPREl2RThzYjBjeXpRR2vSAV5BVV95cUxQaUN5aWhrQVZZYy1SSklGbDhITFVqVUFsREpOck43VGtEUUxzZ01yUTJrRkZXeFpFcGRfSlZYcHJ4N1VJTGZ0N296MDU0eVQzX1Y2aDhUSUdBalBraUpR?oc=5",
           "source": "Law360",
-          "published": "2026-10-03T02:45:22Z",
+          "published": "2026-10-05T20:49:15Z",
           "summary": ""
         },
         {
-          "title": "Wim Dejonghe, Ex-A&O Boss, Backs Falcon + AL Interview",
-          "url": "https://www.artificiallawyer.com/2026/10/02/wim-dejonghe-ex-ao-boss-backs-falcon-al-interview/",
-          "source": "artificiallawyer.com",
-          "published": "2026-10-02T06:29:26Z",
-          "summary": "Wim Dejonghe, who was the global senior partner of the former Allen & Overy, has backed a new model law firm – Falcon – with ..."
+          "title": "Kelley Drye Names New Chair, Co-Managing Partners",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPQTZMcVVIdTB2UVlOZDhWaU9SOTZPVHQ2dTFKNmdpTnJuWkpNM0F2a29iQ19paEZzWXREaUxqRzYyendfcl9vRFRLQlRjazU1ZUZNdVNyRFF2VnphUzAwN2lrd083YUgxaTNoMldPeEh6aDlWZWxQU0hocjNjVXNmMXk1eFZTbGZ0NXF6bktCOVFrV1B3MHZUdVhR0gFeQVVfeXFMTm04czFkdDlsczRhWDkyX2Nsc0xLdEVKaGxrM1Q5MzNFbk5JMzJZbGxpWFFRZXpIVGhfMXZLQ000cTB4Ri05cURqMUhwVE1HMHRpRlUxRGtzLXdUNFVFUQ?oc=5",
+          "source": "Law360",
+          "published": "2026-10-05T20:49:14Z",
+          "summary": ""
         }
       ]
     },
@@ -321,7 +321,7 @@ window.NEWS_DATA = {
       "items": [
         {
           "title": "Ex-DOJ Atty Reopens Practice, Starts Consulting Firm",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNdFM3elo0c3lwSGNEM2x3dmNqSENJODJrcFZ0Yjc4ZHNONjF5OEVWZF9GNE5Sa09TNzhHY0JsdDAzMWVNUHotTTM1bkNSM3BpNDYzLWdWYmdSd1J0Zy1pckRPZndyTDE2cUNWcG1qRTlpSThxbE9ockVTaFB0UmZ4YmMxaWM4Q1Jkd3R1M1AzU2ZyM0ticmRETEZNLXRaV1o4NzVhMk94UdIBXkFVX3lxTFB5cW56WmVMTmRIMUVKeGRBVXVfSk1UYl9acE05NVdEMWlHRWh1T3FSUnExeE1rZG9LemRLZDZjaWNVSFVCU2ZDQlFZb2ZRM25uREtZZkJlR25HWHZ4cnc?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOZk1FQWliLS1NN3paNGZsSG85dXJDSFc1T0taenhOc1F3ekx4ZmhIQWZPcnVBdWZ2SzJFZmFlalJYQXFzRlcyS0hSdmJqZDhhWFR4dEszOHJTZjZSQmtlNjRsdUpVQkpqaUZoUUZZVE9FdDFLNHNPWE04VDdFZGYzOEJrR2p0eTBvYm1RQWRTMTN1bHhJOFJnSlp6R0xOZ9IBXkFVX3lxTFB5cW56WmVMTmRIMUVKeGRBVXVfSk1UYl9acE05NVdEMWlHRWh1T3FSUnExeE1rZG9LemRLZDZjaWNVSFVCU2ZDQlFZb2ZRM25uREtZZkJlR25HWHZ4cnc?oc=5",
           "source": "Law360",
           "published": "2026-10-01T20:41:50Z",
           "summary": ""
@@ -330,7 +330,14 @@ window.NEWS_DATA = {
           "title": "New player: Grant Thornton launches legal practice in Portugal",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQdDFSZEZRVEpGRXRnVjFLSEJlTEswX3E5M19idnR3bjRUT3VMd2xoV01pcG5tWlAteXB3d2hIOUllT3RkYVNpN0QyWS03N3ZnTEt0enJWU2E4Q0M4cm4wNFlfekRvckRPTmdtUDlnYUEtX1F0UEx4SWpEdkNCTnNHVkdHa2syWS1vRmFoMDVsYnFXdw?oc=5",
           "source": "Iberian Lawyer",
-          "published": "2026-10-03T09:07:03Z",
+          "published": "2026-10-03T07:00:00Z",
+          "summary": ""
+        },
+        {
+          "title": "Recent Law Firm Hacks Highlight Growing Role Of AI",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNYU5OUkFOMkwzUkNzUlV2OU5KYlN1OHQ3TExEVnV3NjdZRHRwcTFGMXdqRHBKR01HUXZuSjc4NFMwdDRnZFMyQXljajhrVm43VFhEdWUxWFlxeGRiT0VzZ0NSTUlVUkRmSFZuSWtqRmdHQ1I2SUpXYXp5QUlGMWVWSmJGMDNFQWwzRXpvbkx3NjduTHg1MDlpa3dtek3SAV5BVV95cUxNOE1GRmZ6SXZuVmR5eUkxR3duaFpuOVlnZ2tjUmJiYXVyTWxXdmRIaWp3aWJoWXNmV1NnOFZUcVVwRV9VMVZ4NjRBVnNSUVZjNHlsYzlDcERyNTZaTmNR?oc=5",
+          "source": "Law360",
+          "published": "2026-10-02T20:23:17Z",
           "summary": ""
         },
         {
@@ -352,13 +359,6 @@ window.NEWS_DATA = {
           "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOOHVfRWtrdWtRZjF0T1FIakpaVnk2eFNRa005QUM1WGVXR09pS0FIZ09MTkVjbG5NUGNMU1FSRXZuUXdrcEJoNlN0cnNud2ZOYnMydmp2a2dPTDFaSXJJV1lXZWdjSndmVmd4dDluRkt6LWRPRzlpdXhCblNyQUFMWklsdW5talZwRExWaEltN016dVhDanZkWnlQN2NzSV90MkxaODY2OUVLVkJGRERYYVg5Y29XUjBVQXlvTnhMenF0UQ?oc=5",
           "source": "Law.com",
           "published": "2026-10-02T15:00:00Z",
-          "summary": ""
-        },
-        {
-          "title": "Gunster Expands Florida Footprint With 28-Atty Firm Tie-Up",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5yWmxSQ1J2a0pyOVRSUzg4dmZoX0Jmc2E4RWFjUkJpMmtHUS04MGhlVjJNTVU4VUhDVWw2ZzdoSVRBaVVad3MydFplOXBOQWFoNG02b09ZT0fSAV5BVV95cUxPQUp0QURpSHI1Rk1xenM1WnR2dnc4dVNiU29TT1hXM2ZleGJPZ0pTNTFadFY3WUZsYnVodU9VTzd1Q1NtUE4zYjdza2xmTmpmYXdpb0dINU4xTkpmWk5R?oc=5",
-          "source": "Law360",
-          "published": "2026-10-01T20:14:56Z",
           "summary": ""
         },
         {
