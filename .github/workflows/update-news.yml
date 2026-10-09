@@ -48,6 +48,13 @@ jobs:
             git push
           fi
 
+      # Saves the day's brief into the owner's Readwise Reader library.
+      # No-ops until the READWISE_TOKEN repo secret is configured.
+      - name: Send daily brief to Readwise
+        env:
+          READWISE_TOKEN: ${{ secrets.READWISE_TOKEN }}
+        run: python dashboard/send_to_readwise.py
+
   # Publishes dashboard/ to GitHub Pages (site root = the dashboard).
   # configure-pages enables Pages on first run, so no Settings visit is needed.
   deploy-pages:
