@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T02:34:21.861495Z",
+  "generated_at": "2026-10-09T02:45:50.032491Z",
   "categories": [
     {
       "id": "top_ai",
@@ -50,6 +50,13 @@
           "summary": ""
         },
         {
+          "title": "OpenAI’s Annualized Revenue Neared $50 Billion, Lower Than Past Reports",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOLW9KNEw5dWYyQV9FdGpvYWdiOXZ6blhjRFpMZGo1VzJSZHNpWjZXOFU4R1JEY0JHenJoY3I0c1E2SHNFQ04xRTBFM29HQ055QlU0clAzX2k3eFl2MmI4c2UwOTFrZUk5emxBTVZ5SjZzRXFjaEhzRFFEMmhKeGhLWDZmTlE5eTI1Vm8zbFRLWlFtSHZ2eW51cGRsaExicnAta1FHUHZGTQ?oc=5",
+          "source": "The Information",
+          "published": "2026-10-08T22:59:00Z",
+          "summary": ""
+        },
+        {
           "title": "OpenAI annualized revenue $20 billion less than previously reported",
           "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxObmZsdFJwamstSi1rSFdObVV6VHp1MU5lTkpYek5sY09Pc09Na2U1UWZYTGV6dmVwSVUyRnhZbzM4VXE0MEh0NGlZX0lwNGg5U01kTjFXRzRxNllMS3FQSlptV202SjYxbTc2M3NRd0sydkwtdmFoR1NFejh4RHRlT2NGS1dlUW9RdTI4?oc=5",
           "source": "Axios",
@@ -69,13 +76,6 @@
           "source": "techcrunch.com",
           "published": "2026-10-08T18:19:42Z",
           "summary": "It had previously been reported that the AI lab's annualized revenue was some $70 billion, but a new report claims it's a whole lot less than that."
-        },
-        {
-          "title": "Anthropic changes usage policy to ban model abuse and election interference",
-          "url": "https://techcrunch.com/2026/10/08/anthropic-changes-usage-policy-to-ban-model-abuse-and-election-interference/",
-          "source": "techcrunch.com",
-          "published": "2026-10-08T18:16:24Z",
-          "summary": "Anthropic's updated usage policy explicitly prohibits users from repeatedly abusing Claude in extreme cases, though ordinary frustration and criticism are still allowed. The new rules also address election interference, deceptive…"
         }
       ]
     },
