@@ -15,13 +15,17 @@ fetch_news.py  ──►  data/news.json + data/news.js  ──►  index.html
      ▲                                                      (static, no build step)
      │
 GitHub Actions (.github/workflows/update-news.yml)
-runs daily at 11:15 UTC and commits refreshed data
+runs daily at 05:37 UTC and commits refreshed data
 ```
 
 - `fetch_news.py` pulls Google News RSS searches plus curated RSS/Atom feeds
   (TechCrunch, VentureBeat, The Verge, Above the Law, LawSites, Artificial Lawyer,
   Attorney at Work, Lawyerist, …), then dedupes, scores, and keeps the top ~10
   stories per section. Python standard library only — no dependencies.
+- Broad Google News queries match article bodies, so two filters guard the
+  sections: `NOISE_PATTERNS` drops entertainment/SEO-listicle titles anywhere,
+  and the law and SME sections' Google News sources require a law-ish (or
+  AI-ish) word in the headline/summary itself (`LAW_TERMS` / `AI_TERMS`).
 - Scoring = source weight + freshness decay + topic-keyword boosts. Stories land
   in the most specific section they match, so an "AI for small firms" story won't
   also crowd the general AI section.
@@ -33,10 +37,11 @@ runs daily at 11:15 UTC and commits refreshed data
 
 ## The daily schedule
 
-The workflow in `.github/workflows/update-news.yml` runs at **11:15 UTC daily**,
-on pushes to `main` that touch `dashboard/`, and via a manual **Run workflow**
-button under the Actions tab. GitHub only runs scheduled workflows from the
-**default branch**, so the daily refresh starts once this lands on `main`.
+The workflow in `.github/workflows/update-news.yml` runs at **05:37 UTC daily**
+(GitHub delays scheduled runs under load, so the early slot keeps the refresh
+landing before the US morning), on pushes to `main` that touch `dashboard/`,
+and via a manual **Run workflow** button under the Actions tab. GitHub only
+runs scheduled workflows from the **default branch**.
 
 ## Viewing it
 

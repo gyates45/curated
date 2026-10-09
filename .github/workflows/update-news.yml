@@ -2,8 +2,10 @@ name: Update news dashboard
 
 on:
   schedule:
-    # Daily at 11:15 UTC (~7:15am US Eastern)
-    - cron: "15 11 * * *"
+    # Daily at 05:37 UTC. GitHub delays scheduled runs under load (observed
+    # drift of several hours), so this early slot still lands the refresh
+    # before the US morning.
+    - cron: "37 5 * * *"
   workflow_dispatch:
   push:
     branches: [main]
@@ -21,6 +23,7 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -51,6 +54,7 @@ jobs:
     needs: update
     if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     permissions:
       pages: write
       id-token: write

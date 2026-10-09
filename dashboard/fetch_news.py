@@ -55,6 +55,44 @@ def gnews_web(query: str) -> str:
     return "https://news.google.com/search?q=" + urllib.parse.quote(query)
 
 
+# Google News matches query terms against article bodies, so broad queries let
+# through entertainment pieces and SEO listicles whose titles have nothing to
+# do with the beat. Titles matching any of these are dropped outright.
+NOISE_PATTERNS = [
+    re.compile(p, re.IGNORECASE)
+    for p in (
+        r"\bepisodes?\b",
+        r"\brecap\b",
+        r"\bfilmed\b",
+        r"\btrailer\b",
+        r"\bseason \d+\b",
+        r"\bwhere to watch\b",
+        r"\bshooting locations\b",
+        r"\b(?:top|best) \d+\b",     # "7 Top Personal Injury Law Firms in …"
+        r"\b\d+ (?:top|best)\b",
+        r"\bhow i made (?:partner|practice group chair)\b",  # BigLaw careers series
+    )
+]
+
+# Relevance gate for the law sections' Google News sources: an item must
+# mention at least one law-ish word in its title/summary, which weeds out
+# stories that only matched the query somewhere deep in the article body.
+LAW_TERMS = [
+    "law", "laws", "legal", "attorney", "attorneys", "atty", "attys",
+    "lawyer", "lawyers", "paralegal", "counsel", "solo practitioner",
+]
+
+# Same idea for the SME section: the headline itself must be about AI.
+AI_TERMS = [
+    "ai", "artificial intelligence", "automation", "chatbot", "chatgpt",
+    "copilot", "llm", "generative",
+]
+
+
+def is_noise(title: str) -> bool:
+    return any(p.search(title) for p in NOISE_PATTERNS)
+
+
 # Each source is a dict:
 #   url      feed URL (Google News RSS search or a site feed)
 #   weight   base score for items from this source
@@ -95,9 +133,12 @@ CATEGORIES = [
             "revenue", "workflow", "save", "affordable",
         ],
         "sources": [
-            {"url": gnews_rss('AI "small business" when:3d'), "weight": 7},
-            {"url": gnews_rss('AI ("small businesses" OR "SMBs" OR "SMEs") (tools OR adopt OR productivity) when:3d'), "weight": 7},
-            {"url": gnews_rss('"artificial intelligence" "small business" (practical OR guide OR "how to") when:7d'), "weight": 6},
+            {"url": gnews_rss('AI "small business" when:3d'), "weight": 7,
+             "require": [AI_TERMS]},
+            {"url": gnews_rss('AI ("small businesses" OR "SMBs" OR "SMEs") (tools OR adopt OR productivity) when:3d'), "weight": 7,
+             "require": [AI_TERMS]},
+            {"url": gnews_rss('"artificial intelligence" "small business" (practical OR guide OR "how to") when:7d'), "weight": 6,
+             "require": [AI_TERMS]},
             {"url": "https://smallbiztrends.com/feed/", "weight": 6,
              "require": [["ai", "artificial intelligence", "chatgpt", "copilot", "automation", "chatbot"]]},
         ],
@@ -114,9 +155,12 @@ CATEGORIES = [
             "fees", "practice",
         ],
         "sources": [
-            {"url": gnews_rss('"small law firm" OR "small law firms" when:7d'), "weight": 7},
-            {"url": gnews_rss('"solo practitioner" OR "solo attorney" OR "boutique law firm" when:7d'), "weight": 6},
-            {"url": gnews_rss('"law firm" ("small firm" OR solo) (management OR growth OR billing OR clients) when:7d'), "weight": 5},
+            {"url": gnews_rss('"small law firm" OR "small law firms" when:7d'), "weight": 7,
+             "require": [LAW_TERMS]},
+            {"url": gnews_rss('"solo practitioner" OR "solo attorney" OR "boutique law firm" when:7d'), "weight": 6,
+             "require": [LAW_TERMS]},
+            {"url": gnews_rss('"law firm" ("small firm" OR solo) (management OR growth OR billing OR clients) when:7d'), "weight": 5,
+             "require": [LAW_TERMS]},
             {"url": "https://abovethelaw.com/feed/", "weight": 8,
              "require": [["small firm", "small firms", "small law", "solo", "boutique"]]},
             {"url": "https://www.attorneyatwork.com/feed/", "weight": 7},
@@ -135,9 +179,12 @@ CATEGORIES = [
             "ethics", "drafting", "intake", "research", "paralegal",
         ],
         "sources": [
-            {"url": gnews_rss('AI ("small law firm" OR "small law firms" OR "solo attorney") when:7d'), "weight": 8},
-            {"url": gnews_rss('"legal AI" ("small firm" OR "small firms" OR solo) when:7d'), "weight": 7},
-            {"url": gnews_rss('("legal tech" OR "legal technology") AI lawyers when:3d'), "weight": 5},
+            {"url": gnews_rss('AI ("small law firm" OR "small law firms" OR "solo attorney") when:7d'), "weight": 8,
+             "require": [LAW_TERMS]},
+            {"url": gnews_rss('"legal AI" ("small firm" OR "small firms" OR solo) when:7d'), "weight": 7,
+             "require": [LAW_TERMS]},
+            {"url": gnews_rss('("legal tech" OR "legal technology") AI lawyers when:3d'), "weight": 5,
+             "require": [LAW_TERMS]},
             {"url": "https://www.lawnext.com/feed", "weight": 8,
              "require": [["ai", "artificial intelligence", "generative", "genai", "copilot", "llm"]]},
             {"url": "https://www.artificiallawyer.com/feed/", "weight": 8},
@@ -152,12 +199,15 @@ CATEGORIES = [
         "boost": [
             "consultant", "consulting", "coach", "coaching",
             "practice management", "pricing", "profitability", "marketing",
-            "succession", "strategy", "advisory",
+            "succession", "strategy", "advisory", "small firm", "solo",
         ],
         "sources": [
-            {"url": gnews_rss('"law firm" (consultant OR consulting OR advisory) ("small firm" OR solo OR "small law") when:14d'), "weight": 7},
-            {"url": gnews_rss('"legal practice management" (consultant OR consulting OR coach) when:14d'), "weight": 6},
-            {"url": gnews_rss('"law firm coach" OR "law practice consultant" OR "law firm consultancy" when:14d'), "weight": 6},
+            {"url": gnews_rss('"law firm" (consultant OR consulting OR advisory) ("small firm" OR solo OR "small law") when:14d'), "weight": 7,
+             "require": [LAW_TERMS]},
+            {"url": gnews_rss('"legal practice management" (consultant OR consulting OR coach) when:14d'), "weight": 6,
+             "require": [LAW_TERMS]},
+            {"url": gnews_rss('"law firm coach" OR "law practice consultant" OR "law firm consultancy" when:14d'), "weight": 6,
+             "require": [LAW_TERMS]},
             {"url": "https://www.attorneyatwork.com/feed/", "weight": 6,
              "require": [["consult", "consulting", "coach", "advisor", "practice management"]]},
         ],
@@ -289,6 +339,8 @@ def build_category(cat: dict, now: datetime, seen: set[str],
             feed_cache[src["url"]] = parse_feed(raw, src["url"]) if raw else []
             log(f"  {len(feed_cache[src['url']]):3d} items  {src['url'][:110]}")
         for item in feed_cache[src["url"]]:
+            if is_noise(item["title"]):
+                continue
             text = (item["title"] + " " + item["summary"]).lower()
             if any(not any(kw_match(t, text) for t in group)
                    for group in src.get("require", [])):
