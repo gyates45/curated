@@ -43,6 +43,20 @@ landing before the US morning), on pushes to `main` that touch `dashboard/`,
 and via a manual **Run workflow** button under the Actions tab. GitHub only
 runs scheduled workflows from the **default branch**.
 
+## Readwise delivery
+
+After each refresh, `send_to_readwise.py` saves the day's brief into a
+Readwise Reader library as a single document (title like *"AI & Small Law
+Daily Brief — October 9, 2026"*, tagged `daily-brief`, one document per day),
+with every headline linking to the original story.
+
+To turn it on, add one repository secret: **Settings → Secrets and variables →
+Actions → New repository secret**, name `READWISE_TOKEN`, value from
+<https://readwise.io/access_token>. Until the secret exists the step prints a
+notice and skips — the refresh never fails because of it. Set the workflow env
+`READWISE_LOCATION: feed` on the send step to file briefs under Reader's Feed
+section instead of the inbox.
+
 ## Viewing it
 
 - **Locally**: just open `dashboard/index.html` in a browser (or
