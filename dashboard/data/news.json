@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T02:15:41.336416Z",
+  "generated_at": "2026-10-09T02:22:48.430908Z",
   "categories": [
     {
       "id": "top_ai",
@@ -7,6 +7,13 @@
       "tagline": "The day's biggest stories in artificial intelligence.",
       "more_url": "https://news.google.com/search?q=artificial%20intelligence%20when%3A1d",
       "items": [
+        {
+          "title": "AI Spending Risks: Can OpenAI Justify Its Huge Funding Needs?",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQLXRUOWRVOXdZcG45QTUtdHVrQzZzTjNWQTdPQkhtYnMtSlFudXJ5VGxXME80LW15Z0U0UURzdFJockpZOW1sa3pWSXZwc0pyYTVDMFJDTDlBQXVod1VqX3dCRkdTUXVYWEdVTEpuVUx2M1BKa2dqaUMtTWtZWmlBdF8xaEVNNTZYXzZSUzVCZEJPZUtTMW1acW40OXhMOFU?oc=5",
+          "source": "The Acquirer's Multiple",
+          "published": "2026-10-09T02:16:51Z",
+          "summary": ""
+        },
         {
           "title": "OpenAI Expects $70 Billion in Annualized Revenue by End of 2026",
           "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPY09yME4tTkJXeGROWktMOF85bVcwM1VLSGo5OS1iQmJEaVBIX0VlVGFHbmc2dkdPeTZfOWRWSW8yN0YwcU5EN0R2ZktCZ0l6ZG5NaHNBZVZJUjc2WVNqRG15UnBpWWxVSGM2SlB2Nm5RMGVUUEttdTY4enF6RXl5TWZBMHU5NlpaVm9zV0lZbE9RRDk4TVp3MDlOX0hpRDJXVFNxTmVnRVVQeXJ4U1p6UGJ0aw?oc=5",
@@ -69,13 +76,6 @@
           "source": "Reuters",
           "published": "2026-10-08T21:19:44Z",
           "summary": ""
-        },
-        {
-          "title": "Anthropic, Google and Mistral Unveil Their Latest AI Models: What’s New and Why It Matters",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPWjFGcW95UVB1MjgxX09fd2xwSkU0NlVMdGtCTm13ZWFTbnYxdGlLRVhaQ24wdUY0LTVzWG1COHJQNmJtQndhX0oybUtTczNQeXFacVVqWWw5MF9HQ2tmWFJJVU1XUmpaZVJXcFkwOTF4REt3bkNsRVVLNkdyZ3Z3QjNCZGRaX0FQeVhlN3RUR19DUC1XMnVfTGd3VXp1cGIwa3hESVFLOGxqYXplcENLdE1ESlRQaE1uVnl6c0dRcXB5bXlodklsVHFiVmZ0cWg0N3JaNDViQUFjUQ?oc=5",
-          "source": "CNET",
-          "published": "2026-10-08T21:11:11Z",
-          "summary": ""
         }
       ]
     },
@@ -114,13 +114,6 @@
           "summary": ""
         },
         {
-          "title": "EASC's Coffee Chat Event to Look at AI Productivity in Business",
-          "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOWlVNVmhkNjFJVEVYMVpwMXZsR25LTGp4OE02LWdTV1RveW5uVWNtN1g3YWpkdUw2UEVPV1JoZU9yOW11ZmZWY2xmQWVqQmhVOEZ4Sl9MdHZiZ0FEcGdkU1ZNMFoybDBrRThuQ1BobGNHNU5FMUc0OWlVMXZ0am5BMEJya2hSMFRCRnVBaXJwdmh0TkF3cWF4dlVzeWdLNFQxa01SMEhoUlFoTElyLTdPVHFyX29sWmRRSlp1SWlENlctcVJVMkN0V0tZNjRpbWN0eDBDR2JWdzhfaUc5S0RzNWdEeGh4QzZNZHhlTm5CN2cxQ0FqTjN2cEZFalpUZw?oc=5",
-          "source": "425business.com",
-          "published": "2026-10-08T16:13:00Z",
-          "summary": ""
-        },
-        {
           "title": "Developing Countries: Adapt AI Tools, Don't Race to Build",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPc29nbWgtOTJKZWVjSmstYmw2akFETkQ5LVI3eUtYWEFSTEZLaV95VXFmY01xN2d0aTJNZl9ON0s0eml0RXBnM1h1YmxfazV5SndQX0tlX3I2NjI2Q3NXemNXbDd6SWZNYXlYMHplcXdWdWR2dVBCUkN4NHM4cUVqaVQ0Q0ZmcHZiSDJSdVNIeDN1Mi1iYXdzREFMSF9SWEU4ekxDVDBPc2RNODJzVXNlcNIBsAFBVV95cUxPc29nbWgtOTJKZWVjSmstYmw2akFETkQ5LVI3eUtYWEFSTEZLaV95VXFmY01xN2d0aTJNZl9ON0s0eml0RXBnM1h1YmxfazV5SndQX0tlX3I2NjI2Q3NXemNXbDd6SWZNYXlYMHplcXdWdWR2dVBCUkN4NHM4cUVqaVQ0Q0ZmcHZiSDJSdVNIeDN1Mi1iYXdzREFMSF9SWEU4ekxDVDBPc2RNODJzVXNlcA?oc=5",
           "source": "Rediff MoneyWiz",
@@ -153,6 +146,13 @@
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNaE9lY3VGSzVIaVFhZTBzRUY3ZGpOMmw4RWl2QVd4SGY2TkZ6QlFqeWRBTmVZQ3UwRTVrZjJHTVhjUEJfTDMxQ1NRRk14N3RGTVA3eU9qc3JTMmU0TWRObFdXal80Rmp4c29mQ3FyRkx3Z2l6RE5IWWM4OHpIVXlSb1VNNXkxRHVuRG02Y25aV1lSV0QwTVhuUnkwVnd5YnA0OVI4ZTUzczA?oc=5",
           "source": "Finbold",
           "published": "2026-10-08T13:04:29Z",
+          "summary": ""
+        },
+        {
+          "title": "Jay Patel Of VoiceBit On How Artificial Intelligence Can Solve Business Problems",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNSDNkanZKM3Y5c2I2VTdQZ0N4dWlKWENQUE9tbVNaRUFVb0JMUXgxdHUxWi1saTJ0YlRWQW5YVmVRVFlxTVlrSDdfcEdRVmc3SmhQNHdLU0trSjk2cl9YNHBLV19RYnZiZm5WTlpBZWE0WGozVzFYdndNRlowMzJOOGtORzE3NmRtamJPcHY5X1pPNXdSNzZucjRMS1pWOXRzcUZES1NPc1NwQkhGdDBhUmoxbG15Nk1LeFE3LUxfVzZCSG9RSl9YR1BKcw?oc=5",
+          "source": "Medium",
+          "published": "2026-10-08T16:16:01Z",
           "summary": ""
         }
       ]
@@ -206,13 +206,6 @@
           "summary": ""
         },
         {
-          "title": "Inside Track: 10 Practical Cybersecurity Steps Law Firms Can Take Today:",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUS1LcGJhODMyamNRQ05PVThUaTNZRmVpeUhzMzBKRi1SVEtzX3NvNTl1X2FJSmFTZWFraGpJZkxUTFo0WjR1aDhXVURyWUNPQ0FQVTV0RFRhY2hTTTV3eFlXMFlFckFNODFfSE5NS0VqUXJYOGNGYWc1a0ZnWmVBdV8wSTlYNEFlMEpLMEg1MEplMnBmdk5tWFZJZXJaUzctM0hMX0RFd3c?oc=5",
-          "source": "Wisbar.org",
-          "published": "2026-10-06T23:49:18Z",
-          "summary": ""
-        },
-        {
           "title": "What to Do With Your Law Firm’s Books Before December 31",
           "url": "https://www.attorneyatwork.com/law-firm-bookkeeping-year-end-checklist/",
           "source": "attorneyatwork.com",
@@ -232,6 +225,13 @@
           "source": "attorneyatwork.com",
           "published": "2026-10-05T09:04:00Z",
           "summary": "Before asking which AI tool your firm should adopt next, ask a more fundamental question: What problem are we trying to solve? Michael Maschke, Sharon Nelson and John Simek on figuring out AI's real competitive advantage. The post Before…"
+        },
+        {
+          "title": "Fastcase Acquires Legal Research Firm Loislaw",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE4wUEM2NC1SOThIc2R4M084ZTA4LTFlMkJBSjkxb2lmVVZvYTR3NVJuVy1sbWU0Zi1BcVY5V1VsOGQ1YTdJaHhMR0xKWXBQWDY2SUVhekREXzFXQS03?oc=5",
+          "source": "Law.com",
+          "published": "2026-10-05T21:01:08Z",
+          "summary": ""
         }
       ]
     },
