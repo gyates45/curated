@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
-  "generated_at": "2026-10-09T02:22:48.430908Z",
+  "generated_at": "2026-10-09T02:34:21.861495Z",
   "categories": [
     {
       "id": "top_ai",
@@ -12,6 +12,13 @@ window.NEWS_DATA = {
           "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQLXRUOWRVOXdZcG45QTUtdHVrQzZzTjNWQTdPQkhtYnMtSlFudXJ5VGxXME80LW15Z0U0UURzdFJockpZOW1sa3pWSXZwc0pyYTVDMFJDTDlBQXVod1VqX3dCRkdTUXVYWEdVTEpuVUx2M1BKa2dqaUMtTWtZWmlBdF8xaEVNNTZYXzZSUzVCZEJPZUtTMW1acW40OXhMOFU?oc=5",
           "source": "The Acquirer's Multiple",
           "published": "2026-10-09T02:16:51Z",
+          "summary": ""
+        },
+        {
+          "title": "OpenAI's September annualized revenue nears $50 billion, less than previously indicated, source says",
+          "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxQcXh5LXV3T2x5dnlrdTZtRVpBbmtrUXFHRXppSFpVUUhyRVpVU3lJRURYb0dGR2NTbnBnRl8zYV9hTzlxUmVoTW96VkZqSXZ4eTA2b0RKVnVyajJaY1pLR0liYXQ1bGk0bXp0RktJbU83WnhGLXdMdkUtZW5CV3hPVlY3ZzZtcFlMR0pUQ1l3dkVuT1F5WDUzWUtla0lqaDI1b1RyZTd5RHBHUS1UYWh1QzBvN1pra2tZMU1DeXIwTm45SHFmT2Z4b2t4WkZPQnBxbXBSVGt1SmdZc21STWQtRWpobm8xYU4yQjF5Zlg0dC1VTzlRWFhnR2FIRWNiU19jS01TX1J1Qy1IU2Y5aFI2MVpMYXBSRThua2NwQ3dOTF8?oc=5",
+          "source": "Central Oregon Daily",
+          "published": "2026-10-09T02:11:44Z",
           "summary": ""
         },
         {
@@ -43,10 +50,10 @@ window.NEWS_DATA = {
           "summary": ""
         },
         {
-          "title": "OpenAI’s Annualized Revenue Neared $50 Billion, Lower Than Past Reports",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOLW9KNEw5dWYyQV9FdGpvYWdiOXZ6blhjRFpMZGo1VzJSZHNpWjZXOFU4R1JEY0JHenJoY3I0c1E2SHNFQ04xRTBFM29HQ055QlU0clAzX2k3eFl2MmI4c2UwOTFrZUk5emxBTVZ5SjZzRXFjaEhzRFFEMmhKeGhLWDZmTlE5eTI1Vm8zbFRLWlFtSHZ2eW51cGRsaExicnAta1FHUHZGTQ?oc=5",
-          "source": "The Information",
-          "published": "2026-10-08T22:59:00Z",
+          "title": "OpenAI annualized revenue $20 billion less than previously reported",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxObmZsdFJwamstSi1rSFdObVV6VHp1MU5lTkpYek5sY09Pc09Na2U1UWZYTGV6dmVwSVUyRnhZbzM4VXE0MEh0NGlZX0lwNGg5U01kTjFXRzRxNllMS3FQSlptV202SjYxbTc2M3NRd0sydkwtdmFoR1NFejh4RHRlT2NGS1dlUW9RdTI4?oc=5",
+          "source": "Axios",
+          "published": "2026-10-08T22:19:06Z",
           "summary": ""
         },
         {
@@ -69,13 +76,6 @@ window.NEWS_DATA = {
           "source": "techcrunch.com",
           "published": "2026-10-08T18:16:24Z",
           "summary": "Anthropic's updated usage policy explicitly prohibits users from repeatedly abusing Claude in extreme cases, though ordinary frustration and criticism are still allowed. The new rules also address election interference, deceptive…"
-        },
-        {
-          "title": "OpenAI's annualized revenue $20 billion less than previously signaled, FT reports",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNLUJ6eFRkeVppWC1ocFZFMjRyWnFyczBwcml6OEJtaElGOEpxZkgzaFBSa1F2RTJjb3dXVTdLZ0pxWUpyZVhjZVdZRWR4TFpJQ2tjRG1UVGV6WWMwTkJsVVVDUHNjTU05MHBFWENJNGNPZW5sMjdyRUtLX0pfcUVLaWo5ZjhKd2ZCUnBHRlc2aXRpTFRMQTZSWWJuelZ4ZnVrM08xTVJBdlhtcjNEMS1PZUZhT2hDX3hYOUJGc2MzTV8?oc=5",
-          "source": "Reuters",
-          "published": "2026-10-08T21:19:44Z",
-          "summary": ""
         }
       ]
     },
