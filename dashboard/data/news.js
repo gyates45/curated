@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
-  "generated_at": "2026-10-22T10:32:50.265037Z",
+  "generated_at": "2026-10-23T10:26:56.914412Z",
   "categories": [
     {
       "id": "top_ai",
@@ -8,73 +8,73 @@ window.NEWS_DATA = {
       "more_url": "https://news.google.com/search?q=artificial%20intelligence%20when%3A1d",
       "items": [
         {
-          "title": "Anthropic takes on Grok Bot, Meta's Muse, and OpenAI's Dots with its always-on agent \"Claude Duet\"",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRG9HZVRLSE1uRXNxWURQMkxmYlN3N050MmMwanJhUUc5QTN5b1VMYnNRc1ZWSlhENEluZ25EZkpQcnB0U2hTRFJRT2RQbFNIS0NzbnlDcF9jZHJJSEdsc1pwMWw2enloVDhjMW5PZHR0ZFZYa0ZrZ2dKWlhMSFQ2dGtDdktUaGZpc19TWDBfTlhpYTkxWlozVXdrZ0EySk1CRjdoUEk3NXBZTF9obVdiSW9DV29rNVhJ?oc=5",
-          "source": "the-decoder.com",
-          "published": "2026-10-22T08:39:58Z",
+          "title": "Canva’s first AI image model plans designs before generating them",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model",
+          "source": "The Verge",
+          "published": "2026-10-22T21:51:25Z",
+          "summary": "Canva is diving even deeper into AI with the launch of an image generation model that competes directly with those from OpenAI, Microsoft, and Google. The model, called Canva Craft, uses a two-stage architecture that allows it to plan a…"
+        },
+        {
+          "title": "Google Cloud to offer OpenAI models through Model Garden",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPUElsWnNCNjhhVWlkVVdVTjlib0hEYnRzN2I5bWc1cEhfald3QjF1OWE4aU9ULVJlX215TWNBTFZzYk9BSkFsbjNHRDFmSkpJSDZBNVd4ckN1NkF2dmhzcVpBbm1IeTJMOFhsdUgxN0Q0UkxiUWdCWExwRlA2VTk2WFMwbGg1d0VDbFpmejV6dw?oc=5",
+          "source": "TNGlobal",
+          "published": "2026-10-23T02:31:48Z",
           "summary": ""
         },
         {
-          "title": "OpenAI brings AI models to Google Cloud, says Microsoft remains primary cloud partner",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPY2JkN1FCSlJqTDQ3YUNQMHJ3TEpFQk1zQjItXzFKckNDc0daVThkQThPQ3VZMVdlSGo2cjVVLXFFR0MxRXJ2aVRCS25zSWNHbEU5Qm52QklOekkyYmtzZS1oTTBtTVcwck1IeWVxS18tdVg2ME5ZSzM3aUFiR25QdzZsSlNzZHZkbS1YbEp4OVJjQzRYZkY4d1FGc0dFYnJSVmlXM1BqMjNhU3p1RExBZEFGeFdfLVJuSEdTTFNWdlUzNWVtQnp4S1pVZnHSAdIBQVVfeXFMTTRCVnVwaXo3WHRGWWVRc1QxTEdoXzZQWnhsSEtVdXhWcFg4R2RuX0I1SmVuVGh1S2Vid25mZlRQeTY1UjV4WnQzSUZ4bXozSlhHLXZHeElaZEQ3N3hFemhEVU9ubGdqeHlRUkxyaHNqclhhYjFJX25Ua3RTcFY0SGEyQWdLV1p0QmwtQVo4UUJUY0ZESUV4ZmZmRkpPeTVZTVpNSTU4dGFPdmVwQ2tpaGloSXlhVzFoVGRQbWtJY21YbGF5blpFWFg4Mk4tX1VZS1V3?oc=5",
-          "source": "Storyboard18",
-          "published": "2026-10-22T06:11:02Z",
+          "title": "OpenAI Aims to Lock In $30 Billion Funding Round by Next Week",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNTmQ3OE5ZbG9HbmlOVEQ1aHlLd1d6Nml3ZXV6TlVVZUxWQVVzYXQyc1Etbi1MQWFhc05ZMjc3bmRNVDMyRks1c2E3bXRGZDJiSlBZZEhvbHp0YW9ySzB2RC1uQnUxSldMaDVFTGVmV2xMOUZ4Ynl1WW9XZFNqSTI3M3RBcDY4eHN5WXE1SnlLeGxmR0dOVGZfazdBT1lCUWs5U25ucFkyc2twMlFBRnpzLTQ4d3YwYmZQeUE?oc=5",
+          "source": "PYMNTS.com",
+          "published": "2026-10-23T01:26:06Z",
           "summary": ""
         },
         {
-          "title": "Anthropic launches Claude Duet, a proactive agent app taking on Meta's Muse and OpenAI's Dots",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOd3VjNGVCeWJQUjctZklVSzRpUVp4YldjSzFTaHhGSHdEZVBxeHM2OGJ1Szd6RzlVR25sREdmd1h0dE9tbFJxd2xJeWdROG9iSHNUT0lsSmRyVkYzT1VSNXdKZTVOQnNUUnNBTWx2Z2tkRzcwcmRURjdyc0ZJcExGUXdqUFpicWcwVERYYzNBU09XcHltd0tqVER3Z2JMRFM3YzRwbjVhRS0zY2wwZG81ZGllSEpyVkNWTzhfRDYtRUNrWTVl?oc=5",
-          "source": "Dealroom",
-          "published": "2026-10-22T06:06:07Z",
-          "summary": ""
-        },
-        {
-          "title": "Anthropic launches Claude Duet, its answer to Meta and OpenAI's personal agents",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQkZFNGVZc2Q2Q3VJYWVFNjFlOUh1NE1aNWFrZHlzOFlEMVpQU0xFQkFDSW4ydXljV1gtRnBBVzZjWi11Z3dMQ0sxdl9EdXdJOWl0TWlYMnl1M1o5S3d4LXRuOW9lLUd3bS1lYkloUnFGVnhqbFNJSGtVRUt4ZnlWSVg1Q01YOHlrWF9tZ0RsQXptUjljR0MxVFVaWW0xTXMweUE?oc=5",
-          "source": "Business Insider",
-          "published": "2026-10-21T20:29:00Z",
-          "summary": ""
-        },
-        {
-          "title": "Google’s AI Dominance Has Prediction Markets Betting Big — But Anthropic Could Flip the Script",
-          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQTXllQjJzM3E2SVJ6VVJaVWlRYnR0LXBfbkFEQVVJWXNJWEVpYzhvNExFRE56TlJBNHQwNl9HbjBLQWlQRGZBZVFPZmxWVkRGZ0JIX0N5ZlFfZ2pDbnNxcHpyazQ1dmFNdmtkX2tISk9CNzI2ckVzLVpoVXpHTFViRGxEVjJON3FuMnU1Zk1icWxrTTZtNWFGNnBYS2Rna3VDa1lZY1Z1UU5XTWUzbjlLa0M4U0VabE1RV2NtUmZpV1AwNkdYOHAwekJHY0d1dWNXeWdWLXNMNkhKQVhTaHV0Z2F3MXY3NkIwS2thbEJLZw?oc=5",
+          "title": "OpenAI Reportedly Seeks $30 Billion at Lower $1.25 Trillion Valuation Amid Lukewarm Investor Sentiment",
+          "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxNTTFzUURLMFRKMGZaOWY4TWN5ek5vcWFHbjVNYjg1UXRQREFFbUd6aWZKcTE4a3B1Rm54T2Y5amtZU3RnQUx2bTNITEV0UXRoUS1JaGRBaS1SeHlZM05YbDZya0JodFU4OFJ0TnZKdGk2QnJKTWwxNjlZcmdGRldGWV83dmVHQmhuUUhKU1hTdk9PRUhBbmJWTDViWS1pNEZsalBzSGhfUUd2Y1dwRkFFcmprdlpza3NzZGhSWVBpNUtIQm1Dd3R0VTlIOTcxdl9MYjRUTTZfVFJ0RldKd3VkblZMQUVqNjhLNXVzYlV4MENaZ1FucGV1Tjd3Z1hab1JjVjhtUnpYWFhjbjhSNF8zMFl1U0lPYVhSTGc0WjB3?oc=5",
           "source": "Benzinga",
-          "published": "2026-10-22T10:09:55Z",
+          "published": "2026-10-23T09:35:07Z",
           "summary": ""
         },
         {
-          "title": "AM Markets Need to Know: Meta plans share issuance, Anthropic IPO, and more",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPWVF0N2NKVGFoemlwRFBkQUtPa1RjcHBFMVF1eFJxSVRqQnF0cHpXaWlTVzktRTJ2aUx2T28zY1djTE82NDFHUmV6VXJqX09CMTlJLU0wUWNnTGRvMk10V05QR21QTGR0eDBVNjVsdTJjdkxMOVpEV0Jma0tOWXNXY0FmRmMtNWh2a0J2cUJFZjA5RVBJcTZ3NDJsRGlQNzdQZjVZeFRfa19Lck5td0J4VnpmVEVJZVNWQVNrSHpLcTBhU0lGakl0R0hJYXZWY05p?oc=5",
-          "source": "TradingView",
-          "published": "2026-10-22T09:49:56Z",
+          "title": "Anthropic, Hg said to launch European AI consultancy",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPWXdJb3dlY2N0UGRLeFBDRUlCNlcydHZBWTluOG9ZOUlSQmNDbnJZRllvVU5iTHh2cWc1dVlBSnFldmxVSGQ4My1URU1kZzF6TEV2REpLQVhFc0MxeHRsM2s4a1h1em50eWxGMER0Y1d3Q0l5dkM1VW5vWlFfbV9iY3kxdldpQzUwVFZDYUxkZjhkN0Q4OUZINkZvMUc?oc=5",
+          "source": "Breakingthenews.net",
+          "published": "2026-10-23T09:27:00Z",
           "summary": ""
         },
         {
-          "title": "PerturbAI and OpenAI use AI agents to hunt for drug targets",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQS2p0cm9ORDJnV2c5Q1d1b0ZnRXU4LWJwa1o0S3JEQUE3R25vYVJrSGdEQU5Od2FJMERqcUk1ZkU0TkdxTmk2cHliU3c4QVFFVERVc2ZGQWVsQzcxWXBJQjZGUDVDNVQzX1VqQ2doS0lSdWNrTFRQbkJpNlZ2R182UXByU2JLZFd6ZG9KVUxxaFRYODRBcVhVZS1vVnY1cXFmWEdjQ2hn?oc=5",
-          "source": "The Pharma Letter",
-          "published": "2026-10-22T09:38:04Z",
+          "title": "OpenAI signs AI safety research deal with Poland’s NASK institute",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1vR2JZMHR0ZHJybDJyZXlhTWgwMTlRWlU0RkxaNC1FMHI0NlM4cVhDUFk1TVU3aXB6cUdnMTNXUk5EWTBpbTYtaVBGVl9LeG82SjVZSG9CY2h6WlFFV1VjR1c4bVdEUWxvS0lOcnNPSzROR2M?oc=5",
+          "source": "The Next Web",
+          "published": "2026-10-23T09:25:51Z",
           "summary": ""
         },
         {
-          "title": "Why Anthropic Is Racing to IPO While OpenAI Waits Until 2027",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPOTAyUEhpNV9xZUtuLXhvZlRobW83eXhoMXc1TkJRU2FoaC1aZzdTVVdDcDgtZGV0Si1QVEhUZG9mZGhHVkVEWlFlcGhFVUR2bkZoSDUzM2hvcVA4NXlzT200aVY2NDRCS2RBYUh3d2VMdy1ROWZQQ2xXVnV0aThvbTRJcER6bWlRdHhYREhIc2tveHR3bEJV?oc=5",
-          "source": "The Motley Fool",
-          "published": "2026-10-22T09:29:03Z",
+          "title": "OpenAI Brings Top AI Models to Google Cloud in New Enterprise Push",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNZlFzSjQwY3g4YUhuUVFMNEQxVDZKdGNDaVBodWhndWU3RUhfbEtOX3JUdk9jQ3A3UWpqdGEtSU9iVWZrUmJuWU9TR1hkNEI4M3FMaVdyUGxjM3Z3bDI5ZEhIbEJZNGZBbHRUbGpINm1IdWdTVk5Vd0RvSm94ODZYTUJuemYtSUIyYWVfTVdtV2xncFBzYjZiTW5B?oc=5",
+          "source": "Channel Insider",
+          "published": "2026-10-23T09:19:22Z",
           "summary": ""
         },
         {
-          "title": "Google’s TPUs for AI workloads now run in Meta's data centers — TPUs sold to external customers for the first time, threaten Nvidia's market dominance",
-          "url": "https://news.google.com/rss/articles/CBMiugJBVV95cUxPcXllYmxLcElIQjE5U2NXOXNBb3pVNDl3N2dnQVB1OThuN3pGQlNCeTNFMzNVMDc0YUt0VHk5bFFVMV94eW41Yi1SdXBTRWxzeDMteUwwbGJlUmFER0dHVDdBdl9JY1J1ZmJ0WUtKNU5nNnRXbVVKQ1dadkN4ZDBhSERxYjJ1cUFEaF9NREN4WjlZWEhIWG1pZnJLLV9KaV9DQTRIQ2VWMEhzNFQxdzd6R1NoYlByU3RYS2lHV2JIcUlJTXRXU1JndkViaEdqVnZLRkl4Q2g1RTczenVPV2hGbGVueE5GVDRNZTg1ak5XSXM1UEszY0xhX3VRbkdTbmZKWW0xcktOZnREOXhqRWFVaVJKdVg1cmNwRkV0SklRby14aU9qSmJoNjZ4Rk84TGtWX2FrN1hiZW5DQQ?oc=5",
-          "source": "Tom's Hardware",
-          "published": "2026-10-22T10:00:00Z",
+          "title": "Anthropic strikes deal to launch European consultancy",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQdnZydGY4cEdLMHdFVVJ2R2kwaG1yOVZuQi1XNzk2SEw5T3lWQkZHZl9UYXhfazU2bFRQU0VabnlCdTBDMDhyQ2ZfUGNSODkxOWc4ZFBQOUVndEs5QmxtREZJQVlVY0RjLUVoUVh5ZWZIcWpuY3ExeUZGcGNuNzF5TGNBUy0?oc=5",
+          "source": "Financial Times",
+          "published": "2026-10-23T09:04:09Z",
           "summary": ""
         },
         {
-          "title": "Anthropic Draft S-1 Shows $16.3 Billion in First-Half Revenue, $80.7 Billion Net Loss",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9JVUNBS1ZkNE9UUDk5amFWTVk4MGU1d2RwU3VEbGpPY293d0FHUkJqdkFFeXlEMzB6NG53Q3lrNHRSNWsxazdNRk1ZdENQOXBxc1VvbjA5Y0I?oc=5",
-          "source": "TOKENPOST",
-          "published": "2026-10-22T06:55:49Z",
+          "title": "Anthropic and Hg launch a consulting firm specialized in artificial intelligence in Europe",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPVWRZcU9pWUhMSFRsMU5DUE5tSER5X2dUdE85UklUU2Izdk9CR3pCbDRBOUs4TkhSRnNPOS1XcEU2dFBqUzBwUHBMN1hxUGJfelM0VDZTU0djcTNXZm5YZUI5dkpCMENkVTB4UVJITnBraFNfRjF6RXI5c1Q4N3ZoV1ZMMUdCTVdhVVU0V2RFamF4V2xfVFBxRk0xUTJWNHZjRDVNSHBNbE9adVVzSUFPam9pWi13ZGU5Q2wyajJjYXVaN0N3QjN5bXdOZGVVaDZJOXJjMTl1WEw0QQ?oc=5",
+          "source": "المتداول العربي",
+          "published": "2026-10-23T10:17:05Z",
+          "summary": ""
+        },
+        {
+          "title": "Why OpenAI Lowered Its Price Tag Weeks Before Anthropic Goes Public",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBwWG1wRTlnZTNsMHpOZFVWMm5Qam9NcGdHRVgzSFVtYjN6Tm9jMF80SElGTVZEZlVPSVk4Smhqb2dvUXJuVjdmNC1wTGZTdDJPYktaeUV2YWNfODJEdE1XREFjQnRYS09GZFVqWll3?oc=5",
+          "source": "BeInCrypto",
+          "published": "2026-10-23T08:26:00Z",
           "summary": ""
         }
       ]
@@ -86,73 +86,73 @@ window.NEWS_DATA = {
       "more_url": "https://news.google.com/search?q=AI%20%22small%20business%22%20when%3A7d",
       "items": [
         {
-          "title": "Oracle Unveils AI Agent Studio to Streamline Industry-Specific Workflows",
-          "url": "https://smallbiztrends.com/oracle-unveils-ai-agent-studio-to-streamline-industry-specific-workflows/",
+          "title": "10 Ways Demo Automation Software Reduces Prep Time and Personalizes Content",
+          "url": "https://smallbiztrends.com/demo-automation-software-reduce-demo-prep-time-personalize-content/",
           "source": "smallbiztrends.com",
-          "published": "2026-10-22T09:25:00Z",
-          "summary": "Discover how Oracle's new AI Agent Studio is revolutionizing industry-specific workflows by leveraging advanced artificial intelligence to enhance efficiency and productivity. Explore the features, benefits, and potential impact on various…"
+          "published": "2026-10-22T23:31:00Z",
+          "summary": "Discover how demo automation software can reduce demo prep time and personalize content with these 10 effective strategies. Streamline your process and enhance your presentations for maximum impact!"
         },
         {
-          "title": "How I used ChatGPT Plus to automate email support for a small business - with Claude's help",
+          "title": "How I fixed a small business's email overwhelm for $120 - thanks to ChatGPT Plus and Claude",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNM1Zld0p6WWNuMnJmZHVfU3FPN1BqM05IS08yajg0aV9QWWVLRkNFQXdldUtvcEZkNm11TlNCM1ZrbDloOGVoUDB2dmE1OEhLcnVuYmhWSnhMbnhxNVkydkpsZ1dQYmxNUEhvRWlQc28wNGZRN0twVWxsZ3lVcGx3bUVpVGNaaVI1bDdUT2VWcm9jZw?oc=5",
           "source": "ZDNET",
-          "published": "2026-10-21T16:38:37Z",
+          "published": "2026-10-23T09:09:33Z",
+          "summary": ""
+        },
+        {
+          "title": "Google announces new Gemini AI productivity tools for business owners",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNRGlMdWtjTmQySW81a3hVM1pwWWRoYWdhaG5EX0pad1dobGdmSjdCT01qcGQxenNPSHNXQWdLcmh5bE03aHFNelRndUVKOFZveHE3c0hXeWNFaWE2ZF9uNWs0el9aeVZDQll6dF81cXc1dWZjX3I0ZlB2RVM2RjVKRTFvUWJJemNOSkNNV1pHbVJiYy12Wm54SDdZYTVndkdmX29UdkdwNDJrS3ZyZ2FOdWI1S1ZBaFpqREh3cWgwU3VyRDRIMWZsb0FFclV5UVkyQXFNZzN1VUo?oc=5",
+          "source": "Deccan Herald",
+          "published": "2026-10-22T13:25:10Z",
+          "summary": ""
+        },
+        {
+          "title": "The New Growth Playbook : Winning Customers in the AI Era",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPbzVlbEtIWHVZU2U3T3BYMmlxcDR0MkR4aU1LdXBORFpqRlhWeV9GV3psYS1wNWVLa0NfaGV1TUNKMHNuNXRPdkw4R1pHY2JCc2RkZElwUktWYnl4ZDBWTFlHM2xsdnZDVDhJUmMzUGx4VnQ5bnNkQ3FaU1lEbVpXSk8tLVRrVmw0aVZFUEVJbG00QmFhVzNZRVk4dFNuVmxCVHcwcA?oc=5",
+          "source": "U.S. Chamber of Commerce",
+          "published": "2026-10-22T20:02:00Z",
+          "summary": ""
+        },
+        {
+          "title": "How Small Business Owners Are Using AI to Help Propel Growth",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdG1nVVdvT3JfT3JaTk1kcFRFSHBWMlZkT3Z3NmdSUldNVm1JcFdnajM3MktSX1NlNnhRMXAtVEU0VnZGWGRqUE1LOTlDVWJxT1F1OHFiODZCMmhZYk0weGo5MWR3bmlBLUV5OEdCSG9YaEJOM2p0YnlpUWEteW51TnN4dkVIYjMwQl9jSHByZ2ZqWWNldUh2UGxONjJyNGJ3blFYRmpKZXJGcjQ?oc=5",
+          "source": "Goldman Sachs",
+          "published": "2026-10-22T19:01:07Z",
           "summary": ""
         },
         {
           "title": "Exclusive: How small businesses are really using AI around the country",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE85U0FDNVNGb3pYQl9yemlOMVRKU0VmZ1prUDBRTnFHd0REUW04cWotbFNael92NXRjSDVuakNBX3ZzdDBQMmQ2ZXdZbXl4NFJ0RDZOXy12MEd3WkZBdVdtaWZTREtOMkt0Mkl6aQ?oc=5",
           "source": "Axios",
-          "published": "2026-10-22T09:05:12Z",
+          "published": "2026-10-22T18:07:44Z",
           "summary": ""
         },
         {
-          "title": "How SMEs in Singapore Can Use AI to Improve Business Productivity",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTkl4UGx2d19GN2NkbmpCcDZtcUJ6YjQwZ1FhWEdFcm0xbWF3bS1jak9XQkZLUzRsTnBvbFoxR0hHUEpyMHc3NFBPclpsZGNZMW5QWjYwQTdEQjFXa2c3RHlDR0dOYzF2b3NMb2xZWWZ2Y29ZTFR1OUVKblhrOFdjTFVBSk40RU9SdmNSQ0kzd0ZGSThxNndXTGFGU0Y2RzdwaTJab2NuMXBTQ1A5?oc=5",
-          "source": "businessnewsthisweek.com",
-          "published": "2026-10-21T06:17:29Z",
+          "title": "Google Launches New Gemini AI Tools For Small Businesses With Brand Customization, Financial Insights, And Connected Apps",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQZWpud28xbDV6MnhPVXlJMThWZURHSHZBVURGV1dEV0J2NFBlckVET2VRVjlJRHRrQk81SUR5dmlFYXpodVRGRm5rUnA5bEJqVlh3bEN1SDl6Z0JtNFY2SkZnNlNKX3A2ZnlJQUlTdWVDOVV3ZUQwRG8xVHFaWkl1YUM4R1UxdVlWU2Y1aGQyWUVpV0pMTnVrNFc0RTdpRXRrQ2x2REd6MEw0cUpHVjRNZGo4WDRLajRPRllkQkxMWEQ5endENV94b0RDMHBxVml2al9nTVJR?oc=5",
+          "source": "Pulse 2.0",
+          "published": "2026-10-22T16:23:58Z",
           "summary": ""
         },
         {
-          "title": "AI could lead to $136,000 productivity gain each year for SMEs",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQkhFdmh2NWVFaWtvUFlIdjZFWEtMSkI5RXFrQksya3ZETWZZTWtDaGFqRmFtX0tieEd1Qy04NGRkUTlaN21xRHN6ZmFId0dranVDaG92VUp4UlJvdjltSU1nYThTYV9udkNzVWlRd3JOVG1BTl9BcFpkRU16UTUwMHplMFdkY1Fwc09FZUJKZXhnWDJISlN2RA?oc=5",
-          "source": "SmartCompany",
-          "published": "2026-10-21T23:01:04Z",
+          "title": "Singapore backs AI adoption among advanced manufacturing SMEs",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPQW0tdzduVnpVMUx2elBzNk5Pa0JwVTRSeTdKVHBfVVZuRWZJMDFwbFZKSXZ4TWl6WGtsazdad2FqX0lJZ2lqOXI0bXRVRGxEcm15MTUyQmZFZy1kaDNSMUNyaVFZM0l3TThhRm03cDV5NUs5dUJVRUw0OFZ5UTVOMkV5M2V3X1F2Yi1peGFQR0FObFZqUVBqV3M5Tk9PMzM5T2NMUlBwRUJyblRCb3o2Vm1RMDFlSlowMERFdmNZU3VKVV9lSHc?oc=5",
+          "source": "ET CIO SEA",
+          "published": "2026-10-22T16:06:40Z",
           "summary": ""
         },
         {
-          "title": "How Small Businesses Can Compete With Larger Marketing Budgets Using AI",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPUDl1SEVqVFllY0lacGRseTBZZ3FSaGFFNVNvVUpVZzhvZ0pzclVZaTZSd2M2VDlQalVxRzRDc203MnF1ZFZaak5wYkp2OXpCRjR5SnotbEpNNnpuZE1jWFBfdmIyTjVHYnJYUTdraG1kRFJZdW94ckhnaWZTUTl0a0FBTF96SVM5ODlyajA5dmJYNTlpY0ZXaWJrSQ?oc=5",
-          "source": "The Ritz Herald",
-          "published": "2026-10-21T00:39:38Z",
+          "title": "GoDaddy’s CEO on when small businesses should — and shouldn't — use AI",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQeU0wWnFIV1dvVnhfQlBWYUc1VHFjOXNrMzgtNFVEbTFRWk54WC12bktrRVpqTUZhV2RnZll2dnhaYnQ3dXl2Uy02Nm9JakxuRXE1ZjhrdDFUY05KMlpQUDJSTF9DMWt2TERraUFEYjFZd1MyZHphNHhxWFR2bk9HZW5UZF84Q1U?oc=5",
+          "source": "Business Insider",
+          "published": "2026-10-23T09:19:00Z",
           "summary": ""
         },
         {
-          "title": "What is Intuit Intelligence? How the QuickBooks AI assistant actually works",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBEekE5TWd1WjFFZzlpVG5oaW5qMTFyNjh3RnFMMDRaT2xHWG1XTGRHVzgydlFWTS1LVjFlR3gyMVpnMmN3NWxkZ2FBRVp0TEVnZE9UcUp3ZlQ3cVJS?oc=5",
-          "source": "Fortune",
-          "published": "2026-10-21T20:17:00Z",
-          "summary": ""
-        },
-        {
-          "title": "Goldman Sachs Group, Inc. Launches Goldman Sachs Small Business AI Institute And Expands 10,000 Small Businesses",
-          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOTHlBZXF4TkNrczRFM0FQdld3aVRQbXpFUmg5UUdBY0NIM3FRbDFwcXdxSWdkd0tMTUc5SHJRR2szLWNNXzdyNndoeFRBY0o4el9mNlJIT0xac21PV1dKMHFhVklyMlNUVzlOcm51QUItWno2NjExSVlGOEpSRERQbjJTOE9QQUtVQ0RWVUNLREFVSEp2WWtZNlgyWHk5d0R0LXloM3Nmb3EwRnlQbE9GWmtJdG5ZZHFLaXVDd0gyZ3BZdHNKOXoya0o2bGlkS3hQX2VBTDB6U1ZrOTZGaGt6NmxXX2x5UQ?oc=5",
-          "source": "www.marketscreener.com",
-          "published": "2026-10-22T10:20:34Z",
-          "summary": ""
-        },
-        {
-          "title": "How to avoid a costly legal mistake with AI chatbots",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVUtkNHVlZ05qdkoyLUNSUVJDUF9UaDEtS2pIM0R5UDNkcXdNZDVKUVlfS1doTmRDTmRLYUZZQlRZb1loYmozdUZCQU5BdTI0N1dKNzI4U0wzUndTd3JtY2dRWVJmdWlTQ2xMQ0U1VnJuc0xnMVpRQzNXLW9IWHBqcVNvMXdoWHdkOHYyVXdDWU44OU9RdEUyOERRc3lXVzJJWjNnNllRbFFsaGNTUEpacw?oc=5",
-          "source": "The Business Journals",
-          "published": "2026-10-21T14:54:00Z",
-          "summary": ""
-        },
-        {
-          "title": "Goldman Sachs Commits $500 Million to Launch Small Business AI Institute and Expand 10,000 Small Businesses",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQUExnbVB6cEZVU2hFclIteS1wbE9vZ3Z3aGlLa2d5YkdQS19jeG1pdFR0NlA0R0JiRWQ5YkRJb21hUHk0NVZmUlBoUURVTTc5YWlJYkhNUUw2bHVuaHBZTzZ2Vjg3TGVvdVFIaU5aRHBaTXp0VFVQbGlLRloyWUtJQ0ExMTNOcWZybHc?oc=5",
-          "source": "Yahoo! Finance Canada",
-          "published": "2026-10-22T09:00:00Z",
+          "title": "Exclusive: How small businesses in California use AI",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOd3RiU2pWcmRhanBqbUVpOW1NVGcwaTRlemU5bkc3Yk9pdDJfX1BYRjlxOHlUOU12NWFteGZzVVhjTlZuWDY4U3ZVMjg0OGdTZElrTV9mZWQzZHJkUG1hNWp0NmVucHlib09Ib2h0X3JWTksxLVNNVmZhVDE1d0JXd2RPRQ?oc=5",
+          "source": "Axios",
+          "published": "2026-10-22T13:36:07Z",
           "summary": ""
         }
       ]
@@ -163,6 +163,27 @@ window.NEWS_DATA = {
       "tagline": "What's happening in the small-firm and solo legal market.",
       "more_url": "https://news.google.com/search?q=%22small%20law%20firm%22%20OR%20%22solo%20practitioner%22%20when%3A7d",
       "items": [
+        {
+          "title": "How a solo practitioner stopped losing clients to missed calls with an AI receptionist",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE95bTVXUUtUV05iSnFPRlJzN3g4R3NZd3RPak0ySWVqa0JnbFhFZlJjcVBDSUtQSVEzdzZHWXJVZmNqY2JHbl9fMkpPWU1EQ1NWWTJOM1VCQ2xadWtSTjh5TlF1UWw3SXZ2?oc=5",
+          "source": "Zoom",
+          "published": "2026-10-23T01:07:38Z",
+          "summary": ""
+        },
+        {
+          "title": "New 8am Data Finds Hourly Billing Outpaces Flat Fees 4-to-1 Among SMB Law Firms",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOM2p2NEpNS3Ziei01Sm1zMFV6N29QUi00b25hQVZFcV90bXlJRWhBZFdyLW1BOU9GNGF3RUtwalRJeHRvTjBMLXJRVkZkT1Z5Xy1abDVoekJOSkFFRGhCWFJJcVBzU2VKZ1VkVm1JWWlqeVBFNTU3aVVyRmZTVmloTVdrMERTSEU4MEJ4eXRvaDJlWm1sWThFdllDVUtOY0pKNzV2dzJNdFN2dGFLWElIVE9PZGpqSWs?oc=5",
+          "source": "The National Law Review",
+          "published": "2026-10-22T14:10:46Z",
+          "summary": ""
+        },
+        {
+          "title": "What clients expect from law firms",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE54a21zcWFWTUNWQTVmT1UtODhrMVdsc2V4NTVnUHZtNEtkSHRZem1HQmFoc2dxaWQ1emg0SGpHQ2ZNb0l0cHRaQjFJNTZKSWRxSm1iSjF6bVVnSXdOUVRhUHhHakJaTHd3Vm9Venpn?oc=5",
+          "source": "Iberian Lawyer",
+          "published": "2026-10-22T12:52:56Z",
+          "summary": ""
+        },
         {
           "title": "Peter Law Group Establishes Artificial Intelligence Specialty Practice",
           "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOTC1xMEFzQ19BUzZMZ0VPMm9ZWWpyamVnc3Z3cTIwblpJbkFreXI4bDNhbVhfRWRRMEc2WDFwUTc3OG9qQW5xWGstbkdtdGJWV1dMTVBIeDVzWWpNOGoyVW5BeUVGZ1dNajRyWTZxQ2xuTVJuTDlrTGJhYkdGaE9jOVdrNWM4aUgwR3J3aWszVVFNbDFzbVJEbERsX0UwbHVzdWF0QjBoMXdIRmxPMUpFNGhkUVhpN0ktcEZfQ0tPbHZOWWo1MjY1ZEFB?oc=5",
@@ -192,6 +213,13 @@ window.NEWS_DATA = {
           "summary": ""
         },
         {
+          "title": "The Most Dangerous Thing Your Lawyer Can Tell You Is Nothing",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNYnVLczA0YzVOcldTMGtESnNMMUo2b0lXTFFxZUpGcXhFZkJtWE1qTkJNUHFsLUxYcmp6bGxRT0FPSFRRVm5ZS3paMVBfdlFGVWZ5UkhaN2xuWHZ3N1JwZkNPem5yZU5vUlZDNVZQeWwyNEI4U0F4MFFpZ0hYUFYya093MWcybUVWTTRieW1Fd1pOeTd2LU42UHdKWklCY1E3MTBLQWNYTVY?oc=5",
+          "source": "Law.com",
+          "published": "2026-10-21T14:00:00Z",
+          "summary": ""
+        },
+        {
           "title": "Law Society calls for greater support for small firms",
           "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPWkFtZXEtNndUcklMU0xTSGxHVkhTVlZXNldNUHJWTmhMWFVHVlh2elNqdHlDU282YVUyUFlueDBMNHBRVGxsY1hHT3RiN21uSDFjczIzY05oOGZVSVJsUEhNZGNrZlBsUk1lejJ0QTU1Y0dtdFJSWDFxRjQ2RFV3Y3J4alBab0FuNm5YXzV0RGxIcVp1?oc=5",
           "source": "Today's Wills and Probate",
@@ -204,34 +232,6 @@ window.NEWS_DATA = {
           "source": "FinancialContent",
           "published": "2026-10-21T04:08:00Z",
           "summary": ""
-        },
-        {
-          "title": "Building a Family Law Empire, with Kirk Stange",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPRDlzaW1VRlBzSHA1cmZWZHkwcDU5eDRVaDlwUW1udGVHS2NZcWNvNFVoem1yRHFuelpCdWoxdzZiMFkyNTUwZFpRbGRYbGZoa2RzcTNzT0lSeGtjdFV1VTk5cjB5UzRteEpFRk53aDNIc3JRQmtKN1VQNmsybDdyS2laRFhwZi1aaW1zNjJYNnpWU3FSazk2RkxDRjJqWXBURlE?oc=5",
-          "source": "Lawdragon",
-          "published": "2026-10-21T04:00:00Z",
-          "summary": ""
-        },
-        {
-          "title": "Stop Emailing Your Team About Email",
-          "url": "https://www.attorneyatwork.com/slashy-for-email-stop-emailing-your-team-about-email/",
-          "source": "attorneyatwork.com",
-          "published": "2026-10-20T10:00:00Z",
-          "summary": "Ernie Svenson: Slashy connects an AI agent to your inbox and calendar, so you can ask it to do real work instead of only answering questions. The post Stop Emailing Your Team About Email appeared first on Articles, Tips and Tech for Law…"
-        },
-        {
-          "title": "As India's Top Law Firms Embrace AI, VakilPlus Wants to Bring It to Every Lawyer",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNdnktRFFROW8ydTJjdWNJLWxEYnd5R29od2owQVBhYW01NzJ3eEQxZnA0enJNVEdKUUhsRElDTmRKT2p2NEdMV1VqbjMzbnV2bEdyWk05UEltbWZiTVVVMExJR2YxTm11WVZ3enQ5ZkVFMHh6SWJMR2NYaEVHY0lHanlUQlBrU3g1MGdNTlRURmlWS3F6cXhTV2Jkcm5vN2p6eUdmM0NmRE9fS1Z1UmY3T0FmYkxrSHFXcDdDQXBvZTh3SVRySkQySS0zYXLSAcwBQVVfeXFMTXZ5LURRUTlvMnUyY3VjSS1sRGJ3eUdvaHdqMEFQYWFtNTcyd3hEMWZwNHpyTVRHSlFIbERJQ05kSk9qdjRHTFdVam4zM251dmxHclpNOVBJbW1mYk1VVTBMSUdmMU5tdVlWd3p0OWZFRTB4ekliTEdjWGhFR2NJR2p5VEJQa1N4NTBnTU5UVEZpVktxenF4U1diZHJubzdqenlHZjNDZkRPX0tWdVJmN09BZmJMa0hxV3A3Q0Fwb2U4d0lUckpEMkktM2Fy?oc=5",
-          "source": "DNA India",
-          "published": "2026-10-19T12:55:51Z",
-          "summary": ""
-        },
-        {
-          "title": "Why This Lawyer Reckons He Knows Where Big Legal Tech Developers Went Wrong",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPVDVuUkE0aTJLcTFkcWRDSThpUVJObGFIcFNBOVcyMEtfN0NHTXZnTzhFdkZrUGZHcjJnVS1VSVJ1UllVQ0NYbWpseVZXLTFEdE9qX0JmVUxlc2FpTzRtYy1DbTllWUhKQjlJdi1KdUYzTmRrLWZyTzQxYTBRd2t5VmRQQ0hJUnZCRWpKSTBkMWxsZ3JCRkh2S0ZqOV9NOEppZkE?oc=5",
-          "source": "LawFuel.com",
-          "published": "2026-10-19T22:28:54Z",
-          "summary": ""
         }
       ]
     },
@@ -242,6 +242,34 @@ window.NEWS_DATA = {
       "more_url": "https://news.google.com/search?q=AI%20%22small%20law%20firm%22%20OR%20%22legal%20AI%22%20when%3A7d",
       "items": [
         {
+          "title": "Grok Top For Contracts, AL on Hols, Harvey Agents +",
+          "url": "https://www.artificiallawyer.com/2026/10/23/grok-top-for-contracts-al-on-hols-harvey-agents/",
+          "source": "artificiallawyer.com",
+          "published": "2026-10-23T08:08:55Z",
+          "summary": "We start this week’s Wrap with some surprising data about Grok’s performance on contract review. But first, a quick announcement: Artificial Lawyer is now on ..."
+        },
+        {
+          "title": "LexisNexis Protégé Is Now Live In EvenUp, Letting PI Lawyers Query Case Law Using Facts From Their Case Records",
+          "url": "https://www.lawnext.com/2026/10/lexisnexis-protege-is-now-live-in-evenup-letting-pi-lawyers-query-case-law-using-facts-from-their-case-records.html",
+          "source": "lawnext.com",
+          "published": "2026-10-22T14:14:24Z",
+          "summary": "On Sept. 1, LexisNexis and EvenUp, an AI platform for personal injury lawyers, announced a forthcoming integration by which EvenUp’s customers could access legal insights and agentic AI in LexisNexis Protégé directly from within the EvenUp…"
+        },
+        {
+          "title": "Legal AI Startup Legora Raises $550 Mn At $8.8 Bn Valuation",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNX2d4QTBBQzVrTmdLZVAzMU4zOUktakZOQUJkMHBpTGVPY053TXp5TzlPTUZTOWRWT0hmM3Z4LXhQQWp0dG1XVXJmc1J0ZXZHZDRaSFBjRm9kaFBYUHNQbzFjSGhLbGRDYmxNVkIxTlpUV0lsSVJvS1EwUWRkblRNOVlOY1JGR29JeG03YmhkM3NXMzBKTUthZDNnNDBjZXc?oc=5",
+          "source": "BW Disrupt",
+          "published": "2026-10-23T09:21:03Z",
+          "summary": ""
+        },
+        {
+          "title": "CoCounsel Review: What Thomson Reuters’ Legal AI Does in 2026",
+          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5qR1lOaGUwajQ1d1EzQnFidVk4SUpVdHZCdVNYVTc0MkxRSTRvLUo3SC04bXNJUVdvUnBYeFZKM3Q2S0c4eXJZYk93?oc=5",
+          "source": "Legal Desire",
+          "published": "2026-10-23T05:48:29Z",
+          "summary": ""
+        },
+        {
           "title": "LI UK Speaker: Philip Cooney, White & Case",
           "url": "https://www.artificiallawyer.com/2026/10/22/li-uk-speaker-philip-cooney-white-case/",
           "source": "artificiallawyer.com",
@@ -249,11 +277,11 @@ window.NEWS_DATA = {
           "summary": "Ahead of Legal Innovators UK in London on November 4 and 5, the events team spoke to Philip Cooney, Director of Innovation at White & ..."
         },
         {
-          "title": "More Legal Research Moves as Moonlit Launches Free Commentaries",
-          "url": "https://www.artificiallawyer.com/2026/10/20/more-legal-research-moves-as-moonlit-launches-free-commentaries/",
-          "source": "artificiallawyer.com",
-          "published": "2026-10-20T13:07:30Z",
-          "summary": "It’s all happening at the moment with legal research…..as Dutch legal publisher, Moonlit, launches Commentaries, a free library of ‘legal commentary drafted directly from primary ..."
+          "title": "From assessment to action: A law firm’s AI transformation journey",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOQTV5cDVjaGhGWVpjb3NpS3BwY29FSFdOY09YcXlDTGNURVNhOFlFY3pfS05FWmZWU0xyN1VTdXI4NEdaT0JMUXBUZmVMaXBNbTNKNGlobWp3NC1FTFhzLWJuQlhaU25oZUNmWW1SR1hMRHFyMHBjSm9hMlB0Z2JMS0NQMjFBQU9QLW9WT1dUdVRpWkYtOS1jV0FTN28?oc=5",
+          "source": "Thomson Reuters",
+          "published": "2026-10-22T12:34:30Z",
+          "summary": ""
         },
         {
           "title": "Law&Company Joins Japan's Largest IT Trade Show, 'Japan IT Week Autumn 2026'",
@@ -263,53 +291,25 @@ window.NEWS_DATA = {
           "summary": ""
         },
         {
+          "title": "Legal Tech Providers Embrace Integrations in the Agentic AI Era",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQRVRVeTdRMXZLTC1YZDFEUHlIYXc1Qkh2dkxQN2dGOEd6ZDhqOVhvNlhhWEd2ekx0UDBmcGNSamVnSkdPRjl5MThVNi1RakFndTVIQ0pDUnA3cW4wUzZnU1ItOUlZYkNtV0ViRTdHTDhIaEtsbkJjcEUtOHVmWUl4a2tmRGY0a3dwRGlQSk9udHNRYUpvM29DeWhubw?oc=5",
+          "source": "Law.com",
+          "published": "2026-10-22T20:39:58Z",
+          "summary": ""
+        },
+        {
+          "title": "IBA Conference: Nigerian Lawyers Chart Path To Stronger Rule Of Law",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQUjdoMm1vOWhzT1hHSXdzSFdTSHZ0VG5RZFFfazYwaUFHUlpEOWItZ181OUpJS3lFVkd0UDFtUDNWWmUwUlRCMWhzQUlnMnpMcXdiRTZHa3VkaDkwVk9FdWNNUnNjS1NyZkdvX1puVzRubFdoQXBwWUpsYy13T0xoaXl4bzFqU0xPY0xjeXdNejF2VGJM?oc=5",
+          "source": "Independent Newspaper Nigeria",
+          "published": "2026-10-22T19:40:47Z",
+          "summary": ""
+        },
+        {
           "title": "Law&Company targets Japan as Lexpand AI expands Asia legal tech reach - CHOSUNBIZ",
           "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQT01VdUNiczg0TlFEV0kxamdCeDRub1RjRlVacjJQSFV0U3BOTTA1aHVibzYyWVFmNEpqQXUwRWhiNndDM2g5Zmpad2pXVEo3YldXaUhZY1FMcjhVc195Y0gwcFVUYTM1R3FUUXQtc2xzN0tPWmJjeUdsTFRGTGRjcE4ySUN3OThZU05VQzBIZXJfSmg20gGUAUFVX3lxTFBPTVV1Q2JzODROUURXSTFqZ0J4NG5vVGNGVVpyMlBIVXRTcE5NMDVodWJvNjJZUWY0SmpBdTBFaGI2d0MzaDlmalp3aldUSjdiV1dpSFljUUxyOFVzX3ljSDBwVVRhMzVHcVRRdC1zbHM3S09aYmN5R2xMVEZMZGNwTjJJQ3c5OFlTTlVDMEhlcl9KaDY?oc=5",
           "source": "Chosunbiz",
           "published": "2026-10-22T00:27:00Z",
           "summary": ""
-        },
-        {
-          "title": "‘It’s a Big Moment’ – Max on Legora’s Raise",
-          "url": "https://www.artificiallawyer.com/2026/10/21/its-a-big-moment-max-on-legoras-raise/",
-          "source": "artificiallawyer.com",
-          "published": "2026-10-21T14:38:03Z",
-          "summary": "Legora has just raised $550m with a post-money valuation of $8.8 billion – a huge step by any reckoning. Artificial Lawyer asked CEO, Max Junestrand, ..."
-        },
-        {
-          "title": "Legora vs Harvey – The Multi-Billion $$$ AI Battle",
-          "url": "https://www.artificiallawyer.com/2026/10/21/legora-vs-harvey-the-multi-billion-ai-battle/",
-          "source": "artificiallawyer.com",
-          "published": "2026-10-21T14:02:12Z",
-          "summary": "Legora has just announced its long-awaited new raise and it’s a big one: $550m – classed as a Series E, and with a post-money valuation ..."
-        },
-        {
-          "title": "Anthropic’s Ambitions in Legal Technology Get a Reality Check",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNUDlBRzg1WmpzWGRzT2NFdnR3RzF1OGJtOXZfbk1tMDhEQXlMSXZKY0dzTDRaOTNMdndXNDFnV0ZfQ0dJa3M3TzRZT3VkeURoa2Nzd0VJUUViV3NMUjJZTXRReU9GX0J5d2RMdlhJZjhJaHRDc2Zzc2xLeG9nTWI1Qk55Ymd3ZURmS2luN2tWbm83cnRzTmxQckJsZS1ZYk5HRHl5ajJPczViNm91aFE?oc=5",
-          "source": "Bloomberg Law News",
-          "published": "2026-10-22T09:01:00Z",
-          "summary": ""
-        },
-        {
-          "title": "Swedish AI legal-tech Legora raises $550m Series E",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQXy1yZ0d6UnN2WFVOT2RnQlhGMVpfemYtRG11aVFSYkRoR3AtZjdEQW1jaldLQTN1UlNVaG5Qd3ZMMS1FUk13bG5DdjdoUDZ5T1ZtY3padjY0TEVqUHVSZlIybTM5RE5fdUtmQUhiTHVmVkFTVXdPVFJqcXA1U0ZOeXBwb1lYNG9VN09rOUxkd3hQNEo3LVE?oc=5",
-          "source": "Silicon Republic",
-          "published": "2026-10-22T08:16:44Z",
-          "summary": ""
-        },
-        {
-          "title": "Legora Raises $550m at $8.8Bn Valuation",
-          "url": "https://www.artificiallawyer.com/2026/10/21/legora-raises-550m-at-8-8bn-valuation/",
-          "source": "artificiallawyer.com",
-          "published": "2026-10-21T12:53:47Z",
-          "summary": "Breaking News: Legora has raised a $550 million Series E at an $8.8 billion post-money valuation. The round was led by Atreides Management, with participation ..."
-        },
-        {
-          "title": "Weil Starts Special AI Program for Summer Associates",
-          "url": "https://www.artificiallawyer.com/2026/10/21/weil-starts-special-ai-program-for-summer-associates/",
-          "source": "artificiallawyer.com",
-          "published": "2026-10-21T12:34:01Z",
-          "summary": "Weil Gotshal & Manges has launched a new training program for some of its summer associates, who will spend their 1L stint working on the ..."
         }
       ]
     },
@@ -334,6 +334,13 @@ window.NEWS_DATA = {
           "summary": "IMS Legal Strategies' Joshua Hill guides us through examples of how modern litigation consulting has expanding beyond expert witness search and prep. The post The Litigators’ Support Team appeared first on Articles, Tips and Tech for Law…"
         },
         {
+          "title": "AI Skills Attracting Higher In-House Atty Salaries",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPU25CSlhLN0tfckQzcF96ME5uZUlxd0JpSVc3aFJWbUR2dWZiNHdzSjhwOVJTMGVBV0Rsd241bjhUMnNZdS1RQ210bkVXN3ZBYTBfQ3BvbDRDYUZnR3gyUjdDSTF0Wk9yVEl6UnM1cHlVVG1kLS1SdGwzQ0NmcVhuaVI0Nm9OV0dTd0EyWExHLWNHUnZIUnNEcmJHbDfSAV5BVV95cUxQemVWelJwbW1jLUpnLVNSemlwdllOSUFPbi1BZV9reDFFUDNyZ0hMT2Zsd2dvNWpqamk0ZXVfb2pDMzFhQzJKd0ttdlZsQ2dtbTBCVlpmTDRPeGJIYmN3?oc=5",
+          "source": "Law360",
+          "published": "2026-10-20T20:46:27Z",
+          "summary": ""
+        },
+        {
           "title": "AI in Practice: Cox Media Legal Moves Beyond Basic AI. Now It's Going 'Off Label'",
           "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOb25ya2czTm9Oa2J4T0FnUEtETWlSUllhS01aZkEtRmR6ekhVU3lIWEdhWEc4cWlFLW02dXljcGJNa2k3V1R0UlZnRmhxaGN3M180MFBLUFFkN3Z1cFc4NmlJU0l3YTh2d1Nqa0kzdUR0eU9qMngwR3NIcUgycEljN3RoZlByeXpHWkVOWm5Ta1dWOWx1THEwMEJsWEh4MW9ZcEJPc2F4eDY2TDhzY2dTYkNWZ3k0dHNfT1ZRQQ?oc=5",
           "source": "Law.com",
@@ -352,13 +359,6 @@ window.NEWS_DATA = {
           "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQSVQ2RnlLdkF0ZzU5ZkdaY2k2V1laZzZQZ0N4TW5jVVp4SHp1OGRuc1Fac2VRUTNqSThncVk3Q3N5WXlPeXhQYUhrQ1R5S0NNWnN6SzBVcnBmVm9CVUdzdTFqdENONGJmVHFMSFUwVWNoZDJobEdxUEhkZmdGWGd3V1l5YkZzWmtrbkFubFNMYzNlTHV5V3FyNU5IMDctRjRhbkNjcXZuUFdYM0JKUVh1a1l3?oc=5",
           "source": "The National Law Review",
           "published": "2026-10-16T06:50:04Z",
-          "summary": ""
-        },
-        {
-          "title": "Querious Named Best App for the Practice of Law in Clio’s 2026 Integration Awards",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPOTFtUWt3WHotWGViWVhlNWZqOTdZODQxazc4QWZLX1VKNkttVHJCXzdsbnRyVDdpdk9NajI2TUtaLUdrV0MyOFNUUk9LRVBBdTQwNjJxQjFzd0VjNy1ZSW9hZTRmLVVnYk8zOVZlVlNwTHVCZTJmbW91T3ZTcUZ2RzNQd2J6bXVlNzVVV0F1OVFnNWlIajl4bnV2c0ZNQnhLYTBtbVBRb0x5UlFDN2xSaXdNZGhIVml4?oc=5",
-          "source": "LawSites",
-          "published": "2026-10-08T16:18:09Z",
           "summary": ""
         }
       ]
